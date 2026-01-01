@@ -510,7 +510,7 @@
     try {
       const [profileRes, summaryRes, awardsRes, localConsoles, localBadges, localAchievements] = await Promise.allSettled([
         cachedCall("API_GetUserProfile.php", {}, 60 * 60 * 1000),
-        cachedCall("API_GetUserSummary.php", {}, 60 * 60 * 1000),
+        apiCall("API_GetUserSummary.php", {}),
         cachedCall("API_GetUserAwards.php", {}, 12 * 60 * 60 * 1000),
         fetchLocalJson(LOCAL_CACHE.consoles),
         fetchLocalJson(LOCAL_CACHE.badges),
