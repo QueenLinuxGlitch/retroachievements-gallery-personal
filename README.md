@@ -13,4 +13,3 @@ GitHub Pages secrets option
 
 Local overrides
 - Use `?user=YOUR_NAME&key=YOUR_KEY` in the URL to override the config for one session.
-
