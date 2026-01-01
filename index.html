@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RetroAchievements Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="config.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="backdrop">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+  </div>
+
+  <main class="scene">
+    <header class="hero panel">
+      <div class="hero-left">
+        <div class="profile-banner">
+          <img id="profile-avatar" alt="" />
+          <div>
+            <div class="profile-name" id="profile-name">--</div>
+            <div class="profile-motto" id="profile-motto">--</div>
+          </div>
+        </div>
+        <!-- <div class="tag">RetroAchievements Live Feed</div> -->
+        <!-- <h1>Achievement Gallery</h1> -->
+        <!-- <p class="lede">A living collage of trophies, mastery runs, and rich presence signals.</p> -->
+        <div class="statline">
+          <div class="stat">
+            <span class="label">Points</span>
+            <span class="value" id="stat-points">--</span>
+          </div>
+          <div class="stat">
+            <span class="label">True Points</span>
+            <span class="value" id="stat-truepoints">--</span>
+          </div>
+          <div class="stat">
+            <span class="label">Rank</span>
+            <span class="value" id="stat-rank">--</span>
+          </div>
+          <div class="stat">
+            <span class="label">Achievements (HC)</span>
+            <span class="value" id="stat-ach-hardcore">--</span>
+          </div>
+          <div class="stat">
+            <span class="label">Achievements (SC)</span>
+            <span class="value" id="stat-ach-softcore">--</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="presence-card">
+          <div class="presence-header">
+            <span class="pulse"></span>
+            <span class="presence-title">Rich Presence</span>
+          </div>
+          <div class="presence-body" id="presence-message">Loading signal...</div>
+          <div class="presence-game">
+            <img id="presence-icon" alt="" />
+            <div>
+              <div class="presence-label">Last Seen In</div>
+              <div class="presence-game-title" id="presence-game">--</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Recent Achievements</h2>
+        <div class="status" id="status-achievements">Loading...</div>
+      </div>
+      <div class="card-grid" id="achievements-grid"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Completion Vault</h2>
+        <div class="status" id="status-completion">Loading...</div>
+      </div>
+      <div class="vault">
+        <div class="vault-column">
+          <h3>Mastered</h3>
+          <div class="game-grid" id="mastered-grid"></div>
+        </div>
+        <div class="vault-column">
+          <h3>Beaten</h3>
+          <div class="game-grid" id="completed-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="panel footer">
+      <div>Data from RetroAchievements. Images served by RA media servers.</div>
+      <div id="last-updated">Last sync: --</div>
+    </footer>
+  </main>
+</body>
+</html>
