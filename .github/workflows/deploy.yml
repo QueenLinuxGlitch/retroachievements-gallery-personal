@@ -27,8 +27,15 @@ jobs:
             apiKey: "${{ secrets.RA_API_KEY }}"
           };
           EOF
+      - name: Temporarily allow config.js for publish
+        run: |
+          sed -i.bak '/^config\.js$/d' .gitignore
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
+      - name: Restore gitignore
+        if: always()
+        run: |
+          if [ -f .gitignore.bak ]; then mv .gitignore.bak .gitignore; fi
