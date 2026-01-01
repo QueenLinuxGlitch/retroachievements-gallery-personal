@@ -13,6 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Validate secrets
+        run: |
+          if [ -z "${{ secrets.RA_USERNAME }}" ] || [ -z "${{ secrets.RA_API_KEY }}" ]; then
+            echo "Missing RA_USERNAME or RA_API_KEY secrets."
+            exit 1
+          fi
       - name: Build config.js from secrets
         run: |
           cat > config.js <<'EOF'
