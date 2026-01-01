@@ -22,6 +22,9 @@
     presenceMsg: document.getElementById("presence-message"),
     presenceGame: document.getElementById("presence-game"),
     presenceIcon: document.getElementById("presence-icon"),
+    presenceConsoleName: document.getElementById("presence-console-name"),
+    presenceConsoleIcon: document.getElementById("presence-console-icon"),
+    presenceAchCount: document.getElementById("presence-ach-count"),
     achievementsGrid: document.getElementById("achievements-grid"),
     masteredGrid: document.getElementById("mastered-grid"),
     completedGrid: document.getElementById("completed-grid"),
@@ -66,6 +69,14 @@
     if (!path) return "";
     if (path.startsWith("http")) return path;
     return SITE_ROOT + path.replace(/^\/+/, "");
+  }
+
+  function consoleIconUrl(consoleId, consoleMap) {
+    if (!consoleId) return "";
+    if (consoleMap && consoleMap.has(consoleId)) {
+      return consoleMap.get(consoleId);
+    }
+    return `${SITE_ROOT}Images/Console/${consoleId}.png`;
   }
 
   function ensureArray(value) {
@@ -122,7 +133,7 @@
     return data;
   }
 
-  function renderProfile(profile, summary, detail) {
+  function renderProfile(profile, summary, detail, consoleMap) {
     const data = { ...summary, ...detail, ...profile };
     elements.points.textContent = formatNumber(
       pickValue(data, ["TotalPoints", "Points", "PointsSoftcore", "TotalSoftcorePoints"])
@@ -150,6 +161,35 @@
     if (iconUrl) {
       elements.presenceIcon.src = iconUrl;
       elements.presenceIcon.alt = lastTitle;
+    }
+
+    const consoleName =
+      (data.LastGame && data.LastGame.ConsoleName) || data.ConsoleName || data.LastConsoleName || "";
+    const consoleId = (data.LastGame && data.LastGame.ConsoleID) || data.ConsoleID || "";
+    elements.presenceConsoleName.textContent = consoleName || "--";
+    const consoleIcon = consoleIconUrl(consoleId, consoleMap);
+    if (consoleIcon) {
+      elements.presenceConsoleIcon.src = consoleIcon;
+      elements.presenceConsoleIcon.alt = consoleName;
+      elements.presenceConsoleIcon.onerror = () => {
+        elements.presenceConsoleIcon.onerror = null;
+        elements.presenceConsoleIcon.src = `${SITE_ROOT}Images/Console/${consoleId}.webp`;
+      };
+    } else {
+      elements.presenceConsoleIcon.removeAttribute("src");
+    }
+
+    const lastGameId = data.LastGameID || (data.LastGame && data.LastGame.ID);
+    let awardedEntry = null;
+    if (data.Awarded && lastGameId) {
+      awardedEntry = data.Awarded[lastGameId] || data.Awarded[String(lastGameId)] || null;
+    }
+    if (awardedEntry) {
+      const earned = Number(awardedEntry.NumAchieved || 0);
+      const total = Number(awardedEntry.NumPossibleAchievements || 0);
+      elements.presenceAchCount.textContent = `${earned}/${total}`;
+    } else {
+      elements.presenceAchCount.textContent = "--";
     }
 
     const userPic = userPicUrl(data.UserPic || data.UserPicURL || "");
@@ -310,15 +350,20 @@
     }
 
     try {
-      const [profileRes, summaryRes, awardsRes] = await Promise.allSettled([
+      const [profileRes, summaryRes, awardsRes, consolesRes] = await Promise.allSettled([
         apiCall("API_GetUserProfile.php", {}),
         apiCall("API_GetUserSummary.php", {}),
-        apiCall("API_GetUserAwards.php", {})
+        apiCall("API_GetUserAwards.php", {}),
+        apiCall("API_GetConsoleIDs.php", { a: 1 })
       ]);
 
       const profile = profileRes.status === "fulfilled" ? profileRes.value : {};
       const summary = summaryRes.status === "fulfilled" ? summaryRes.value : {};
       const awards = awardsRes.status === "fulfilled" ? awardsRes.value : null;
+      const consoleList = consolesRes.status === "fulfilled" ? consolesRes.value : [];
+      const consoleMap = new Map(
+        ensureArray(consoleList).map((consoleItem) => [Number(consoleItem.ID), consoleItem.IconURL])
+      );
       let achievements = null;
       try {
         achievements = await fetchRecentAchievements();
@@ -372,7 +417,7 @@
         elements.achSoftcore.textContent = formatNumber(Math.max(0, totals.total - totals.hardcore));
       }
 
-      renderProfile(profile, summary, detail);
+      renderProfile(profile, summary, detail, consoleMap);
 
       if (achievements && achievements.length) {
         renderAchievements(achievements);
