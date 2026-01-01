@@ -5,7 +5,8 @@
   const LOCAL_CACHE = {
     consoles: "assets/cache/consoles.json",
     badges: "assets/cache/achievement-badges.json",
-    achievements: "assets/cache/achievements.json"
+    achievements: "assets/cache/achievements.json",
+    completion: "assets/cache/completion.json"
   };
 
   const defaultConfig = window.RA_CONFIG || {};
@@ -508,13 +509,14 @@
     }
 
     try {
-      const [profileRes, summaryRes, awardsRes, localConsoles, localBadges, localAchievements] = await Promise.allSettled([
+      const [profileRes, summaryRes, awardsRes, localConsoles, localBadges, localAchievements, localCompletion] = await Promise.allSettled([
         cachedCall("API_GetUserProfile.php", {}, 60 * 60 * 1000),
         apiCall("API_GetUserSummary.php", {}),
         cachedCall("API_GetUserAwards.php", {}, 12 * 60 * 60 * 1000),
         fetchLocalJson(LOCAL_CACHE.consoles),
         fetchLocalJson(LOCAL_CACHE.badges),
-        fetchLocalJson(LOCAL_CACHE.achievements)
+        fetchLocalJson(LOCAL_CACHE.achievements),
+        fetchLocalJson(LOCAL_CACHE.completion)
       ]);
 
       const profile = profileRes.status === "fulfilled" ? profileRes.value : {};
@@ -559,34 +561,38 @@
       }
 
       let completion = null;
-      try {
-        const completionCacheKey = "ra-cache:completion-progress";
-        const cachedCompletion = getCache(completionCacheKey, 12 * 60 * 60 * 1000);
-        if (cachedCompletion) {
-          completion = cachedCompletion;
-        } else {
-        const pageSize = 200;
-        const firstPage = await apiCall("API_GetUserCompletionProgress.php", { o: 0, c: pageSize });
-        const total = Number(firstPage.Total || firstPage.Count || 0);
-        const results = ensureArray(firstPage.Results);
-        if (total > results.length) {
-          const pages = Math.ceil(total / pageSize);
-          const requests = [];
-          for (let page = 1; page < pages; page += 1) {
-            requests.push(apiCall("API_GetUserCompletionProgress.php", { o: page * pageSize, c: pageSize }));
-          }
-          const settled = await Promise.allSettled(requests);
-          settled.forEach((res) => {
-            if (res.status === "fulfilled") {
-              results.push(...ensureArray(res.value.Results));
+      if (localCompletion.status === "fulfilled" && localCompletion.value) {
+        completion = localCompletion.value;
+      } else {
+        try {
+          const completionCacheKey = "ra-cache:completion-progress";
+          const cachedCompletion = getCache(completionCacheKey, 12 * 60 * 60 * 1000);
+          if (cachedCompletion) {
+            completion = cachedCompletion;
+          } else {
+            const pageSize = 200;
+            const firstPage = await apiCall("API_GetUserCompletionProgress.php", { o: 0, c: pageSize });
+            const total = Number(firstPage.Total || firstPage.Count || 0);
+            const results = ensureArray(firstPage.Results);
+            if (total > results.length) {
+              const pages = Math.ceil(total / pageSize);
+              const requests = [];
+              for (let page = 1; page < pages; page += 1) {
+                requests.push(apiCall("API_GetUserCompletionProgress.php", { o: page * pageSize, c: pageSize }));
+              }
+              const settled = await Promise.allSettled(requests);
+              settled.forEach((res) => {
+                if (res.status === "fulfilled") {
+                  results.push(...ensureArray(res.value.Results));
+                }
+              });
             }
-          });
+            completion = { ...firstPage, Results: results };
+            setCache(completionCacheKey, completion);
+          }
+        } catch (error) {
+          console.warn("Completion progress fetch failed.", error);
         }
-        completion = { ...firstPage, Results: results };
-        setCache(completionCacheKey, completion);
-        }
-      } catch (error) {
-        console.warn("Completion progress fetch failed.", error);
       }
 
       let detail = {};
