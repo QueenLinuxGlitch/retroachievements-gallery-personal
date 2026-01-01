@@ -31,7 +31,8 @@
     statusAchievements: document.getElementById("status-achievements"),
     statusCompletion: document.getElementById("status-completion"),
     lastUpdated: document.getElementById("last-updated"),
-    tickerTrack: document.getElementById("ticker-track")
+    tickerTrack: document.getElementById("ticker-track"),
+    consoleChart: document.getElementById("console-chart")
   };
 
   function setStatus(el, text) {
@@ -374,6 +375,46 @@
     });
   }
 
+  function renderConsoleChart(completion, consoleMap) {
+    if (!elements.consoleChart) return;
+    const list = ensureArray(completion?.Results || completion?.CompletionProgress || completion?.GameList || completion);
+    if (!list.length) {
+      elements.consoleChart.innerHTML = "<div class=\"muted\">No console data.</div>";
+      return;
+    }
+
+    const totals = new Map();
+    list.forEach((game) => {
+      const consoleName = game.ConsoleName || game.SystemName || "Unknown";
+      const consoleId = Number(game.ConsoleID || 0);
+      const earned = Number(game.NumAwarded || game.NumAchieved || 0);
+      if (!earned) return;
+      const entry = totals.get(consoleName) || { total: 0, id: consoleId };
+      entry.total += earned;
+      if (!entry.id && consoleId) entry.id = consoleId;
+      totals.set(consoleName, entry);
+    });
+
+    const rows = [...totals.entries()].sort((a, b) => b[1].total - a[1].total);
+    const maxValue = rows.length ? rows[0][1].total : 1;
+    elements.consoleChart.innerHTML = rows
+      .map(([name, value]) => {
+        const percent = Math.max(4, Math.round((value.total / maxValue) * 100));
+        const iconUrl = consoleIconUrl(value.id, consoleMap);
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              ${iconUrl ? `<img src="${iconUrl}" alt="" loading="lazy" />` : ""}
+              <span>${name}</span>
+            </div>
+            <div class="bar-track"><span class="bar-fill" style="width:${percent}%"></span></div>
+            <div class="bar-value">${formatNumber(value.total)}</div>
+          </div>
+        `;
+      })
+      .join("");
+  }
+
   function setupMotion() {
     let frame = null;
     window.addEventListener("mousemove", (event) => {
@@ -485,6 +526,9 @@
 
       if (completion || awards) {
         renderCompletion(completion, awards);
+        if (completion) {
+          renderConsoleChart(completion, consoleMap);
+        }
       } else {
         setStatus(elements.statusCompletion, "Completion data unavailable.");
       }
