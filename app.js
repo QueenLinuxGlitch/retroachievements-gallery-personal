@@ -30,7 +30,8 @@
     completedGrid: document.getElementById("completed-grid"),
     statusAchievements: document.getElementById("status-achievements"),
     statusCompletion: document.getElementById("status-completion"),
-    lastUpdated: document.getElementById("last-updated")
+    lastUpdated: document.getElementById("last-updated"),
+    tickerTrack: document.getElementById("ticker-track")
   };
 
   function setStatus(el, text) {
@@ -97,6 +98,51 @@
       if (items.length > fallback.length) fallback = items;
     }
     return fallback;
+  }
+
+  async function fetchAchievementLibrary(memberSince) {
+    const now = Math.floor(Date.now() / 1000);
+    const fromDate = memberSince ? Math.floor(new Date(memberSince).getTime() / 1000) : now - 3650 * 86400;
+    const data = await apiCall("API_GetAchievementsEarnedBetween.php", { f: fromDate, t: now });
+    return ensureArray(data);
+  }
+
+  function shuffleArray(items) {
+    const copy = [...items];
+    for (let i = copy.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  function renderTicker(items) {
+    if (!elements.tickerTrack) return;
+    const list = ensureArray(items);
+    if (!list.length) {
+      elements.tickerTrack.innerHTML = "";
+      return;
+    }
+
+    const selected = shuffleArray(list).slice(0, 20);
+    const doubled = [...selected, ...selected];
+    elements.tickerTrack.innerHTML = doubled
+      .map((achievement) => {
+        const badge = achievement.BadgeName || achievement.Badge || achievement.BadgeNameSmall;
+        const badgeImg = toMedia(achievement.BadgeURL) || (badge ? badgeUrl(badge) : "");
+        const title = achievement.Title || achievement.AchievementTitle || "Achievement";
+        const game = achievement.GameTitle || achievement.GameName || achievement.Game || "";
+        return `
+          <div class="ticker-item">
+            <img src="${badgeImg}" alt="" loading="lazy" />
+            <div>
+              <div class="ticker-title">${title}</div>
+              <div class="ticker-game">${game}</div>
+            </div>
+          </div>
+        `;
+      })
+      .join("");
   }
 
   function pickValue(source, keys) {
@@ -364,6 +410,12 @@
       const consoleMap = new Map(
         ensureArray(consoleList).map((consoleItem) => [Number(consoleItem.ID), consoleItem.IconURL])
       );
+      let libraryAchievements = [];
+      try {
+        libraryAchievements = await fetchAchievementLibrary(summary.MemberSince || profile.MemberSince);
+      } catch (error) {
+        console.warn("Achievement library fetch failed.", error);
+      }
       let achievements = null;
       try {
         achievements = await fetchRecentAchievements();
@@ -423,6 +475,12 @@
         renderAchievements(achievements);
       } else {
         setStatus(elements.statusAchievements, "Recent achievements unavailable.");
+      }
+
+      if (libraryAchievements.length) {
+        renderTicker(libraryAchievements);
+      } else if (achievements && achievements.length) {
+        renderTicker(achievements);
       }
 
       if (completion || awards) {
