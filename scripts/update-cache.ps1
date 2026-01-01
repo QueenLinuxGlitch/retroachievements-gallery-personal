@@ -152,9 +152,24 @@ foreach ($badge in $badgeSet) { $badgeList += $badge }
 @{ badges = $badgeList } | ConvertTo-Json -Depth 3 | Set-Content -Path "assets\\cache\\achievement-badges.json"
 $achievementMap | ConvertTo-Json -Depth 4 | Set-Content -Path "assets\\cache\\achievements.json"
 
+Write-Host "Fetching completion progress..."
+$completion = Invoke-Ra -Endpoint "API_GetUserCompletionProgress.php" -Params @{ o = 0; c = 200 } -IncludeUser
+$results = @($completion.Results)
+$total = [int]$completion.Total
+if ($total -gt $results.Count) {
+  $pages = [Math]::Ceiling($total / 200)
+  for ($page = 1; $page -lt $pages; $page++) {
+    $offset = $page * 200
+    $pageData = Invoke-Ra -Endpoint "API_GetUserCompletionProgress.php" -Params @{ o = $offset; c = 200 } -IncludeUser
+    $results += @($pageData.Results)
+  }
+}
+@{ Total = $total; Results = $results } | ConvertTo-Json -Depth 6 | Set-Content -Path "assets\\cache\\completion.json"
+
 Write-Host "Cache updated:"
 Write-Host " - assets\\console-icons"
 Write-Host " - assets\\achievement-badges"
 Write-Host " - assets\\cache\\consoles.json"
 Write-Host " - assets\\cache\\achievement-badges.json"
 Write-Host " - assets\\cache\\achievements.json"
+Write-Host " - assets\\cache\\completion.json"

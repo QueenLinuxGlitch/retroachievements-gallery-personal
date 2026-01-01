@@ -9,6 +9,7 @@ Quick start
 Cache assets (optional)
 - Run `powershell -ExecutionPolicy Bypass -File scripts/update-cache.ps1` to download console icons and achievement badges.
 - This also writes `assets/cache/consoles.json`, `assets/cache/achievement-badges.json`, and `assets/cache/achievements.json` for local name/icon lookups.
+- Completion progress can be cached in `assets/cache/completion.json` (used by the Completion Vault).
 
 GitHub Pages secrets option
 - Add repo secrets: `RA_USERNAME` and `RA_API_KEY`.
