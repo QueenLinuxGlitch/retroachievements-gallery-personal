@@ -2,6 +2,11 @@
   const API_ROOT = "https://retroachievements.org/API/";
   const MEDIA_ROOT = "https://media.retroachievements.org/";
   const SITE_ROOT = "https://retroachievements.org/";
+  const LOCAL_CACHE = {
+    consoles: "assets/cache/consoles.json",
+    badges: "assets/cache/achievement-badges.json",
+    achievements: "assets/cache/achievements.json"
+  };
 
   const defaultConfig = window.RA_CONFIG || {};
   const params = new URLSearchParams(window.location.search);
@@ -50,6 +55,27 @@
     return Number.isNaN(date.getTime()) ? "" : date.toLocaleDateString();
   }
 
+  function parseAchievementDate(achievement) {
+    const raw =
+      achievement.Date ||
+      achievement.date ||
+      achievement.DateEarned ||
+      achievement.UnlockedAt ||
+      achievement.unlockedAt;
+    if (!raw) return 0;
+    if (typeof raw === "number") return raw * 1000;
+    if (typeof raw !== "string") return 0;
+    const isoLike = raw.includes("T") ? raw : raw.replace(" ", "T");
+    const parsed = Date.parse(isoLike);
+    if (!Number.isNaN(parsed)) return parsed;
+    const match = raw.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})/);
+    if (match) {
+      const [, y, m, d, hh, mm, ss] = match.map(Number);
+      return Date.UTC(y, m - 1, d, hh, mm, ss);
+    }
+    return 0;
+  }
+
   function formatDateTime(value) {
     if (!value) return "";
     const date = new Date(value);
@@ -78,7 +104,7 @@
     if (consoleMap && consoleMap.has(consoleId)) {
       return consoleMap.get(consoleId);
     }
-    return `${SITE_ROOT}Images/Console/${consoleId}.png`;
+    return `assets/console-icons/${consoleId}.png`;
   }
 
   function ensureArray(value) {
@@ -87,13 +113,48 @@
     return Object.values(value);
   }
 
+  function serializeParams(params) {
+    const entries = Object.entries(params || {}).sort(([a], [b]) => a.localeCompare(b));
+    return entries.map(([key, value]) => `${key}=${value}`).join("&");
+  }
+
+  function getCache(key, ttlMs) {
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      const payload = JSON.parse(raw);
+      if (!payload || !payload.ts) return null;
+      if (Date.now() - payload.ts > ttlMs) return null;
+      return payload.data;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function setCache(key, data) {
+    try {
+      localStorage.setItem(key, JSON.stringify({ ts: Date.now(), data }));
+    } catch (error) {
+      // Ignore cache write failures (quota, privacy mode).
+    }
+  }
+
+  async function cachedCall(endpoint, params, ttlMs) {
+    const key = `ra-cache:${endpoint}:${serializeParams(params)}`;
+    const cached = getCache(key, ttlMs);
+    if (cached) return cached;
+    const data = await apiCall(endpoint, params);
+    setCache(key, data);
+    return data;
+  }
+
   async function fetchRecentAchievements() {
     const now = Math.floor(Date.now() / 1000);
     const ranges = [3, 7, 30, 90, 365, 3650];
     let fallback = [];
     for (const days of ranges) {
       const from = now - days * 86400;
-      const data = await apiCall("API_GetAchievementsEarnedBetween.php", { f: from, t: now });
+      const data = await cachedCall("API_GetAchievementsEarnedBetween.php", { f: from, t: now }, 5 * 60 * 1000);
       const items = ensureArray(data);
       if (items.length >= 8) return items;
       if (items.length > fallback.length) fallback = items;
@@ -104,8 +165,18 @@
   async function fetchAchievementLibrary(memberSince) {
     const now = Math.floor(Date.now() / 1000);
     const fromDate = memberSince ? Math.floor(new Date(memberSince).getTime() / 1000) : now - 3650 * 86400;
-    const data = await apiCall("API_GetAchievementsEarnedBetween.php", { f: fromDate, t: now });
+    const data = await cachedCall("API_GetAchievementsEarnedBetween.php", { f: fromDate, t: now }, 12 * 60 * 60 * 1000);
     return ensureArray(data);
+  }
+
+  async function fetchLocalJson(path) {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) return null;
+      return await response.json();
+    } catch (error) {
+      return null;
+    }
   }
 
   function shuffleArray(items) {
@@ -117,7 +188,7 @@
     return copy;
   }
 
-  function renderTicker(items) {
+  function renderTicker(items, badgeSet) {
     if (!elements.tickerTrack) return;
     const list = ensureArray(items);
     if (!list.length) {
@@ -129,10 +200,12 @@
     const doubled = [...selected, ...selected];
     elements.tickerTrack.innerHTML = doubled
       .map((achievement) => {
-        const badge = achievement.BadgeName || achievement.Badge || achievement.BadgeNameSmall;
-        const badgeImg = toMedia(achievement.BadgeURL) || (badge ? badgeUrl(badge) : "");
-        const title = achievement.Title || achievement.AchievementTitle || "Achievement";
-        const game = achievement.GameTitle || achievement.GameName || achievement.Game || "";
+        const badge =
+          achievement.BadgeName || achievement.badgeName || achievement.Badge || achievement.BadgeNameSmall;
+        const hasLocalBadge = badge && badgeSet && badgeSet.has(badge);
+        const badgeImg = hasLocalBadge ? `assets/achievement-badges/${badge}.png` : toMedia(achievement.BadgeURL) || (badge ? badgeUrl(badge) : "");
+        const title = achievement.Title || achievement.title || achievement.AchievementTitle || "Achievement";
+        const game = achievement.GameTitle || achievement.gameTitle || achievement.GameName || achievement.Game || "";
         return `
           <div class="ticker-item">
             <img src="${badgeImg}" alt="" loading="lazy" />
@@ -246,7 +319,7 @@
     }
   }
 
-  function renderAchievements(data) {
+  function renderAchievements(data, badgeSet) {
     const items = ensureArray(data.RecentAchievements || data.Recent || data.Achievements || data);
     elements.achievementsGrid.innerHTML = "";
 
@@ -255,23 +328,21 @@
       return;
     }
 
-    const sorted = [...items].sort((a, b) => {
-      const aDate = new Date(a.Date || a.DateEarned || 0).getTime();
-      const bDate = new Date(b.Date || b.DateEarned || 0).getTime();
-      return bDate - aDate;
-    });
+    const sorted = [...items].sort((a, b) => parseAchievementDate(b) - parseAchievementDate(a));
     setStatus(elements.statusAchievements, `${Math.min(8, sorted.length)} latest`);
 
     sorted.slice(0, 8).forEach((achievement) => {
-      const badge = achievement.BadgeName || achievement.Badge || achievement.BadgeNameSmall;
-      const badgeImg = toMedia(achievement.BadgeURL) || (badge ? badgeUrl(badge) : "");
+      const badge =
+        achievement.BadgeName || achievement.badgeName || achievement.Badge || achievement.BadgeNameSmall;
+      const hasLocalBadge = badge && badgeSet && badgeSet.has(badge);
+      const badgeImg = hasLocalBadge ? `assets/achievement-badges/${badge}.png` : toMedia(achievement.BadgeURL) || (badge ? badgeUrl(badge) : "");
       const gameIcon = toMedia(achievement.GameIcon || achievement.Icon || achievement.ImageIcon);
       const image = badgeImg || gameIcon;
-      const title = achievement.Title || achievement.AchievementTitle || "Achievement";
-      const game = achievement.GameTitle || achievement.GameName || achievement.Game || "";
-      const desc = achievement.Description || "";
-      const points = achievement.Points || achievement.Score || 0;
-      const date = achievement.Date || achievement.DateEarned || achievement.UnlockedAt || "";
+      const title = achievement.Title || achievement.title || achievement.AchievementTitle || "Achievement";
+      const game = achievement.GameTitle || achievement.gameTitle || achievement.GameName || achievement.Game || "";
+      const desc = achievement.Description || achievement.description || "";
+      const points = achievement.Points || achievement.points || achievement.Score || 0;
+      const date = achievement.Date || achievement.date || achievement.DateEarned || achievement.UnlockedAt || "";
 
       const card = document.createElement("article");
       card.className = "achievement-card";
@@ -437,35 +508,63 @@
     }
 
     try {
-      const [profileRes, summaryRes, awardsRes, consolesRes] = await Promise.allSettled([
-        apiCall("API_GetUserProfile.php", {}),
-        apiCall("API_GetUserSummary.php", {}),
-        apiCall("API_GetUserAwards.php", {}),
-        apiCall("API_GetConsoleIDs.php", { a: 1 })
+      const [profileRes, summaryRes, awardsRes, localConsoles, localBadges, localAchievements] = await Promise.allSettled([
+        cachedCall("API_GetUserProfile.php", {}, 60 * 60 * 1000),
+        cachedCall("API_GetUserSummary.php", {}, 60 * 60 * 1000),
+        cachedCall("API_GetUserAwards.php", {}, 12 * 60 * 60 * 1000),
+        fetchLocalJson(LOCAL_CACHE.consoles),
+        fetchLocalJson(LOCAL_CACHE.badges),
+        fetchLocalJson(LOCAL_CACHE.achievements)
       ]);
 
       const profile = profileRes.status === "fulfilled" ? profileRes.value : {};
       const summary = summaryRes.status === "fulfilled" ? summaryRes.value : {};
       const awards = awardsRes.status === "fulfilled" ? awardsRes.value : null;
-      const consoleList = consolesRes.status === "fulfilled" ? consolesRes.value : [];
-      const consoleMap = new Map(
-        ensureArray(consoleList).map((consoleItem) => [Number(consoleItem.ID), consoleItem.IconURL])
-      );
-      let libraryAchievements = [];
-      try {
-        libraryAchievements = await fetchAchievementLibrary(summary.MemberSince || profile.MemberSince);
-      } catch (error) {
-        console.warn("Achievement library fetch failed.", error);
+      let consoleMap = new Map();
+      if (localConsoles.status === "fulfilled" && localConsoles.value) {
+        consoleMap = new Map(
+          ensureArray(localConsoles.value).map((consoleItem) => [Number(consoleItem.id), consoleItem.icon])
+        );
+      } else {
+        const consolesRes = await Promise.allSettled([
+          cachedCall("API_GetConsoleIDs.php", { a: 1 }, 7 * 24 * 60 * 60 * 1000)
+        ]);
+        const consoleList = consolesRes[0].status === "fulfilled" ? consolesRes[0].value : [];
+        consoleMap = new Map(
+          ensureArray(consoleList).map((consoleItem) => [Number(consoleItem.ID), consoleItem.IconURL])
+        );
       }
+      const localBadgeSet = localBadges.status === "fulfilled" && localBadges.value
+        ? new Set(localBadges.value.badges || [])
+        : new Set();
+      const localAchievementList = localAchievements.status === "fulfilled" && localAchievements.value
+        ? Object.values(localAchievements.value)
+        : [];
+      let libraryAchievements = [];
       let achievements = null;
-      try {
-        achievements = await fetchRecentAchievements();
-      } catch (error) {
-        console.warn("Recent achievements fetch failed.", error);
+      if (localAchievementList.length) {
+        libraryAchievements = localAchievementList;
+        achievements = localAchievementList;
+      } else {
+        try {
+          libraryAchievements = await fetchAchievementLibrary(summary.MemberSince || profile.MemberSince);
+        } catch (error) {
+          console.warn("Achievement library fetch failed.", error);
+        }
+        try {
+          achievements = await fetchRecentAchievements();
+        } catch (error) {
+          console.warn("Recent achievements fetch failed.", error);
+        }
       }
 
       let completion = null;
       try {
+        const completionCacheKey = "ra-cache:completion-progress";
+        const cachedCompletion = getCache(completionCacheKey, 12 * 60 * 60 * 1000);
+        if (cachedCompletion) {
+          completion = cachedCompletion;
+        } else {
         const pageSize = 200;
         const firstPage = await apiCall("API_GetUserCompletionProgress.php", { o: 0, c: pageSize });
         const total = Number(firstPage.Total || firstPage.Count || 0);
@@ -484,6 +583,8 @@
           });
         }
         completion = { ...firstPage, Results: results };
+        setCache(completionCacheKey, completion);
+        }
       } catch (error) {
         console.warn("Completion progress fetch failed.", error);
       }
@@ -491,7 +592,7 @@
       let detail = {};
       if (summary.LastGameID) {
         try {
-          detail = await apiCall("API_GetUserSummary.php", { g: summary.LastGameID });
+          detail = await cachedCall("API_GetUserSummary.php", { g: summary.LastGameID }, 60 * 60 * 1000);
         } catch (error) {
           console.warn("Detail summary fetch failed.", error);
         }
@@ -513,15 +614,15 @@
       renderProfile(profile, summary, detail, consoleMap);
 
       if (achievements && achievements.length) {
-        renderAchievements(achievements);
+        renderAchievements(achievements, localBadgeSet);
       } else {
         setStatus(elements.statusAchievements, "Recent achievements unavailable.");
       }
 
       if (libraryAchievements.length) {
-        renderTicker(libraryAchievements);
+        renderTicker(libraryAchievements, localBadgeSet);
       } else if (achievements && achievements.length) {
-        renderTicker(achievements);
+        renderTicker(achievements, localBadgeSet);
       }
 
       if (completion || awards) {
