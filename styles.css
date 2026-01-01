@@ -26,6 +26,7 @@ body {
   background: radial-gradient(1200px 600px at 10% 10%, #1a2550 0%, var(--bg-1) 45%, var(--bg-0) 100%);
   font-family: "Space Grotesk", sans-serif;
   overflow-x: hidden;
+  padding-bottom: 96px;
 }
 
 body::before {
@@ -489,6 +490,63 @@ h3 {
   gap: 16px;
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.ticker {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 68px;
+  background: rgba(6, 10, 18, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  z-index: 3;
+  overflow: hidden;
+}
+
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  height: 100%;
+  padding: 0 24px;
+  white-space: nowrap;
+  animation: ticker-move var(--ticker-duration, 70s) linear infinite;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+}
+
+.ticker-item img {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  object-fit: cover;
+}
+
+.ticker-title {
+  font-weight: 600;
+}
+
+.ticker-game {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@keyframes ticker-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .muted {
