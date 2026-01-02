@@ -254,7 +254,12 @@
     return data;
   }
 
-  function renderProfile(profile, summary, detail, consoleMap) {
+  async function fetchGameProgress(gameId) {
+    if (!gameId) return null;
+    return apiCall("API_GetGameInfoAndUserProgress.php", { g: gameId });
+  }
+
+  function renderProfile(profile, summary, detail, consoleMap, gameProgress) {
     const data = { ...summary, ...detail, ...profile };
     elements.points.textContent = formatNumber(
       pickValue(data, ["TotalPoints", "Points", "PointsSoftcore", "TotalSoftcorePoints"])
@@ -301,13 +306,9 @@
     }
 
     const lastGameId = data.LastGameID || (data.LastGame && data.LastGame.ID);
-    let awardedEntry = null;
-    if (data.Awarded && lastGameId) {
-      awardedEntry = data.Awarded[lastGameId] || data.Awarded[String(lastGameId)] || null;
-    }
-    if (awardedEntry) {
-      const earned = Number(awardedEntry.NumAchieved || 0);
-      const total = Number(awardedEntry.NumPossibleAchievements || 0);
+    if (gameProgress && gameProgress.ID && Number(gameProgress.ID) === Number(lastGameId)) {
+      const earned = Number(gameProgress.NumAwardedToUser || 0);
+      const total = Number(gameProgress.NumAchievements || 0);
       elements.presenceAchCount.textContent = `${earned}/${total}`;
     } else {
       elements.presenceAchCount.textContent = "--";
@@ -604,6 +605,15 @@
         }
       }
 
+      let gameProgress = null;
+      if (summary.LastGameID) {
+        try {
+          gameProgress = await fetchGameProgress(summary.LastGameID);
+        } catch (error) {
+          console.warn("Game progress fetch failed.", error);
+        }
+      }
+
       if (completion && completion.Results) {
         const totals = completion.Results.reduce(
           (acc, game) => {
@@ -617,7 +627,7 @@
         elements.achSoftcore.textContent = formatNumber(Math.max(0, totals.total - totals.hardcore));
       }
 
-      renderProfile(profile, summary, detail, consoleMap);
+      renderProfile(profile, summary, detail, consoleMap, gameProgress);
 
       if (achievements && achievements.length) {
         renderAchievements(achievements, localBadgeSet);
