@@ -1,15 +1,15 @@
 {
-  "TotalAwardsCount": 92,
+  "TotalAwardsCount": 95,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 41,
+  "MasteryAwardsCount": 42,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 49,
+  "BeatenHardcoreAwardsCount": 51,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
   "VisibleUserAwards": [
     {
-      "AwardedAt": "2023-10-23T01:55:03-05:00",
+      "AwardedAt": "2023-10-23T06:55:03+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 13566,
       "AwardDataExtra": 0,
@@ -21,7 +21,7 @@
       "ImageIcon": "/Images/034082.png"
     },
     {
-      "AwardedAt": "2023-10-23T01:55:03-05:00",
+      "AwardedAt": "2023-10-23T06:55:03+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 13566,
       "AwardDataExtra": 0,
@@ -33,7 +33,7 @@
       "ImageIcon": "/Images/034082.png"
     },
     {
-      "AwardedAt": "2025-06-29T22:18:11-05:00",
+      "AwardedAt": "2025-06-30T03:18:11+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19548,
       "AwardDataExtra": 1,
@@ -45,7 +45,7 @@
       "ImageIcon": "/Images/057628.png"
     },
     {
-      "AwardedAt": "2025-06-30T07:24:43-05:00",
+      "AwardedAt": "2025-06-30T12:24:43+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 7935,
       "AwardDataExtra": 1,
@@ -57,7 +57,7 @@
       "ImageIcon": "/Images/056958.png"
     },
     {
-      "AwardedAt": "2025-06-30T07:26:29-05:00",
+      "AwardedAt": "2025-06-30T12:26:29+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 7935,
       "AwardDataExtra": 1,
@@ -69,7 +69,7 @@
       "ImageIcon": "/Images/056958.png"
     },
     {
-      "AwardedAt": "2025-07-13T15:28:26-05:00",
+      "AwardedAt": "2025-07-13T20:28:26+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19202,
       "AwardDataExtra": 1,
@@ -81,7 +81,7 @@
       "ImageIcon": "/Images/115716.png"
     },
     {
-      "AwardedAt": "2025-12-26T22:56:42-06:00",
+      "AwardedAt": "2025-12-27T04:56:42+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 17393,
       "AwardDataExtra": 1,
@@ -93,7 +93,7 @@
       "ImageIcon": "/Images/045230.png"
     },
     {
-      "AwardedAt": "2025-12-26T22:56:42-06:00",
+      "AwardedAt": "2025-12-27T04:56:42+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 17393,
       "AwardDataExtra": 1,
@@ -105,7 +105,7 @@
       "ImageIcon": "/Images/045230.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:02:23-06:00",
+      "AwardedAt": "2025-12-27T05:02:23+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 22659,
       "AwardDataExtra": 1,
@@ -117,7 +117,7 @@
       "ImageIcon": "/Images/121562.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:02:24-06:00",
+      "AwardedAt": "2025-12-27T05:02:24+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 22659,
       "AwardDataExtra": 1,
@@ -129,7 +129,7 @@
       "ImageIcon": "/Images/121562.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:14:37-06:00",
+      "AwardedAt": "2025-12-27T05:14:37+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 19548,
       "AwardDataExtra": 1,
@@ -141,7 +141,7 @@
       "ImageIcon": "/Images/057628.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:31:17-06:00",
+      "AwardedAt": "2025-12-27T05:31:17+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 3821,
       "AwardDataExtra": 1,
@@ -153,7 +153,7 @@
       "ImageIcon": "/Images/106612.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:31:17-06:00",
+      "AwardedAt": "2025-12-27T05:31:17+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 3821,
       "AwardDataExtra": 1,
@@ -165,7 +165,7 @@
       "ImageIcon": "/Images/106612.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:48:04-06:00",
+      "AwardedAt": "2025-12-27T05:48:04+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 7682,
       "AwardDataExtra": 1,
@@ -177,7 +177,7 @@
       "ImageIcon": "/Images/089846.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:48:04-06:00",
+      "AwardedAt": "2025-12-27T05:48:04+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 7682,
       "AwardDataExtra": 1,
@@ -189,7 +189,7 @@
       "ImageIcon": "/Images/089846.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:58:06-06:00",
+      "AwardedAt": "2025-12-27T05:58:06+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 9026,
       "AwardDataExtra": 1,
@@ -201,7 +201,7 @@
       "ImageIcon": "/Images/019883.png"
     },
     {
-      "AwardedAt": "2025-12-26T23:58:06-06:00",
+      "AwardedAt": "2025-12-27T05:58:06+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 9026,
       "AwardDataExtra": 1,
@@ -213,7 +213,7 @@
       "ImageIcon": "/Images/019883.png"
     },
     {
-      "AwardedAt": "2025-12-27T00:12:05-06:00",
+      "AwardedAt": "2025-12-27T06:12:05+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 13393,
       "AwardDataExtra": 1,
@@ -225,7 +225,7 @@
       "ImageIcon": "/Images/109375.png"
     },
     {
-      "AwardedAt": "2025-12-27T00:12:05-06:00",
+      "AwardedAt": "2025-12-27T06:12:05+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 13393,
       "AwardDataExtra": 1,
@@ -237,7 +237,7 @@
       "ImageIcon": "/Images/109375.png"
     },
     {
-      "AwardedAt": "2025-12-27T00:24:05-06:00",
+      "AwardedAt": "2025-12-27T06:24:05+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 25306,
       "AwardDataExtra": 1,
@@ -249,7 +249,7 @@
       "ImageIcon": "/Images/079052.png"
     },
     {
-      "AwardedAt": "2025-12-27T00:25:59-06:00",
+      "AwardedAt": "2025-12-27T06:25:59+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 25306,
       "AwardDataExtra": 1,
@@ -261,7 +261,7 @@
       "ImageIcon": "/Images/079052.png"
     },
     {
-      "AwardedAt": "2025-12-27T00:28:13-06:00",
+      "AwardedAt": "2025-12-27T06:28:13+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 15729,
       "AwardDataExtra": 1,
@@ -273,7 +273,7 @@
       "ImageIcon": "/Images/059717.png"
     },
     {
-      "AwardedAt": "2025-12-27T00:28:13-06:00",
+      "AwardedAt": "2025-12-27T06:28:13+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 15729,
       "AwardDataExtra": 1,
@@ -285,7 +285,7 @@
       "ImageIcon": "/Images/059717.png"
     },
     {
-      "AwardedAt": "2025-12-27T22:27:25-06:00",
+      "AwardedAt": "2025-12-28T04:27:25+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 32928,
       "AwardDataExtra": 1,
@@ -297,7 +297,7 @@
       "ImageIcon": "/Images/107582.png"
     },
     {
-      "AwardedAt": "2025-12-27T22:42:27-06:00",
+      "AwardedAt": "2025-12-28T04:42:27+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 32928,
       "AwardDataExtra": 1,
@@ -309,7 +309,7 @@
       "ImageIcon": "/Images/107582.png"
     },
     {
-      "AwardedAt": "2025-12-27T23:34:54-06:00",
+      "AwardedAt": "2025-12-28T05:34:54+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 26911,
       "AwardDataExtra": 1,
@@ -321,7 +321,7 @@
       "ImageIcon": "/Images/108979.png"
     },
     {
-      "AwardedAt": "2025-12-27T23:56:36-06:00",
+      "AwardedAt": "2025-12-28T05:56:36+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 7224,
       "AwardDataExtra": 1,
@@ -333,7 +333,7 @@
       "ImageIcon": "/Images/111709.png"
     },
     {
-      "AwardedAt": "2025-12-27T23:57:28-06:00",
+      "AwardedAt": "2025-12-28T05:57:28+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 7224,
       "AwardDataExtra": 1,
@@ -345,7 +345,7 @@
       "ImageIcon": "/Images/111709.png"
     },
     {
-      "AwardedAt": "2025-12-28T00:42:31-06:00",
+      "AwardedAt": "2025-12-28T06:42:31+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 33742,
       "AwardDataExtra": 1,
@@ -357,7 +357,7 @@
       "ImageIcon": "/Images/117006.png"
     },
     {
-      "AwardedAt": "2025-12-28T01:03:55-06:00",
+      "AwardedAt": "2025-12-28T07:03:55+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 15730,
       "AwardDataExtra": 1,
@@ -369,7 +369,7 @@
       "ImageIcon": "/Images/053574.png"
     },
     {
-      "AwardedAt": "2025-12-28T01:06:38-06:00",
+      "AwardedAt": "2025-12-28T07:06:38+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 15730,
       "AwardDataExtra": 1,
@@ -381,7 +381,7 @@
       "ImageIcon": "/Images/053574.png"
     },
     {
-      "AwardedAt": "2025-12-28T02:16:41-06:00",
+      "AwardedAt": "2025-12-28T08:16:41+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 14729,
       "AwardDataExtra": 1,
@@ -393,7 +393,7 @@
       "ImageIcon": "/Images/082760.png"
     },
     {
-      "AwardedAt": "2025-12-28T02:16:41-06:00",
+      "AwardedAt": "2025-12-28T08:16:41+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 14729,
       "AwardDataExtra": 1,
@@ -405,7 +405,7 @@
       "ImageIcon": "/Images/082760.png"
     },
     {
-      "AwardedAt": "2025-12-28T02:34:48-06:00",
+      "AwardedAt": "2025-12-28T08:34:48+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 26087,
       "AwardDataExtra": 1,
@@ -417,7 +417,7 @@
       "ImageIcon": "/Images/097381.png"
     },
     {
-      "AwardedAt": "2025-12-28T02:37:50-06:00",
+      "AwardedAt": "2025-12-28T08:37:50+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 26087,
       "AwardDataExtra": 1,
@@ -429,7 +429,7 @@
       "ImageIcon": "/Images/097381.png"
     },
     {
-      "AwardedAt": "2025-12-28T02:48:01-06:00",
+      "AwardedAt": "2025-12-28T08:48:01+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19708,
       "AwardDataExtra": 1,
@@ -441,7 +441,7 @@
       "ImageIcon": "/Images/059505.png"
     },
     {
-      "AwardedAt": "2025-12-28T02:48:01-06:00",
+      "AwardedAt": "2025-12-28T08:48:01+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 19708,
       "AwardDataExtra": 1,
@@ -453,7 +453,7 @@
       "ImageIcon": "/Images/059505.png"
     },
     {
-      "AwardedAt": "2025-12-28T10:35:11-06:00",
+      "AwardedAt": "2025-12-28T16:35:11+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 25825,
       "AwardDataExtra": 1,
@@ -465,7 +465,7 @@
       "ImageIcon": "/Images/082823.png"
     },
     {
-      "AwardedAt": "2025-12-28T10:35:11-06:00",
+      "AwardedAt": "2025-12-28T16:35:11+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 25825,
       "AwardDataExtra": 1,
@@ -477,7 +477,7 @@
       "ImageIcon": "/Images/082823.png"
     },
     {
-      "AwardedAt": "2025-12-28T11:09:58-06:00",
+      "AwardedAt": "2025-12-28T17:09:58+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 33577,
       "AwardDataExtra": 1,
@@ -489,7 +489,7 @@
       "ImageIcon": "/Images/111512.png"
     },
     {
-      "AwardedAt": "2025-12-28T11:17:26-06:00",
+      "AwardedAt": "2025-12-28T17:17:26+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 33577,
       "AwardDataExtra": 1,
@@ -501,7 +501,7 @@
       "ImageIcon": "/Images/111512.png"
     },
     {
-      "AwardedAt": "2025-12-28T11:39:10-06:00",
+      "AwardedAt": "2025-12-28T17:39:10+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 8180,
       "AwardDataExtra": 1,
@@ -513,7 +513,7 @@
       "ImageIcon": "/Images/069321.png"
     },
     {
-      "AwardedAt": "2025-12-28T12:04:30-06:00",
+      "AwardedAt": "2025-12-28T18:04:30+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 22589,
       "AwardDataExtra": 1,
@@ -525,7 +525,7 @@
       "ImageIcon": "/Images/092885.png"
     },
     {
-      "AwardedAt": "2025-12-28T12:04:30-06:00",
+      "AwardedAt": "2025-12-28T18:04:30+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 22589,
       "AwardDataExtra": 1,
@@ -537,7 +537,7 @@
       "ImageIcon": "/Images/092885.png"
     },
     {
-      "AwardedAt": "2025-12-28T16:59:16-06:00",
+      "AwardedAt": "2025-12-28T22:59:16+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 21685,
       "AwardDataExtra": 1,
@@ -549,7 +549,7 @@
       "ImageIcon": "/Images/112410.png"
     },
     {
-      "AwardedAt": "2025-12-28T16:59:16-06:00",
+      "AwardedAt": "2025-12-28T22:59:16+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 21685,
       "AwardDataExtra": 1,
@@ -561,7 +561,7 @@
       "ImageIcon": "/Images/112410.png"
     },
     {
-      "AwardedAt": "2025-12-28T17:16:45-06:00",
+      "AwardedAt": "2025-12-28T23:16:45+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 29062,
       "AwardDataExtra": 1,
@@ -573,7 +573,7 @@
       "ImageIcon": "/Images/093368.png"
     },
     {
-      "AwardedAt": "2025-12-28T17:19:48-06:00",
+      "AwardedAt": "2025-12-28T23:19:48+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 29062,
       "AwardDataExtra": 1,
@@ -585,7 +585,7 @@
       "ImageIcon": "/Images/093368.png"
     },
     {
-      "AwardedAt": "2025-12-28T18:27:05-06:00",
+      "AwardedAt": "2025-12-29T00:27:05+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 18987,
       "AwardDataExtra": 1,
@@ -597,7 +597,7 @@
       "ImageIcon": "/Images/120983.png"
     },
     {
-      "AwardedAt": "2025-12-28T18:29:13-06:00",
+      "AwardedAt": "2025-12-29T00:29:13+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 18987,
       "AwardDataExtra": 1,
@@ -609,7 +609,7 @@
       "ImageIcon": "/Images/120983.png"
     },
     {
-      "AwardedAt": "2025-12-29T19:05:22-06:00",
+      "AwardedAt": "2025-12-30T01:05:22+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19505,
       "AwardDataExtra": 1,
@@ -621,7 +621,7 @@
       "ImageIcon": "/Images/057381.png"
     },
     {
-      "AwardedAt": "2025-12-29T19:05:22-06:00",
+      "AwardedAt": "2025-12-30T01:05:22+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 19505,
       "AwardDataExtra": 1,
@@ -633,7 +633,7 @@
       "ImageIcon": "/Images/057381.png"
     },
     {
-      "AwardedAt": "2025-12-29T19:29:10-06:00",
+      "AwardedAt": "2025-12-30T01:29:10+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 17048,
       "AwardDataExtra": 1,
@@ -645,7 +645,7 @@
       "ImageIcon": "/Images/047948.png"
     },
     {
-      "AwardedAt": "2025-12-29T19:34:22-06:00",
+      "AwardedAt": "2025-12-30T01:34:22+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 17048,
       "AwardDataExtra": 1,
@@ -657,7 +657,7 @@
       "ImageIcon": "/Images/047948.png"
     },
     {
-      "AwardedAt": "2025-12-29T19:44:32-06:00",
+      "AwardedAt": "2025-12-30T01:44:32+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 30909,
       "AwardDataExtra": 1,
@@ -669,7 +669,7 @@
       "ImageIcon": "/Images/102055.png"
     },
     {
-      "AwardedAt": "2025-12-29T20:31:37-06:00",
+      "AwardedAt": "2025-12-30T02:31:37+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 2667,
       "AwardDataExtra": 1,
@@ -681,7 +681,7 @@
       "ImageIcon": "/Images/043012.png"
     },
     {
-      "AwardedAt": "2025-12-29T20:34:27-06:00",
+      "AwardedAt": "2025-12-30T02:34:27+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 2667,
       "AwardDataExtra": 1,
@@ -693,7 +693,7 @@
       "ImageIcon": "/Images/043012.png"
     },
     {
-      "AwardedAt": "2025-12-29T21:49:21-06:00",
+      "AwardedAt": "2025-12-30T03:49:21+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 25588,
       "AwardDataExtra": 1,
@@ -705,7 +705,7 @@
       "ImageIcon": "/Images/083164.png"
     },
     {
-      "AwardedAt": "2025-12-29T21:49:21-06:00",
+      "AwardedAt": "2025-12-30T03:49:21+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 25588,
       "AwardDataExtra": 1,
@@ -717,7 +717,7 @@
       "ImageIcon": "/Images/083164.png"
     },
     {
-      "AwardedAt": "2025-12-29T22:03:15-06:00",
+      "AwardedAt": "2025-12-30T04:03:15+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19310,
       "AwardDataExtra": 1,
@@ -729,7 +729,7 @@
       "ImageIcon": "/Images/057128.png"
     },
     {
-      "AwardedAt": "2025-12-29T22:05:26-06:00",
+      "AwardedAt": "2025-12-30T04:05:26+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 19310,
       "AwardDataExtra": 1,
@@ -741,7 +741,7 @@
       "ImageIcon": "/Images/057128.png"
     },
     {
-      "AwardedAt": "2025-12-31T21:40:47-06:00",
+      "AwardedAt": "2026-01-01T03:40:47+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 26386,
       "AwardDataExtra": 1,
@@ -753,7 +753,7 @@
       "ImageIcon": "/Images/096934.png"
     },
     {
-      "AwardedAt": "2025-12-31T21:57:12-06:00",
+      "AwardedAt": "2026-01-01T03:57:12+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 26386,
       "AwardDataExtra": 1,
@@ -765,7 +765,7 @@
       "ImageIcon": "/Images/096934.png"
     },
     {
-      "AwardedAt": "2025-12-31T22:13:46-06:00",
+      "AwardedAt": "2026-01-01T04:13:46+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 18961,
       "AwardDataExtra": 1,
@@ -777,7 +777,7 @@
       "ImageIcon": "/Images/055518.png"
     },
     {
-      "AwardedAt": "2025-12-31T22:23:41-06:00",
+      "AwardedAt": "2026-01-01T04:23:41+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 18961,
       "AwardDataExtra": 1,
@@ -789,7 +789,7 @@
       "ImageIcon": "/Images/055518.png"
     },
     {
-      "AwardedAt": "2025-12-31T23:24:43-06:00",
+      "AwardedAt": "2026-01-01T05:24:43+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 3700,
       "AwardDataExtra": 1,
@@ -801,7 +801,7 @@
       "ImageIcon": "/Images/071846.png"
     },
     {
-      "AwardedAt": "2025-12-31T23:28:46-06:00",
+      "AwardedAt": "2026-01-01T05:28:46+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 3700,
       "AwardDataExtra": 1,
@@ -813,7 +813,7 @@
       "ImageIcon": "/Images/071846.png"
     },
     {
-      "AwardedAt": "2026-01-01T00:06:54-06:00",
+      "AwardedAt": "2026-01-01T06:06:54+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 9083,
       "AwardDataExtra": 1,
@@ -825,7 +825,7 @@
       "ImageIcon": "/Images/074221.png"
     },
     {
-      "AwardedAt": "2026-01-01T00:06:54-06:00",
+      "AwardedAt": "2026-01-01T06:06:54+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 9083,
       "AwardDataExtra": 1,
@@ -837,7 +837,7 @@
       "ImageIcon": "/Images/074221.png"
     },
     {
-      "AwardedAt": "2026-01-01T02:00:06-06:00",
+      "AwardedAt": "2026-01-01T08:00:06+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19319,
       "AwardDataExtra": 1,
@@ -849,7 +849,7 @@
       "ImageIcon": "/Images/121552.png"
     },
     {
-      "AwardedAt": "2026-01-01T02:00:06-06:00",
+      "AwardedAt": "2026-01-01T08:00:06+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 19319,
       "AwardDataExtra": 1,
@@ -861,7 +861,7 @@
       "ImageIcon": "/Images/121552.png"
     },
     {
-      "AwardedAt": "2026-01-01T02:04:17-06:00",
+      "AwardedAt": "2026-01-01T08:04:17+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 19542,
       "AwardDataExtra": 1,
@@ -873,7 +873,7 @@
       "ImageIcon": "/Images/057597.png"
     },
     {
-      "AwardedAt": "2026-01-01T02:13:05-06:00",
+      "AwardedAt": "2026-01-01T08:13:05+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 19542,
       "AwardDataExtra": 1,
@@ -885,7 +885,7 @@
       "ImageIcon": "/Images/057597.png"
     },
     {
-      "AwardedAt": "2026-01-01T12:57:13-06:00",
+      "AwardedAt": "2026-01-01T18:57:13+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 21309,
       "AwardDataExtra": 1,
@@ -897,7 +897,7 @@
       "ImageIcon": "/Images/079055.png"
     },
     {
-      "AwardedAt": "2026-01-01T13:08:38-06:00",
+      "AwardedAt": "2026-01-01T19:08:38+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 21309,
       "AwardDataExtra": 1,
@@ -909,7 +909,7 @@
       "ImageIcon": "/Images/079055.png"
     },
     {
-      "AwardedAt": "2026-01-01T13:38:52-06:00",
+      "AwardedAt": "2026-01-01T19:38:52+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 14165,
       "AwardDataExtra": 1,
@@ -921,7 +921,7 @@
       "ImageIcon": "/Images/042255.png"
     },
     {
-      "AwardedAt": "2026-01-01T13:38:52-06:00",
+      "AwardedAt": "2026-01-01T19:38:52+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 14165,
       "AwardDataExtra": 1,
@@ -933,7 +933,7 @@
       "ImageIcon": "/Images/042255.png"
     },
     {
-      "AwardedAt": "2026-01-01T13:46:48-06:00",
+      "AwardedAt": "2026-01-01T19:46:48+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 13427,
       "AwardDataExtra": 1,
@@ -945,7 +945,7 @@
       "ImageIcon": "/Images/116382.png"
     },
     {
-      "AwardedAt": "2026-01-01T14:24:16-06:00",
+      "AwardedAt": "2026-01-01T20:24:16+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 21491,
       "AwardDataExtra": 1,
@@ -957,7 +957,7 @@
       "ImageIcon": "/Images/068097.png"
     },
     {
-      "AwardedAt": "2026-01-01T14:24:16-06:00",
+      "AwardedAt": "2026-01-01T20:24:16+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 21491,
       "AwardDataExtra": 1,
@@ -969,7 +969,7 @@
       "ImageIcon": "/Images/068097.png"
     },
     {
-      "AwardedAt": "2026-01-01T14:58:32-06:00",
+      "AwardedAt": "2026-01-01T20:58:32+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 1689,
       "AwardDataExtra": 1,
@@ -981,7 +981,7 @@
       "ImageIcon": "/Images/012147.png"
     },
     {
-      "AwardedAt": "2026-01-01T14:58:32-06:00",
+      "AwardedAt": "2026-01-01T20:58:32+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 1689,
       "AwardDataExtra": 1,
@@ -993,7 +993,7 @@
       "ImageIcon": "/Images/012147.png"
     },
     {
-      "AwardedAt": "2026-01-01T15:28:52-06:00",
+      "AwardedAt": "2026-01-01T21:28:52+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 21394,
       "AwardDataExtra": 1,
@@ -1005,7 +1005,7 @@
       "ImageIcon": "/Images/088289.png"
     },
     {
-      "AwardedAt": "2026-01-01T17:50:22-06:00",
+      "AwardedAt": "2026-01-01T23:50:22+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 26532,
       "AwardDataExtra": 1,
@@ -1017,7 +1017,7 @@
       "ImageIcon": "/Images/121220.png"
     },
     {
-      "AwardedAt": "2026-01-01T17:50:22-06:00",
+      "AwardedAt": "2026-01-01T23:50:22+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 26532,
       "AwardDataExtra": 1,
@@ -1029,7 +1029,7 @@
       "ImageIcon": "/Images/121220.png"
     },
     {
-      "AwardedAt": "2026-01-01T18:39:51-06:00",
+      "AwardedAt": "2026-01-02T00:39:51+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 24732,
       "AwardDataExtra": 1,
@@ -1041,7 +1041,7 @@
       "ImageIcon": "/Images/091942.png"
     },
     {
-      "AwardedAt": "2026-01-01T18:54:19-06:00",
+      "AwardedAt": "2026-01-02T00:54:19+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 24732,
       "AwardDataExtra": 1,
@@ -1053,7 +1053,7 @@
       "ImageIcon": "/Images/091942.png"
     },
     {
-      "AwardedAt": "2026-01-01T19:29:24-06:00",
+      "AwardedAt": "2026-01-02T01:29:24+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 22644,
       "AwardDataExtra": 1,
@@ -1065,7 +1065,7 @@
       "ImageIcon": "/Images/081613.png"
     },
     {
-      "AwardedAt": "2026-01-01T19:29:24-06:00",
+      "AwardedAt": "2026-01-02T01:29:24+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 22644,
       "AwardDataExtra": 1,
@@ -1077,7 +1077,7 @@
       "ImageIcon": "/Images/081613.png"
     },
     {
-      "AwardedAt": "2026-01-01T20:21:24-06:00",
+      "AwardedAt": "2026-01-02T02:21:24+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 24681,
       "AwardDataExtra": 1,
@@ -1089,7 +1089,7 @@
       "ImageIcon": "/Images/075254.png"
     },
     {
-      "AwardedAt": "2026-01-01T20:21:24-06:00",
+      "AwardedAt": "2026-01-02T02:21:24+00:00",
       "AwardType": "Mastery/Completion",
       "AwardData": 24681,
       "AwardDataExtra": 1,
@@ -1101,7 +1101,7 @@
       "ImageIcon": "/Images/075254.png"
     },
     {
-      "AwardedAt": "2026-01-01T20:26:53-06:00",
+      "AwardedAt": "2026-01-02T02:26:53+00:00",
       "AwardType": "Game Beaten",
       "AwardData": 24684,
       "AwardDataExtra": 1,
@@ -1111,6 +1111,42 @@
       "ConsoleName": "Elektor TV Games Computer",
       "Flags": 0,
       "ImageIcon": "/Images/098716.png"
+    },
+    {
+      "AwardedAt": "2026-01-02T03:01:20+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 13138,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 92,
+      "Title": "Battlezone",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "Flags": 0,
+      "ImageIcon": "/Images/117774.png"
+    },
+    {
+      "AwardedAt": "2026-01-02T03:01:20+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 13138,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 93,
+      "Title": "Battlezone",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "Flags": 0,
+      "ImageIcon": "/Images/117774.png"
+    },
+    {
+      "AwardedAt": "2026-01-02T03:04:46+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 24356,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 94,
+      "Title": "Air Hockey",
+      "ConsoleID": 1,
+      "ConsoleName": "Genesis/Mega Drive",
+      "Flags": 0,
+      "ImageIcon": "/Images/119508.png"
     }
   ]
 }
