@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 35649,
+      "Title": "Comic-Sans",
+      "ImageIcon": "/Images/121764.png",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "MaxPossible": 6,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-02T01:34:31+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 22644,
+      "Title": "Computer Intro",
+      "ImageIcon": "/Images/081613.png",
+      "ConsoleID": 23,
+      "ConsoleName": "Magnavox Odyssey 2",
+      "MaxPossible": 6,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-02T01:29:24+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T01:29:24+00:00"
+    },
+    {
       "GameID": 24732,
       "Title": "Das Boot",
       "ImageIcon": "/Images/091942.png",
@@ -2601,5 +2627,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 200
+  "Total": 202
 }
