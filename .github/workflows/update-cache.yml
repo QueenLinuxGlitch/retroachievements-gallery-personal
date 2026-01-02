@@ -1,0 +1,33 @@
+name: Update Cache
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run cache update script
+        shell: pwsh
+        env:
+          RA_USERNAME: ${{ secrets.RA_USERNAME }}
+          RA_API_KEY: ${{ secrets.RA_API_KEY }}
+        run: |
+          ./scripts/update-cache.ps1 -Username $env:RA_USERNAME -ApiKey $env:RA_API_KEY
+      - name: Commit cache updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/cache assets/console-icons assets/achievement-badges
+          if git diff --cached --quiet; then
+            echo "No cache updates to commit."
+            exit 0
+          fi
+          git commit -m "chore: update cache"
+          git push
