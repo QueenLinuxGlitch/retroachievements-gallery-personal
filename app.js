@@ -598,7 +598,7 @@
       let detail = {};
       if (summary.LastGameID) {
         try {
-          detail = await cachedCall("API_GetUserSummary.php", { g: summary.LastGameID }, 60 * 60 * 1000);
+          detail = await apiCall("API_GetUserSummary.php", { g: summary.LastGameID });
         } catch (error) {
           console.warn("Detail summary fetch failed.", error);
         }
