@@ -1,5 +1,32 @@
 {
+  "Total": 204,
   "Results": [
+    {
+      "GameID": 24684,
+      "Title": "Car Race",
+      "ImageIcon": "/Images/098716.png",
+      "ConsoleID": 75,
+      "ConsoleName": "Elektor TV Games Computer",
+      "MaxPossible": 6,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-02T02:26:53+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-02T02:26:53+00:00"
+    },
+    {
+      "GameID": 24681,
+      "Title": "Snakes and Ladders",
+      "ImageIcon": "/Images/075254.png",
+      "ConsoleID": 75,
+      "ConsoleName": "Elektor TV Games Computer",
+      "MaxPossible": 6,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-02T02:21:24+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T02:21:24+00:00"
+    },
     {
       "GameID": 35649,
       "Title": "Comic-Sans",
@@ -7,9 +34,9 @@
       "ConsoleID": 72,
       "ConsoleName": "WASM-4",
       "MaxPossible": 6,
-      "NumAwarded": 1,
-      "NumAwardedHardcore": 1,
-      "MostRecentAwardedDate": "2026-01-02T01:34:31+00:00",
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-02T01:47:42+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -2626,6 +2653,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 202
+  ]
 }
