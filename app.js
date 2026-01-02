@@ -6,7 +6,8 @@
     consoles: "assets/cache/consoles.json",
     badges: "assets/cache/achievement-badges.json",
     achievements: "assets/cache/achievements.json",
-    completion: "assets/cache/completion.json"
+    completion: "assets/cache/completion.json",
+    awards: "assets/cache/awards.json"
   };
 
   const defaultConfig = window.RA_CONFIG || {};
@@ -510,19 +511,25 @@
     }
 
     try {
-      const [profileRes, summaryRes, awardsRes, localConsoles, localBadges, localAchievements, localCompletion] = await Promise.allSettled([
+      const [profileRes, summaryRes, awardsRes, localConsoles, localBadges, localAchievements, localCompletion, localAwards] = await Promise.allSettled([
         apiCall("API_GetUserProfile.php", {}),
         apiCall("API_GetUserSummary.php", {}),
         cachedCall("API_GetUserAwards.php", {}, 12 * 60 * 60 * 1000),
         fetchLocalJson(LOCAL_CACHE.consoles),
         fetchLocalJson(LOCAL_CACHE.badges),
         fetchLocalJson(LOCAL_CACHE.achievements),
-        fetchLocalJson(LOCAL_CACHE.completion)
+        fetchLocalJson(LOCAL_CACHE.completion),
+        fetchLocalJson(LOCAL_CACHE.awards)
       ]);
 
       const profile = profileRes.status === "fulfilled" ? profileRes.value : {};
       const summary = summaryRes.status === "fulfilled" ? summaryRes.value : {};
-      const awards = awardsRes.status === "fulfilled" ? awardsRes.value : null;
+      let awards = null;
+      if (localAwards.status === "fulfilled" && localAwards.value) {
+        awards = localAwards.value;
+      } else {
+        awards = awardsRes.status === "fulfilled" ? awardsRes.value : null;
+      }
       let consoleMap = new Map();
       if (localConsoles.status === "fulfilled" && localConsoles.value) {
         consoleMap = new Map(

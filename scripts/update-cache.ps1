@@ -166,6 +166,10 @@ if ($total -gt $results.Count) {
 }
 @{ Total = $total; Results = $results } | ConvertTo-Json -Depth 6 | Set-Content -Path "assets\\cache\\completion.json"
 
+Write-Host "Fetching awards..."
+$awards = Invoke-Ra -Endpoint "API_GetUserAwards.php" -Params @{} -IncludeUser
+$awards | ConvertTo-Json -Depth 6 | Set-Content -Path "assets\\cache\\awards.json"
+
 Write-Host "Cache updated:"
 Write-Host " - assets\\console-icons"
 Write-Host " - assets\\achievement-badges"
@@ -173,3 +177,4 @@ Write-Host " - assets\\cache\\consoles.json"
 Write-Host " - assets\\cache\\achievement-badges.json"
 Write-Host " - assets\\cache\\achievements.json"
 Write-Host " - assets\\cache\\completion.json"
+Write-Host " - assets\\cache\\awards.json"
