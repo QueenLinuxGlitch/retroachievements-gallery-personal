@@ -1,6 +1,18 @@
 {
-  "Total": 199,
   "Results": [
+    {
+      "GameID": 24732,
+      "Title": "Das Boot",
+      "ImageIcon": "/Images/091942.png",
+      "ConsoleID": 80,
+      "ConsoleName": "Uzebox",
+      "MaxPossible": 6,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-02T00:54:19+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T00:54:19+00:00"
+    },
     {
       "GameID": 26532,
       "Title": "Dora the Explorer: Dora Saves the Mermaids",
@@ -2588,5 +2600,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 200
 }
