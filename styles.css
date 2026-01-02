@@ -222,6 +222,13 @@ h3 {
   margin-top: 6px;
 }
 
+.stat-sub {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .presence-card {
   background: linear-gradient(140deg, rgba(24, 35, 54, 0.9), rgba(14, 20, 32, 0.9));
   border-radius: 20px;
@@ -340,6 +347,9 @@ h3 {
   box-shadow: inset 0 0 20px rgba(126, 246, 255, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .achievement-card::after {
@@ -593,6 +603,8 @@ h3 {
   align-items: center;
   gap: 12px;
   font-size: 0.95rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .ticker-item img {

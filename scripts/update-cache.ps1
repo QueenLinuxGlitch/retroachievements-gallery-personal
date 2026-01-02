@@ -113,6 +113,7 @@ while ($cursor -lt $toEpoch) {
     $achievementMap[$key] = [ordered]@{
       id = $achievement.AchievementID
       title = $achievement.Title
+      description = $achievement.Description
       gameTitle = $achievement.GameTitle
       gameId = $achievement.GameID
       badgeName = $badgeName
@@ -139,11 +140,43 @@ foreach ($achievement in $recent) {
   $achievementMap[$key] = [ordered]@{
     id = $achievement.AchievementID
     title = $achievement.Title
+    description = $achievement.Description
     gameTitle = $achievement.GameTitle
     gameId = $achievement.GameID
     badgeName = $badgeName
     points = $achievement.Points
     date = $achievement.Date
+  }
+}
+
+$missingByGame = @{}
+foreach ($entry in $achievementMap.Values) {
+  if (-not $entry.description) {
+    $gameId = $entry.gameId
+    if ($gameId) {
+      if (-not $missingByGame.ContainsKey($gameId)) {
+        $missingByGame[$gameId] = $true
+      }
+    }
+  }
+}
+
+if ($missingByGame.Count -gt 0) {
+  Write-Host "Fetching game info to fill missing descriptions..."
+  foreach ($gameId in $missingByGame.Keys) {
+    try {
+      $gameInfo = Invoke-Ra -Endpoint "API_GetGameInfoAndUserProgress.php" -Params @{ g = $gameId } -IncludeUser
+      if ($gameInfo -and $gameInfo.Achievements) {
+        foreach ($ach in $gameInfo.Achievements.GetEnumerator()) {
+          $id = "$($ach.Value.ID)"
+          if ($achievementMap.ContainsKey($id) -and -not $achievementMap[$id].description) {
+            $achievementMap[$id].description = $ach.Value.Description
+          }
+        }
+      }
+    } catch {
+      Write-Host "Failed to fetch game info for GameID $gameId"
+    }
   }
 }
 
