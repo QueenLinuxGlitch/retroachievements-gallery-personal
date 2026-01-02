@@ -21,6 +21,7 @@
     points: document.getElementById("stat-points"),
     truePoints: document.getElementById("stat-truepoints"),
     rank: document.getElementById("stat-rank"),
+    rankPercent: document.getElementById("stat-rank-percent"),
     achHardcore: document.getElementById("stat-ach-hardcore"),
     achSoftcore: document.getElementById("stat-ach-softcore"),
     profileAvatar: document.getElementById("profile-avatar"),
@@ -158,7 +159,7 @@
       const from = now - days * 86400;
       const data = await cachedCall("API_GetAchievementsEarnedBetween.php", { f: from, t: now }, 5 * 60 * 1000);
       const items = ensureArray(data);
-      if (items.length >= 8) return items;
+      if (items.length >= 12) return items;
       if (items.length > fallback.length) fallback = items;
     }
     return fallback;
@@ -208,14 +209,17 @@
         const badgeImg = hasLocalBadge ? `assets/achievement-badges/${badge}.png` : toMedia(achievement.BadgeURL) || (badge ? badgeUrl(badge) : "");
         const title = achievement.Title || achievement.title || achievement.AchievementTitle || "Achievement";
         const game = achievement.GameTitle || achievement.gameTitle || achievement.GameName || achievement.Game || "";
+        const achId = achievement.AchievementID || achievement.achievementId || achievement.id;
+        const link = achId ? `https://retroachievements.org/achievement/${achId}` : "";
+        const tag = link ? "a" : "div";
         return `
-          <div class="ticker-item">
+          <${tag} class="ticker-item" ${link ? `href="${link}" target="_blank" rel="noreferrer"` : ""}>
             <img src="${badgeImg}" alt="" loading="lazy" />
             <div>
               <div class="ticker-title">${title}</div>
               <div class="ticker-game">${game}</div>
             </div>
-          </div>
+          </${tag}>
         `;
       })
       .join("");
@@ -273,6 +277,14 @@
     elements.rank.textContent = formatNumber(
       pickValue(data, ["Rank", "TotalRank", "RankSoftcore", "UserRank"])
     );
+    const rankValue = Number(pickValue(data, ["Rank", "TotalRank", "RankSoftcore", "UserRank"]) || 0);
+    const totalRanked = Number(data.TotalRanked || 0);
+    if (rankValue && totalRanked) {
+      const percent = Math.max(0.01, (rankValue / totalRanked) * 100);
+      elements.rankPercent.textContent = `Top ${percent.toFixed(2)}%`;
+    } else {
+      elements.rankPercent.textContent = "--";
+    }
     elements.presenceMsg.textContent = data.RichPresenceMsg || data.Motto || "Signal quiet";
 
     const lastTitle =
@@ -322,7 +334,7 @@
     }
   }
 
-  function renderAchievements(data, badgeSet) {
+  function renderAchievements(data, badgeSet, achievementMap) {
     const items = ensureArray(data.RecentAchievements || data.Recent || data.Achievements || data);
     elements.achievementsGrid.innerHTML = "";
 
@@ -332,9 +344,9 @@
     }
 
     const sorted = [...items].sort((a, b) => parseAchievementDate(b) - parseAchievementDate(a));
-    setStatus(elements.statusAchievements, `${Math.min(8, sorted.length)} latest`);
+    setStatus(elements.statusAchievements, `${Math.min(12, sorted.length)} latest`);
 
-    sorted.slice(0, 8).forEach((achievement) => {
+    sorted.slice(0, 12).forEach((achievement) => {
       const badge =
         achievement.BadgeName || achievement.badgeName || achievement.Badge || achievement.BadgeNameSmall;
       const hasLocalBadge = badge && badgeSet && badgeSet.has(badge);
@@ -343,12 +355,24 @@
       const image = badgeImg || gameIcon;
       const title = achievement.Title || achievement.title || achievement.AchievementTitle || "Achievement";
       const game = achievement.GameTitle || achievement.gameTitle || achievement.GameName || achievement.Game || "";
-      const desc = achievement.Description || achievement.description || "";
+      const achId = achievement.AchievementID || achievement.achievementId || achievement.id;
+      const mapped = achId && achievementMap ? achievementMap[String(achId)] : null;
+      const desc =
+        achievement.Description ||
+        achievement.description ||
+        (mapped ? mapped.description : "") ||
+        "No description available.";
       const points = achievement.Points || achievement.points || achievement.Score || 0;
       const date = achievement.Date || achievement.date || achievement.DateEarned || achievement.UnlockedAt || "";
 
-      const card = document.createElement("article");
+      const link = achId ? `https://retroachievements.org/achievement/${achId}` : "";
+      const card = document.createElement(link ? "a" : "article");
       card.className = "achievement-card";
+      if (link) {
+        card.href = link;
+        card.target = "_blank";
+        card.rel = "noreferrer";
+      }
       card.innerHTML = `
         <div class="achievement-header">
           <img src="${image}" alt="" loading="lazy" />
@@ -401,6 +425,11 @@
     const awards = ensureArray(awardsData?.VisibleUserAwards || awardsData);
     awards
       .filter((award) => award.AwardType === "Game Beaten")
+      .sort((a, b) => {
+        const aDate = parseAchievementDate({ Date: a.AwardedAt });
+        const bDate = parseAchievementDate({ Date: b.AwardedAt });
+        return bDate - aDate;
+      })
       .forEach((award) => {
         const gameId = Number(award.AwardData || 0);
         if (gameId && masteredIds.has(gameId)) return;
@@ -547,9 +576,9 @@
       const localBadgeSet = localBadges.status === "fulfilled" && localBadges.value
         ? new Set(localBadges.value.badges || [])
         : new Set();
-      const localAchievementList = localAchievements.status === "fulfilled" && localAchievements.value
-        ? Object.values(localAchievements.value)
-        : [];
+      const localAchievementMap =
+        localAchievements.status === "fulfilled" && localAchievements.value ? localAchievements.value : null;
+      const localAchievementList = localAchievementMap ? Object.values(localAchievementMap) : [];
       let libraryAchievements = [];
       let achievements = null;
       if (localAchievementList.length) {
@@ -637,7 +666,7 @@
       renderProfile(profile, summary, detail, consoleMap, gameProgress);
 
       if (achievements && achievements.length) {
-        renderAchievements(achievements, localBadgeSet);
+        renderAchievements(achievements, localBadgeSet, localAchievementMap);
       } else {
         setStatus(elements.statusAchievements, "Recent achievements unavailable.");
       }
