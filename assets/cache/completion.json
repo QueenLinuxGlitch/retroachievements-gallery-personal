@@ -1,5 +1,110 @@
 {
+  "Total": 214,
   "Results": [
+    {
+      "GameID": 19714,
+      "Title": "~Homebrew~ Z.A.P.",
+      "ImageIcon": "/Images/092199.png",
+      "ConsoleID": 13,
+      "ConsoleName": "Atari Lynx",
+      "MaxPossible": 7,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-02T04:24:01+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 16794,
+      "Title": "~Prototype~ ClayFighter 2",
+      "ImageIcon": "/Images/058013.png",
+      "ConsoleID": 10,
+      "ConsoleName": "32X",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-02T04:19:00+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T04:19:00+00:00"
+    },
+    {
+      "GameID": 24659,
+      "Title": "Raster",
+      "ImageIcon": "/Images/074962.png",
+      "ConsoleID": 75,
+      "ConsoleName": "Elektor TV Games Computer",
+      "MaxPossible": 6,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-02T04:13:51+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T04:13:51+00:00"
+    },
+    {
+      "GameID": 17914,
+      "Title": "~Prototype~ Garfield",
+      "ImageIcon": "/Images/116186.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-02T04:08:48+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T04:08:48+00:00"
+    },
+    {
+      "GameID": 21948,
+      "Title": "~Prototype~ Mario Kart XXL",
+      "ImageIcon": "/Images/069900.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-02T03:57:50+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T03:57:50+00:00"
+    },
+    {
+      "GameID": 13370,
+      "Title": "~Prototype~ Pit Fighter",
+      "ImageIcon": "/Images/097910.png",
+      "ConsoleID": 51,
+      "ConsoleName": "Atari 7800",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-02T03:37:43+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-02T03:37:43+00:00"
+    },
+    {
+      "GameID": 18506,
+      "Title": "~Prototype~ Snow White and the Seven Dwarfs",
+      "ImageIcon": "/Images/052958.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-02T03:30:50+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 17183,
+      "Title": "~Unlicensed~ Crash Bandicoot",
+      "ImageIcon": "/Images/059864.png",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "MaxPossible": 7,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-02T03:23:31+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 24356,
       "Title": "Air Hockey",
@@ -2678,6 +2783,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 206
+  ]
 }
