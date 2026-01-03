@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 113,
+  "TotalAwardsCount": 115,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 51,
+  "MasteryAwardsCount": 52,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 60,
+  "BeatenHardcoreAwardsCount": 61,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1363,6 +1363,30 @@
       "ConsoleName": "Game Boy",
       "Flags": 0,
       "ImageIcon": "/Images/062386.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T06:44:24+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 29935,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 113,
+      "Title": "~Homebrew~ Jabberwocky",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": 0,
+      "ImageIcon": "/Images/098430.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T06:56:48+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 29935,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 114,
+      "Title": "~Homebrew~ Jabberwocky",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": 0,
+      "ImageIcon": "/Images/098430.png"
     }
   ]
 }

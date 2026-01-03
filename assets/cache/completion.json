@@ -1,5 +1,32 @@
 {
+  "Total": 218,
   "Results": [
+    {
+      "GameID": 14713,
+      "Title": "~Homebrew~ Frank the Fruit Fly",
+      "ImageIcon": "/Images/044267.png",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-03T07:05:45+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 29935,
+      "Title": "~Homebrew~ Jabberwocky",
+      "ImageIcon": "/Images/098430.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T06:56:48+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-03T06:56:48+00:00"
+    },
     {
       "GameID": 9765,
       "Title": "~Homebrew~ Mona and the Witch's Hat",
@@ -2808,6 +2835,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 216
+  ]
 }
