@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 115,
+  "TotalAwardsCount": 118,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 52,
+  "MasteryAwardsCount": 53,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 61,
+  "BeatenHardcoreAwardsCount": 63,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1387,6 +1387,42 @@
       "ConsoleName": "Game Boy",
       "Flags": 0,
       "ImageIcon": "/Images/098430.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T07:37:53+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 8985,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 115,
+      "Title": "~Homebrew~ Fnvader",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "Flags": null,
+      "ImageIcon": "/Images/071685.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T07:37:53+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 8985,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 116,
+      "Title": "~Homebrew~ Fnvader",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "Flags": null,
+      "ImageIcon": "/Images/071685.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T08:06:11+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 17034,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 117,
+      "Title": "~Homebrew~ The Binding of Isaac: Game Boy Edition",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": 0,
+      "ImageIcon": "/Images/112648.png"
     }
   ]
 }
