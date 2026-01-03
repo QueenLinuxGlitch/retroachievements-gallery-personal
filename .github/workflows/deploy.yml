@@ -3,6 +3,8 @@ name: Deploy Gallery
 on:
   push:
     branches: ["main"]
+  schedule:
+    - cron: '*/60 * * * *'
   workflow_dispatch:
 
 permissions:
