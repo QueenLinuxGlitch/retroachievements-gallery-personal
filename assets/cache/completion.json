@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 9765,
+      "Title": "~Homebrew~ Mona and the Witch's Hat",
+      "ImageIcon": "/Images/062386.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T06:18:35+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-03T06:18:35+00:00"
+    },
+    {
+      "GameID": 13163,
+      "Title": "~Homebrew~ Pineapple 64",
+      "ImageIcon": "/Images/077720.png",
+      "ConsoleID": 28,
+      "ConsoleName": "Virtual Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T05:27:16+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-03T05:27:16+00:00"
+    },
+    {
       "GameID": 26631,
       "Title": "~Homebrew~ ShmupSpeed",
       "ImageIcon": "/Images/084165.png",
@@ -2783,5 +2809,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 214
+  "Total": 216
 }
