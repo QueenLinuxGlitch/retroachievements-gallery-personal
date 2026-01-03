@@ -1,6 +1,71 @@
 {
-  "Total": 218,
+  "Total": 223,
   "Results": [
+    {
+      "GameID": 26083,
+      "Title": "~Homebrew~ Flappy Bird GB",
+      "ImageIcon": "/Images/093615.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 15,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-03T08:18:40+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 20364,
+      "Title": "~Homebrew~ Elden Ring",
+      "ImageIcon": "/Images/101217.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-03T08:16:32+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 17034,
+      "Title": "~Homebrew~ The Binding of Isaac: Game Boy Edition",
+      "ImageIcon": "/Images/112648.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 6,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-03T08:06:29+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-03T08:06:11+00:00"
+    },
+    {
+      "GameID": 14710,
+      "Title": "~Homebrew~ Fix-It Felix Sr.",
+      "ImageIcon": "/Images/073603.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 7,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-03T07:58:28+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 8985,
+      "Title": "~Homebrew~ Fnvader",
+      "ImageIcon": "/Images/071685.png",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T07:37:53+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-03T07:37:53+00:00"
+    },
     {
       "GameID": 14713,
       "Title": "~Homebrew~ Frank the Fruit Fly",
