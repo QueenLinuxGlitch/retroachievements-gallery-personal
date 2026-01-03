@@ -1,4 +1,5 @@
 {
+  "Total": 225,
   "Results": [
     {
       "GameID": 28689,
@@ -2925,6 +2926,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 225
+  ]
 }
