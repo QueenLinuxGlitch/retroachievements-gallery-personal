@@ -1,6 +1,32 @@
 {
-  "Total": 223,
+  "Total": 225,
   "Results": [
+    {
+      "GameID": 28689,
+      "Title": "~Homebrew~ Fishin' for Average Caucasian Boyfriends",
+      "ImageIcon": "/Images/090009.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-03T08:56:12+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 15147,
+      "Title": "~Homebrew~ Final Fantasy XI Adventure",
+      "ImageIcon": "/Images/087814.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 36,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T08:39:11+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 26083,
       "Title": "~Homebrew~ Flappy Bird GB",
