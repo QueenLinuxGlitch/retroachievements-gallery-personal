@@ -1,17 +1,30 @@
 {
   "Results": [
     {
+      "GameID": 26631,
+      "Title": "~Homebrew~ ShmupSpeed",
+      "ImageIcon": "/Images/084165.png",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T05:06:04+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-03T05:06:04+00:00"
+    },
+    {
       "GameID": 19714,
       "Title": "~Homebrew~ Z.A.P.",
       "ImageIcon": "/Images/092199.png",
       "ConsoleID": 13,
       "ConsoleName": "Atari Lynx",
       "MaxPossible": 7,
-      "NumAwarded": 2,
-      "NumAwardedHardcore": 2,
-      "MostRecentAwardedDate": "2026-01-02T04:24:01+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-03T04:42:56+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-03T04:42:56+00:00"
     },
     {
       "GameID": 16794,
@@ -2770,5 +2783,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 213
+  "Total": 214
 }

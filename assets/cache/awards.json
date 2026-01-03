@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 105,
+  "TotalAwardsCount": 109,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 47,
+  "MasteryAwardsCount": 49,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 56,
+  "BeatenHardcoreAwardsCount": 58,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1267,6 +1267,54 @@
       "ConsoleName": "32X",
       "Flags": 0,
       "ImageIcon": "/Images/058013.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T04:42:56+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 19714,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 105,
+      "Title": "~Homebrew~ Z.A.P.",
+      "ConsoleID": 13,
+      "ConsoleName": "Atari Lynx",
+      "Flags": 0,
+      "ImageIcon": "/Images/092199.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T04:42:56+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 19714,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 106,
+      "Title": "~Homebrew~ Z.A.P.",
+      "ConsoleID": 13,
+      "ConsoleName": "Atari Lynx",
+      "Flags": 0,
+      "ImageIcon": "/Images/092199.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T05:00:49+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 26631,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 107,
+      "Title": "~Homebrew~ ShmupSpeed",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "Flags": 0,
+      "ImageIcon": "/Images/084165.png"
+    },
+    {
+      "AwardedAt": "2026-01-03T05:06:04+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 26631,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 108,
+      "Title": "~Homebrew~ ShmupSpeed",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "Flags": 0,
+      "ImageIcon": "/Images/084165.png"
     }
   ]
 }
