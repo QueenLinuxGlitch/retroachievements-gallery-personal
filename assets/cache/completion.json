@@ -1,15 +1,41 @@
 {
   "Results": [
     {
+      "GameID": 30128,
+      "Title": "~Homebrew~ Enceladus",
+      "ImageIcon": "/Images/112090.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 7,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-03T23:39:31+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 30725,
+      "Title": "~Homebrew~ Hatsune Miku Bomb Squad",
+      "ImageIcon": "/Images/101115.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 6,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-03T23:24:27+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 19516,
       "Title": "ArduGods",
       "ImageIcon": "/Images/057686.png",
       "ConsoleID": 71,
       "ConsoleName": "Arduboy",
       "MaxPossible": 15,
-      "NumAwarded": 1,
-      "NumAwardedHardcore": 1,
-      "MostRecentAwardedDate": "2026-01-03T23:09:37+00:00",
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-03T23:14:00+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -2939,5 +2965,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 226
+  "Total": 228
 }
