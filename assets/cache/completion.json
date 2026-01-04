@@ -1,5 +1,19 @@
 {
+  "Total": 229,
   "Results": [
+    {
+      "GameID": 4962,
+      "Title": "Frogger",
+      "ImageIcon": "/Images/073196.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 26,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-04T04:24:13+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 30128,
       "Title": "~Homebrew~ Enceladus",
@@ -2964,6 +2978,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 228
+  ]
 }
