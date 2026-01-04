@@ -1,6 +1,31 @@
 {
-  "Total": 229,
   "Results": [
+    {
+      "GameID": 25022,
+      "Title": "~Homebrew~ Claw Express",
+      "ImageIcon": "/Images/076415.png",
+      "ConsoleID": 18,
+      "ConsoleName": "Nintendo DS",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-04T06:21:47+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 30849,
+      "Title": "~Homebrew~ Dog's Muck Island",
+      "ImageIcon": "/Images/121559.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-04T06:07:34+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-04T06:07:34+00:00"
+    },
     {
       "GameID": 4962,
       "Title": "Frogger",
@@ -2978,5 +3003,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 231
 }
