@@ -1,5 +1,19 @@
 {
+  "Total": 232,
   "Results": [
+    {
+      "GameID": 19541,
+      "Title": "~Homebrew~ Castlevania: Circle of the Moon - GBC Edition",
+      "ImageIcon": "/Images/088301.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 7,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-04T06:48:46+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 25022,
       "Title": "~Homebrew~ Claw Express",
@@ -7,11 +21,11 @@
       "ConsoleID": 18,
       "ConsoleName": "Nintendo DS",
       "MaxPossible": 7,
-      "NumAwarded": 1,
-      "NumAwardedHardcore": 1,
-      "MostRecentAwardedDate": "2026-01-04T06:21:47+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-04T06:33:44+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-04T06:33:44+00:00"
     },
     {
       "GameID": 30849,
@@ -3003,6 +3017,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 231
+  ]
 }
