@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 118,
+  "TotalAwardsCount": 120,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 53,
+  "MasteryAwardsCount": 54,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 63,
+  "BeatenHardcoreAwardsCount": 64,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1423,6 +1423,30 @@
       "ConsoleName": "Game Boy",
       "Flags": 0,
       "ImageIcon": "/Images/112648.png"
+    },
+    {
+      "AwardedAt": "2026-01-04T06:07:34+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 30849,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 118,
+      "Title": "~Homebrew~ Dog's Muck Island",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": 0,
+      "ImageIcon": "/Images/121559.png"
+    },
+    {
+      "AwardedAt": "2026-01-04T06:07:34+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 30849,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 119,
+      "Title": "~Homebrew~ Dog's Muck Island",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": 0,
+      "ImageIcon": "/Images/121559.png"
     }
   ]
 }
