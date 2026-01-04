@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 120,
+  "TotalAwardsCount": 122,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 54,
+  "MasteryAwardsCount": 55,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 64,
+  "BeatenHardcoreAwardsCount": 65,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1447,6 +1447,30 @@
       "ConsoleName": "Game Boy",
       "Flags": 0,
       "ImageIcon": "/Images/121559.png"
+    },
+    {
+      "AwardedAt": "2026-01-04T06:23:22+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 25022,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 120,
+      "Title": "~Homebrew~ Claw Express",
+      "ConsoleID": 18,
+      "ConsoleName": "Nintendo DS",
+      "Flags": 0,
+      "ImageIcon": "/Images/076415.png"
+    },
+    {
+      "AwardedAt": "2026-01-04T06:33:44+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 25022,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 121,
+      "Title": "~Homebrew~ Claw Express",
+      "ConsoleID": 18,
+      "ConsoleName": "Nintendo DS",
+      "Flags": 0,
+      "ImageIcon": "/Images/076415.png"
     }
   ]
 }
