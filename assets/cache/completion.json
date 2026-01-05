@@ -1,6 +1,19 @@
 {
-  "Total": 232,
+  "Total": 233,
   "Results": [
+    {
+      "GameID": 27590,
+      "Title": "~Homebrew~ Bridge Quest",
+      "ImageIcon": "/Images/093528.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 7,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-05T01:36:36+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 19541,
       "Title": "~Homebrew~ Castlevania: Circle of the Moon - GBC Edition",
