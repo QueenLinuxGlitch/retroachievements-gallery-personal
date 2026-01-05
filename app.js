@@ -417,7 +417,8 @@
         total,
         earned,
         hardcore,
-        meta: `${earned}/${total}${awardDate ? ` - ${awardDate}` : ""}`
+        meta: `${earned}/${total}${awardDate ? ` - ${awardDate}` : ""}`,
+        link: gameId ? `https://retroachievements.org/game/${gameId}` : ""
       };
 
       if (game.HighestAwardKind === "mastered" || hardcore >= total) {
@@ -449,7 +450,8 @@
           total,
           earned,
           hardcore: 0,
-          meta: `${earned}/${total}${awardDate ? ` - ${awardDate}` : " - Beaten"}`
+          meta: `${earned}/${total}${awardDate ? ` - ${awardDate}` : " - Beaten"}`,
+          link: gameId ? `https://retroachievements.org/game/${gameId}` : ""
         });
       });
 
@@ -469,8 +471,14 @@
     }
 
     items.forEach((game) => {
-      const card = document.createElement("div");
+      const tag = game.link ? "a" : "div";
+      const card = document.createElement(tag);
       card.className = "game-card";
+      if (game.link) {
+        card.href = game.link;
+        card.target = "_blank";
+        card.rel = "noreferrer";
+      }
       card.innerHTML = `
         <img src="${game.icon}" alt="" loading="lazy" />
         <div>
