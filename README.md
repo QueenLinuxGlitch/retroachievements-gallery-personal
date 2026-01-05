@@ -15,7 +15,6 @@ Cache assets (optional)
 GitHub Pages secrets option
 - Add repo secrets: `RA_USERNAME` and `RA_API_KEY`.
 - Enable GitHub Pages and use the included workflow to build `config.js` during deploy.
-- The key is still embedded into the built site output (client-side). Treat it as public.
 
 Local overrides
 - Use `?user=YOUR_NAME&key=YOUR_KEY` in the URL to override the config for one session.
