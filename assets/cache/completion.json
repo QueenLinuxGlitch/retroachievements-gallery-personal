@@ -1,6 +1,44 @@
 {
-  "Total": 233,
   "Results": [
+    {
+      "GameID": 33616,
+      "Title": "~Hack~ Urinary Samus",
+      "ImageIcon": "/Images/111999.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-05T03:35:55+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 17423,
+      "Title": "~Homebrew~ ~Demo~ Pizza Portals",
+      "ImageIcon": "/Images/121545.png",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "MaxPossible": 7,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-05T02:51:55+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-05T02:38:02+00:00"
+    },
+    {
+      "GameID": 25071,
+      "Title": "~Homebrew~ Big Burger",
+      "ImageIcon": "/Images/112208.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-05T02:17:22+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-05T02:17:22+00:00"
+    },
     {
       "GameID": 27590,
       "Title": "~Homebrew~ Bridge Quest",
@@ -8,11 +46,11 @@
       "ConsoleID": 5,
       "ConsoleName": "Game Boy Advance",
       "MaxPossible": 7,
-      "NumAwarded": 3,
-      "NumAwardedHardcore": 3,
-      "MostRecentAwardedDate": "2026-01-05T01:36:36+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-05T01:51:59+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-05T01:51:59+00:00"
     },
     {
       "GameID": 19541,
@@ -3030,5 +3068,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 236
 }
