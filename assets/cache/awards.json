@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 124,
+  "TotalAwardsCount": 129,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 56,
+  "MasteryAwardsCount": 58,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 66,
+  "BeatenHardcoreAwardsCount": 69,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1495,6 +1495,66 @@
       "ConsoleName": "Game Boy Color",
       "Flags": 0,
       "ImageIcon": "/Images/088301.png"
+    },
+    {
+      "AwardedAt": "2026-01-05T01:51:59+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 27590,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 124,
+      "Title": "~Homebrew~ Bridge Quest",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": 0,
+      "ImageIcon": "/Images/093528.png"
+    },
+    {
+      "AwardedAt": "2026-01-05T01:51:59+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 27590,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 125,
+      "Title": "~Homebrew~ Bridge Quest",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": 0,
+      "ImageIcon": "/Images/093528.png"
+    },
+    {
+      "AwardedAt": "2026-01-05T02:17:22+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 25071,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 126,
+      "Title": "~Homebrew~ Big Burger",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": 0,
+      "ImageIcon": "/Images/112208.png"
+    },
+    {
+      "AwardedAt": "2026-01-05T02:17:22+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 25071,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 127,
+      "Title": "~Homebrew~ Big Burger",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": 0,
+      "ImageIcon": "/Images/112208.png"
+    },
+    {
+      "AwardedAt": "2026-01-05T02:38:02+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 17423,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 128,
+      "Title": "~Homebrew~ ~Demo~ Pizza Portals",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "Flags": 0,
+      "ImageIcon": "/Images/121545.png"
     }
   ]
 }
