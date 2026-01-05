@@ -396,6 +396,7 @@
     const mastered = [];
     const beaten = [];
     const masteredIds = new Set();
+    const progressByGame = new Map();
 
     list.forEach((game) => {
       const total = Number(game.MaxPossible || game.NumAchievements || game.NumAch || game.NumTotal || 0);
@@ -403,6 +404,10 @@
       const hardcore = Number(game.NumAwardedHardcore || game.NumAchievedHardcore || 0);
       if (!total) return;
       const awardDate = formatDateTime(game.HighestAwardDate || game.MostRecentAwardedDate);
+      const gameId = Number(game.GameID || game.ID || 0);
+      if (gameId) {
+        progressByGame.set(gameId, { total, earned, hardcore });
+      }
 
       const entry = {
         title: game.GameTitle || game.Title || game.GameName || "Unknown",
@@ -412,10 +417,9 @@
         total,
         earned,
         hardcore,
-        meta: awardDate
+        meta: `${earned}/${total}${awardDate ? ` - ${awardDate}` : ""}`
       };
 
-      const gameId = Number(game.GameID || game.ID || 0);
       if (game.HighestAwardKind === "mastered" || hardcore >= total) {
         mastered.push(entry);
         if (gameId) masteredIds.add(gameId);
@@ -434,15 +438,18 @@
         const gameId = Number(award.AwardData || 0);
         if (gameId && masteredIds.has(gameId)) return;
         const awardDate = formatDateTime(award.AwardedAt);
+        const progress = progressByGame.get(gameId);
+        const earned = progress ? progress.earned : 1;
+        const total = progress ? progress.total : 1;
         beaten.push({
           title: award.Title || "Unknown",
           icon: toMedia(award.ImageIcon),
           console: award.ConsoleName || "",
-          progress: 100,
-          total: 1,
-          earned: 1,
+          progress: progress ? Math.min(100, Math.round((earned / total) * 100)) : 100,
+          total,
+          earned,
           hardcore: 0,
-          meta: awardDate || "Beaten"
+          meta: `${earned}/${total}${awardDate ? ` - ${awardDate}` : " - Beaten"}`
         });
       });
 
