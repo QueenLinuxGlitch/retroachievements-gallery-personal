@@ -1,6 +1,19 @@
 {
-  "Total": 236,
+  "Total": 237,
   "Results": [
+    {
+      "GameID": 17079,
+      "Title": "~Hack~ Super Mario: Christmas Season",
+      "ImageIcon": "/Images/039717.png",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-06T01:04:10+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 33616,
       "Title": "~Hack~ Urinary Samus",
