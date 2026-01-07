@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 131,
+  "TotalAwardsCount": 133,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 59,
+  "MasteryAwardsCount": 60,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 70,
+  "BeatenHardcoreAwardsCount": 71,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1579,6 +1579,30 @@
       "ConsoleName": "Genesis/Mega Drive",
       "Flags": 0,
       "ImageIcon": "/Images/097896.png"
+    },
+    {
+      "AwardedAt": "2026-01-07T04:08:04+00:00",
+      "AwardType": "Game Beaten",
+      "AwardData": 20058,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 131,
+      "Title": "Touhou Spirits",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "Flags": 0,
+      "ImageIcon": "/Images/061381.png"
+    },
+    {
+      "AwardedAt": "2026-01-07T04:08:04+00:00",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 20058,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 132,
+      "Title": "Touhou Spirits",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "Flags": 0,
+      "ImageIcon": "/Images/061381.png"
     }
   ]
 }
