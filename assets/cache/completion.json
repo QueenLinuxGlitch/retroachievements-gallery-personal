@@ -1,5 +1,32 @@
 {
+  "Total": 240,
   "Results": [
+    {
+      "GameID": 20058,
+      "Title": "Touhou Spirits",
+      "ImageIcon": "/Images/061381.png",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-07T04:08:04+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-07T04:08:04+00:00"
+    },
+    {
+      "GameID": 23740,
+      "Title": "~Hack~ ~Demo~ Super Alicorn Sisters: Return of the Tantabus",
+      "ImageIcon": "/Images/121550.png",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "MaxPossible": 7,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-07T03:52:47+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 22103,
       "Title": "~Hack~ 137E0 Action 1 Steak",
@@ -3094,6 +3121,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 238
+  ]
 }
