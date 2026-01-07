@@ -125,7 +125,7 @@ while ($cursor -lt $toEpoch) {
 }
 
 Write-Host "Fetching recent achievements to catch latest unlocks..."
-$recent = Invoke-Ra -Endpoint "API_GetUserRecentAchievements.php" -Params @{ m = 1440 } -IncludeUser
+$recent = Invoke-Ra -Endpoint "API_GetUserRecentAchievements.php" -Params @{ m = 10080 } -IncludeUser
 foreach ($achievement in $recent) {
   $badgeName = $achievement.BadgeName
   if ($badgeName) {
@@ -183,7 +183,11 @@ if ($missingByGame.Count -gt 0) {
 $badgeList = @()
 foreach ($badge in $badgeSet) { $badgeList += $badge }
 @{ badges = $badgeList } | ConvertTo-Json -Depth 3 | Set-Content -Path "assets\\cache\\achievement-badges.json"
-$achievementMap | ConvertTo-Json -Depth 4 | Set-Content -Path "assets\\cache\\achievements.json"
+$orderedAchievements = [ordered]@{}
+$achievementMap.Values |
+  Sort-Object { [datetime]$_.date } |
+  ForEach-Object { $orderedAchievements["$($_.id)"] = $_ }
+$orderedAchievements | ConvertTo-Json -Depth 4 | Set-Content -Path "assets\\cache\\achievements.json"
 
 Write-Host "Fetching completion progress..."
 $completion = Invoke-Ra -Endpoint "API_GetUserCompletionProgress.php" -Params @{ o = 0; c = 200 } -IncludeUser

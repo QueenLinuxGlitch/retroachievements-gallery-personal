@@ -547,6 +547,22 @@
     });
   }
 
+  function mergeAchievements(primary, secondary) {
+    const map = new Map();
+    const add = (list) => {
+      ensureArray(list).forEach((item) => {
+        const id = item.AchievementID || item.achievementId || item.id;
+        if (!id) return;
+        if (!map.has(id)) {
+          map.set(id, item);
+        }
+      });
+    };
+    add(primary);
+    add(secondary);
+    return [...map.values()];
+  }
+
   async function loadAll() {
     if (!config.username || !config.apiKey) {
       setStatus(elements.statusAchievements, "Missing RA username or API key.");
@@ -598,17 +614,26 @@
       let achievements = null;
       if (localAchievementList.length) {
         libraryAchievements = localAchievementList;
+      }
+
+      try {
+        achievements = await fetchRecentAchievements();
+      } catch (error) {
+        console.warn("Recent achievements fetch failed.", error);
+      }
+
+      if (!achievements && localAchievementList.length) {
         achievements = localAchievementList;
-      } else {
+      }
+      if (achievements && localAchievementList.length) {
+        achievements = mergeAchievements(achievements, localAchievementList);
+      }
+
+      if (!libraryAchievements.length) {
         try {
           libraryAchievements = await fetchAchievementLibrary(summary.MemberSince || profile.MemberSince);
         } catch (error) {
           console.warn("Achievement library fetch failed.", error);
-        }
-        try {
-          achievements = await fetchRecentAchievements();
-        } catch (error) {
-          console.warn("Recent achievements fetch failed.", error);
         }
       }
 
