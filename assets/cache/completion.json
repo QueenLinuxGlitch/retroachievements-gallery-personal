@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 17863,
+      "Title": "Tarot no Yakata",
+      "ImageIcon": "/Images/049521.png",
+      "ConsoleID": 15,
+      "ConsoleName": "Game Gear",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-08T03:17:40+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-08T03:17:40+00:00"
+    },
+    {
+      "GameID": 29594,
+      "Title": "WaiWai Drive",
+      "ImageIcon": "/Images/100287.png",
+      "ConsoleID": 27,
+      "ConsoleName": "Arcade",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-08T03:01:08+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-08T03:01:08+00:00"
+    },
+    {
       "GameID": 20058,
       "Title": "Touhou Spirits",
       "ImageIcon": "/Images/061381.png",
@@ -3121,5 +3147,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 240
+  "Total": 242
 }

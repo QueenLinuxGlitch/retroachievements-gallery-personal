@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 133,
+  "TotalAwardsCount": 137,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 60,
+  "MasteryAwardsCount": 62,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 71,
+  "BeatenHardcoreAwardsCount": 73,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1603,6 +1603,54 @@
       "AwardData": 20058,
       "AwardDataExtra": 1,
       "DisplayOrder": 132
+    },
+    {
+      "AwardedAt": "2026-01-08T03:01:08+00:00",
+      "Title": "WaiWai Drive",
+      "ConsoleID": 27,
+      "ConsoleName": "Arcade",
+      "Flags": null,
+      "ImageIcon": "/Images/100287.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29594,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 133
+    },
+    {
+      "AwardedAt": "2026-01-08T03:01:08+00:00",
+      "Title": "WaiWai Drive",
+      "ConsoleID": 27,
+      "ConsoleName": "Arcade",
+      "Flags": null,
+      "ImageIcon": "/Images/100287.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 29594,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 134
+    },
+    {
+      "AwardedAt": "2026-01-08T03:17:40+00:00",
+      "Title": "Tarot no Yakata",
+      "ConsoleID": 15,
+      "ConsoleName": "Game Gear",
+      "Flags": null,
+      "ImageIcon": "/Images/049521.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 17863,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 135
+    },
+    {
+      "AwardedAt": "2026-01-08T03:17:40+00:00",
+      "Title": "Tarot no Yakata",
+      "ConsoleID": 15,
+      "ConsoleName": "Game Gear",
+      "Flags": null,
+      "ImageIcon": "/Images/049521.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 17863,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 136
     }
   ]
 }
