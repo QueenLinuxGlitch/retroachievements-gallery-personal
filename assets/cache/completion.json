@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 17616,
+      "Title": "Pyramid",
+      "ImageIcon": "/Images/043614.png",
+      "ConsoleID": 63,
+      "ConsoleName": "Watara Supervision",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-08T03:38:48+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 28355,
+      "Title": "Stonk Simulator",
+      "ImageIcon": "/Images/114475.png",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-08T03:30:40+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 17863,
       "Title": "Tarot no Yakata",
       "ImageIcon": "/Images/049521.png",
@@ -3147,5 +3173,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 242
+  "Total": 244
 }
