@@ -1,5 +1,19 @@
 {
+  "Total": 250,
   "Results": [
+    {
+      "GameID": 27461,
+      "Title": "Mario Clock",
+      "ImageIcon": "/Images/117167.png",
+      "ConsoleID": 78,
+      "ConsoleName": "Nintendo DSi",
+      "MaxPossible": 7,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-09T03:59:54+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-09T03:59:54+00:00"
+    },
     {
       "GameID": 19316,
       "Title": "Pong",
@@ -3237,6 +3251,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 249
+  ]
 }

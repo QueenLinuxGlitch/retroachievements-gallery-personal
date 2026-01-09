@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 142,
+  "TotalAwardsCount": 143,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 64,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 76,
+  "BeatenHardcoreAwardsCount": 77,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1711,6 +1711,18 @@
       "AwardData": 16965,
       "AwardDataExtra": 1,
       "DisplayOrder": 141
+    },
+    {
+      "AwardedAt": "2026-01-09T03:59:54+00:00",
+      "Title": "Mario Clock",
+      "ConsoleID": 78,
+      "ConsoleName": "Nintendo DSi",
+      "Flags": null,
+      "ImageIcon": "/Images/117167.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 27461,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 142
     }
   ]
 }
