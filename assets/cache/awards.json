@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 141,
+  "TotalAwardsCount": 142,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 64,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 75,
+  "BeatenHardcoreAwardsCount": 76,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1699,6 +1699,18 @@
       "AwardData": 29837,
       "AwardDataExtra": 1,
       "DisplayOrder": 140
+    },
+    {
+      "AwardedAt": "2026-01-09T02:11:44+00:00",
+      "Title": "Showdown in 2100 A.D.",
+      "ConsoleID": 23,
+      "ConsoleName": "Magnavox Odyssey 2",
+      "Flags": null,
+      "ImageIcon": "/Images/056887.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 16965,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 141
     }
   ]
 }
