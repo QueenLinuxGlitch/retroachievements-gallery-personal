@@ -1,6 +1,45 @@
 {
   "Results": [
     {
+      "GameID": 19316,
+      "Title": "Pong",
+      "ImageIcon": "/Images/114343.png",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "MaxPossible": 7,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-09T02:25:32+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 16965,
+      "Title": "Showdown in 2100 A.D.",
+      "ImageIcon": "/Images/056887.png",
+      "ConsoleID": 23,
+      "ConsoleName": "Magnavox Odyssey 2",
+      "MaxPossible": 7,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-09T02:13:52+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-09T02:11:44+00:00"
+    },
+    {
+      "GameID": 22420,
+      "Title": "Winnie the Pooh: Kindergarten",
+      "ImageIcon": "/Images/068534.png",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-09T01:53:20+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 29837,
       "Title": "Who Wants to Be a Millionaire: 2nd Edition",
       "ImageIcon": "/Images/097735.png",
@@ -3199,5 +3238,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 246
+  "Total": 249
 }
