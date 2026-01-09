@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 137,
+  "TotalAwardsCount": 141,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 62,
+  "MasteryAwardsCount": 64,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 73,
+  "BeatenHardcoreAwardsCount": 75,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1651,6 +1651,54 @@
       "AwardData": 17863,
       "AwardDataExtra": 1,
       "DisplayOrder": 136
+    },
+    {
+      "AwardedAt": "2026-01-09T00:33:28+00:00",
+      "Title": "Who Wants to Be a Millionaire: Junior",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/083705.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 26278,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 137
+    },
+    {
+      "AwardedAt": "2026-01-09T00:37:41+00:00",
+      "Title": "Who Wants to Be a Millionaire: Junior",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/083705.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 26278,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 138
+    },
+    {
+      "AwardedAt": "2026-01-09T00:48:27+00:00",
+      "Title": "Who Wants to Be a Millionaire: 2nd Edition",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/097735.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29837,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 139
+    },
+    {
+      "AwardedAt": "2026-01-09T00:57:53+00:00",
+      "Title": "Who Wants to Be a Millionaire: 2nd Edition",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/097735.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 29837,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 140
     }
   ]
 }

@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 29837,
+      "Title": "Who Wants to Be a Millionaire: 2nd Edition",
+      "ImageIcon": "/Images/097735.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-09T00:57:53+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-09T00:57:53+00:00"
+    },
+    {
+      "GameID": 26278,
+      "Title": "Who Wants to Be a Millionaire: Junior",
+      "ImageIcon": "/Images/083705.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-09T00:37:41+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-09T00:37:41+00:00"
+    },
+    {
       "GameID": 17616,
       "Title": "Pyramid",
       "ImageIcon": "/Images/043614.png",
@@ -3173,5 +3199,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 244
+  "Total": 246
 }
