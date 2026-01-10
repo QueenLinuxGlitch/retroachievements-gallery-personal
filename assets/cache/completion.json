@@ -1,5 +1,45 @@
 {
+  "Total": 260,
   "Results": [
+    {
+      "GameID": 19912,
+      "Title": "~Homebrew~ Simple Battle FX",
+      "ImageIcon": "/Images/059196.png",
+      "ConsoleID": 49,
+      "ConsoleName": "PC-FX",
+      "MaxPossible": 8,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-10T19:09:43+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-10T19:07:45+00:00"
+    },
+    {
+      "GameID": 9086,
+      "Title": "~Homebrew~ Speed Race",
+      "ImageIcon": "/Images/069127.png",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "MaxPossible": 8,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-10T18:55:57+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 13141,
+      "Title": "~Homebrew~ Tetris26",
+      "ImageIcon": "/Images/065585.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-10T18:50:05+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-10T18:50:05+00:00"
+    },
     {
       "GameID": 15805,
       "Title": "~Prototype~ Tamiya Racing 64",
@@ -3341,6 +3381,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 257
+  ]
 }
