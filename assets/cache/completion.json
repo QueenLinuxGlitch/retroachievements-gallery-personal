@@ -1,6 +1,19 @@
 {
   "Results": [
     {
+      "GameID": 20239,
+      "Title": "Hitchcock ni Chousen | Alfred Hitchcock Presents",
+      "ImageIcon": "/Images/060370.png",
+      "ConsoleID": 43,
+      "ConsoleName": "3DO Interactive Multiplayer",
+      "MaxPossible": 7,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-10T06:14:21+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 27461,
       "Title": "Mario Clock",
       "ImageIcon": "/Images/117167.png",
@@ -3251,5 +3264,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 250
+  "Total": 251
 }
