@@ -1,7 +1,7 @@
 {
-  "TotalAwardsCount": 155,
+  "TotalAwardsCount": 156,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 69,
+  "MasteryAwardsCount": 70,
   "CompletionAwardsCount": 1,
   "BeatenHardcoreAwardsCount": 84,
   "BeatenSoftcoreAwardsCount": 1,
@@ -1867,6 +1867,18 @@
       "AwardData": 19912,
       "AwardDataExtra": 1,
       "DisplayOrder": 154
+    },
+    {
+      "AwardedAt": "2026-01-10T19:15:21+00:00",
+      "Title": "~Homebrew~ Simple Battle FX",
+      "ConsoleID": 49,
+      "ConsoleName": "PC-FX",
+      "Flags": null,
+      "ImageIcon": "/Images/059196.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 19912,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 155
     }
   ]
 }
