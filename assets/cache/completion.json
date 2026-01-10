@@ -1,6 +1,58 @@
 {
   "Results": [
     {
+      "GameID": 15805,
+      "Title": "~Prototype~ Tamiya Racing 64",
+      "ImageIcon": "/Images/031575.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 8,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-10T08:12:50+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 22160,
+      "Title": "Donald's Alphabet Chase",
+      "ImageIcon": "/Images/105862.png",
+      "ConsoleID": 38,
+      "ConsoleName": "Apple II",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-10T08:00:21+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-10T08:00:21+00:00"
+    },
+    {
+      "GameID": 17635,
+      "Title": "Kung-Fu Street",
+      "ImageIcon": "/Images/044062.png",
+      "ConsoleID": 63,
+      "ConsoleName": "Watara Supervision",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-10T07:40:50+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-10T07:40:50+00:00"
+    },
+    {
+      "GameID": 21500,
+      "Title": "Fluffles Rainy Day",
+      "ImageIcon": "/Images/069803.png",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "MaxPossible": 7,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-10T07:30:30+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-10T07:30:30+00:00"
+    },
+    {
       "GameID": 8624,
       "Title": "Hangman",
       "ImageIcon": "/Images/059537.png",
@@ -3290,5 +3342,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 253
+  "Total": 257
 }
