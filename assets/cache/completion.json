@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 8624,
+      "Title": "Hangman",
+      "ImageIcon": "/Images/059537.png",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "MaxPossible": 7,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-10T07:09:53+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-10T07:01:54+00:00"
+    },
+    {
+      "GameID": 18481,
+      "Title": "~Unlicensed~ Bomber",
+      "ImageIcon": "/Images/102648.png",
+      "ConsoleID": 1,
+      "ConsoleName": "Genesis/Mega Drive",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-10T07:00:27+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-10T07:00:27+00:00"
+    },
+    {
       "GameID": 20239,
       "Title": "Hitchcock ni Chousen | Alfred Hitchcock Presents",
       "ImageIcon": "/Images/060370.png",
@@ -3264,5 +3290,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 251
+  "Total": 253
 }
