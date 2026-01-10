@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 152,
+  "TotalAwardsCount": 155,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 68,
+  "MasteryAwardsCount": 69,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 82,
+  "BeatenHardcoreAwardsCount": 84,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1831,6 +1831,42 @@
       "AwardData": 22160,
       "AwardDataExtra": 1,
       "DisplayOrder": 151
+    },
+    {
+      "AwardedAt": "2026-01-10T18:47:34+00:00",
+      "Title": "~Homebrew~ Tetris26",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "Flags": null,
+      "ImageIcon": "/Images/065585.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 13141,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 152
+    },
+    {
+      "AwardedAt": "2026-01-10T18:50:05+00:00",
+      "Title": "~Homebrew~ Tetris26",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "Flags": null,
+      "ImageIcon": "/Images/065585.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 13141,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 153
+    },
+    {
+      "AwardedAt": "2026-01-10T19:07:45+00:00",
+      "Title": "~Homebrew~ Simple Battle FX",
+      "ConsoleID": 49,
+      "ConsoleName": "PC-FX",
+      "Flags": null,
+      "ImageIcon": "/Images/059196.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 19912,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 154
     }
   ]
 }
