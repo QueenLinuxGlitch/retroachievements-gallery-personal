@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 146,
+  "TotalAwardsCount": 152,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 65,
+  "MasteryAwardsCount": 68,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 79,
+  "BeatenHardcoreAwardsCount": 82,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1759,6 +1759,78 @@
       "AwardData": 8624,
       "AwardDataExtra": 1,
       "DisplayOrder": 145
+    },
+    {
+      "AwardedAt": "2026-01-10T07:30:30+00:00",
+      "Title": "Fluffles Rainy Day",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "Flags": null,
+      "ImageIcon": "/Images/069803.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 21500,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 146
+    },
+    {
+      "AwardedAt": "2026-01-10T07:30:30+00:00",
+      "Title": "Fluffles Rainy Day",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "Flags": null,
+      "ImageIcon": "/Images/069803.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 21500,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 147
+    },
+    {
+      "AwardedAt": "2026-01-10T07:37:04+00:00",
+      "Title": "Kung-Fu Street",
+      "ConsoleID": 63,
+      "ConsoleName": "Watara Supervision",
+      "Flags": null,
+      "ImageIcon": "/Images/044062.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 17635,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 148
+    },
+    {
+      "AwardedAt": "2026-01-10T07:40:50+00:00",
+      "Title": "Kung-Fu Street",
+      "ConsoleID": 63,
+      "ConsoleName": "Watara Supervision",
+      "Flags": null,
+      "ImageIcon": "/Images/044062.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 17635,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 149
+    },
+    {
+      "AwardedAt": "2026-01-10T08:00:21+00:00",
+      "Title": "Donald's Alphabet Chase",
+      "ConsoleID": 38,
+      "ConsoleName": "Apple II",
+      "Flags": null,
+      "ImageIcon": "/Images/105862.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 22160,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 150
+    },
+    {
+      "AwardedAt": "2026-01-10T08:00:21+00:00",
+      "Title": "Donald's Alphabet Chase",
+      "ConsoleID": 38,
+      "ConsoleName": "Apple II",
+      "Flags": null,
+      "ImageIcon": "/Images/105862.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 22160,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 151
     }
   ]
 }
