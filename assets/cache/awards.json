@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 143,
+  "TotalAwardsCount": 146,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 64,
+  "MasteryAwardsCount": 65,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 77,
+  "BeatenHardcoreAwardsCount": 79,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1723,6 +1723,42 @@
       "AwardData": 27461,
       "AwardDataExtra": 1,
       "DisplayOrder": 142
+    },
+    {
+      "AwardedAt": "2026-01-10T06:53:50+00:00",
+      "Title": "~Unlicensed~ Bomber",
+      "ConsoleID": 1,
+      "ConsoleName": "Genesis/Mega Drive",
+      "Flags": null,
+      "ImageIcon": "/Images/102648.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 18481,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 143
+    },
+    {
+      "AwardedAt": "2026-01-10T07:00:27+00:00",
+      "Title": "~Unlicensed~ Bomber",
+      "ConsoleID": 1,
+      "ConsoleName": "Genesis/Mega Drive",
+      "Flags": null,
+      "ImageIcon": "/Images/102648.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 18481,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 144
+    },
+    {
+      "AwardedAt": "2026-01-10T07:01:54+00:00",
+      "Title": "Hangman",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "Flags": null,
+      "ImageIcon": "/Images/059537.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 8624,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 145
     }
   ]
 }
