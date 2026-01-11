@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 160,
+  "TotalAwardsCount": 162,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 71,
+  "MasteryAwardsCount": 72,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 87,
+  "BeatenHardcoreAwardsCount": 88,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1927,6 +1927,30 @@
       "AwardData": 7297,
       "AwardDataExtra": 1,
       "DisplayOrder": 159
+    },
+    {
+      "AwardedAt": "2026-01-11T17:47:53+00:00",
+      "Title": "~Homebrew~ Noble Blood",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/102468.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 30935,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 160
+    },
+    {
+      "AwardedAt": "2026-01-11T17:47:53+00:00",
+      "Title": "~Homebrew~ Noble Blood",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/102468.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 30935,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 161
     }
   ]
 }
