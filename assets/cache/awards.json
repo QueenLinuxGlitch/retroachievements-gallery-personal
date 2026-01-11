@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 158,
+  "TotalAwardsCount": 160,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 70,
+  "MasteryAwardsCount": 71,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 86,
+  "BeatenHardcoreAwardsCount": 87,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1903,6 +1903,30 @@
       "AwardData": 17755,
       "AwardDataExtra": 1,
       "DisplayOrder": 157
+    },
+    {
+      "AwardedAt": "2026-01-11T08:25:26+00:00",
+      "Title": "~Homebrew~ Ping-Pong Diplomacy Advance",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/044900.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 17755,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 158
+    },
+    {
+      "AwardedAt": "2026-01-11T08:52:41+00:00",
+      "Title": "~Homebrew~ Office Combat",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/072218.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 7297,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 159
     }
   ]
 }
