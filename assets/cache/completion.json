@@ -1,6 +1,31 @@
 {
-  "Total": 262,
   "Results": [
+    {
+      "GameID": 17755,
+      "Title": "~Homebrew~ Ping-Pong Diplomacy Advance",
+      "ImageIcon": "/Images/044900.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 8,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-11T08:17:50+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-11T08:17:50+00:00"
+    },
+    {
+      "GameID": 16129,
+      "Title": "~Homebrew~ Portal",
+      "ImageIcon": "/Images/058824.png",
+      "ConsoleID": 38,
+      "ConsoleName": "Apple II",
+      "MaxPossible": 8,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-11T08:01:03+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 17767,
       "Title": "~Homebrew~ Purple Cape Man",
@@ -8,9 +33,9 @@
       "ConsoleID": 7,
       "ConsoleName": "NES/Famicom",
       "MaxPossible": 8,
-      "NumAwarded": 1,
-      "NumAwardedHardcore": 1,
-      "MostRecentAwardedDate": "2026-01-11T05:26:40+00:00",
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-11T07:45:35+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -3407,5 +3432,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 264
 }
