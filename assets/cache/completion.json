@@ -1,6 +1,45 @@
 {
   "Results": [
     {
+      "GameID": 34129,
+      "Title": "~Homebrew~ GSPS The Game",
+      "ImageIcon": "/Images/114945.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 8,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-01-11T18:01:26+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 30935,
+      "Title": "~Homebrew~ Noble Blood",
+      "ImageIcon": "/Images/102468.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-11T17:47:53+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-11T17:47:53+00:00"
+    },
+    {
+      "GameID": 725,
+      "Title": "Pokémon Pinball",
+      "ImageIcon": "/Images/024809.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 78,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-11T17:21:30+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 18258,
       "Title": "~Homebrew~ ~Hack~ Rick Astley: The Game",
       "ImageIcon": "/Images/050774.png",
@@ -3498,5 +3537,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 269
+  "Total": 272
 }
