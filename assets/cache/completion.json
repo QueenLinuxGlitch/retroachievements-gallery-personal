@@ -1,6 +1,19 @@
 {
   "Results": [
     {
+      "GameID": 18258,
+      "Title": "~Homebrew~ ~Hack~ Rick Astley: The Game",
+      "ImageIcon": "/Images/050774.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 8,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-11T16:58:48+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 7297,
       "Title": "~Homebrew~ Office Combat",
       "ImageIcon": "/Images/072218.png",
@@ -3485,5 +3498,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 268
+  "Total": 269
 }
