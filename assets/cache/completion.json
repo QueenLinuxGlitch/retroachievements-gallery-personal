@@ -1,4 +1,5 @@
 {
+  "Total": 261,
   "Results": [
     {
       "GameID": 23733,
@@ -7,11 +8,11 @@
       "ConsoleID": 14,
       "ConsoleName": "Neo Geo Pocket",
       "MaxPossible": 8,
-      "NumAwarded": 2,
-      "NumAwardedHardcore": 2,
-      "MostRecentAwardedDate": "2026-01-11T04:41:04+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-11T05:01:57+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-11T05:01:57+00:00"
     },
     {
       "GameID": 19912,
@@ -3393,6 +3394,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 261
+  ]
 }
