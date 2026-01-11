@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 156,
+  "TotalAwardsCount": 157,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 70,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 84,
+  "BeatenHardcoreAwardsCount": 85,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1879,6 +1879,18 @@
       "AwardData": 19912,
       "AwardDataExtra": 1,
       "DisplayOrder": 155
+    },
+    {
+      "AwardedAt": "2026-01-11T05:01:57+00:00",
+      "Title": "~Homebrew~ Puzzle Gems",
+      "ConsoleID": 14,
+      "ConsoleName": "Neo Geo Pocket",
+      "Flags": null,
+      "ImageIcon": "/Images/088863.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 23733,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 156
     }
   ]
 }
