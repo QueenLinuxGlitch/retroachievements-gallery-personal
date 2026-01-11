@@ -1,5 +1,58 @@
 {
+  "Total": 268,
   "Results": [
+    {
+      "GameID": 7297,
+      "Title": "~Homebrew~ Office Combat",
+      "ImageIcon": "/Images/072218.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 8,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-11T08:52:41+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-11T08:52:41+00:00"
+    },
+    {
+      "GameID": 31453,
+      "Title": "~Homebrew~ Aerial Mini",
+      "ImageIcon": "/Images/104425.png",
+      "ConsoleID": 69,
+      "ConsoleName": "Mega Duck",
+      "MaxPossible": 8,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-11T08:43:40+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 29153,
+      "Title": "~Homebrew~ Penguin Migrants",
+      "ImageIcon": "/Images/094954.png",
+      "ConsoleID": 69,
+      "ConsoleName": "Mega Duck",
+      "MaxPossible": 8,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-11T08:40:04+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 33639,
+      "Title": "~Homebrew~ Cacorm Mini",
+      "ImageIcon": "/Images/112602.png",
+      "ConsoleID": 69,
+      "ConsoleName": "Mega Duck",
+      "MaxPossible": 7,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-11T08:36:22+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 17755,
       "Title": "~Homebrew~ Ping-Pong Diplomacy Advance",
@@ -7,11 +60,11 @@
       "ConsoleID": 5,
       "ConsoleName": "Game Boy Advance",
       "MaxPossible": 8,
-      "NumAwarded": 2,
-      "NumAwardedHardcore": 2,
-      "MostRecentAwardedDate": "2026-01-11T08:17:50+00:00",
-      "HighestAwardKind": "beaten-hardcore",
-      "HighestAwardDate": "2026-01-11T08:17:50+00:00"
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-11T08:25:26+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-11T08:25:26+00:00"
     },
     {
       "GameID": 16129,
@@ -3432,6 +3485,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 264
+  ]
 }
