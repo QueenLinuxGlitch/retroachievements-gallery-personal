@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 162,
+  "TotalAwardsCount": 164,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 72,
+  "MasteryAwardsCount": 73,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 88,
+  "BeatenHardcoreAwardsCount": 89,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1951,6 +1951,30 @@
       "AwardData": 30935,
       "AwardDataExtra": 1,
       "DisplayOrder": 161
+    },
+    {
+      "AwardedAt": "2026-01-11T23:12:16+00:00",
+      "Title": "~Homebrew~ GSPS The Game",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/114945.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 34129,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 162
+    },
+    {
+      "AwardedAt": "2026-01-11T23:12:16+00:00",
+      "Title": "~Homebrew~ GSPS The Game",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/114945.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 34129,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 163
     }
   ]
 }
