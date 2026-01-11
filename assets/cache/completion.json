@@ -1,6 +1,18 @@
 {
-  "Total": 261,
   "Results": [
+    {
+      "GameID": 17767,
+      "Title": "~Homebrew~ Purple Cape Man",
+      "ImageIcon": "/Images/061319.png",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "MaxPossible": 8,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-11T05:26:40+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 23733,
       "Title": "~Homebrew~ Puzzle Gems",
@@ -3394,5 +3406,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 262
 }
