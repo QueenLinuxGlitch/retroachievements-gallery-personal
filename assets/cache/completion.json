@@ -1,6 +1,18 @@
 {
-  "Total": 260,
   "Results": [
+    {
+      "GameID": 23733,
+      "Title": "~Homebrew~ Puzzle Gems",
+      "ImageIcon": "/Images/088863.png",
+      "ConsoleID": 14,
+      "ConsoleName": "Neo Geo Pocket",
+      "MaxPossible": 8,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-11T04:41:04+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 19912,
       "Title": "~Homebrew~ Simple Battle FX",
@@ -3381,5 +3393,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 261
 }
