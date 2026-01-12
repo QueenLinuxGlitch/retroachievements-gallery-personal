@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 164,
+  "TotalAwardsCount": 166,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 73,
+  "MasteryAwardsCount": 74,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 89,
+  "BeatenHardcoreAwardsCount": 90,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -1975,6 +1975,30 @@
       "AwardData": 34129,
       "AwardDataExtra": 1,
       "DisplayOrder": 163
+    },
+    {
+      "AwardedAt": "2026-01-11T23:33:47+00:00",
+      "Title": "~Homebrew~ Frog Detective -1",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/105651.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 32487,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 164
+    },
+    {
+      "AwardedAt": "2026-01-11T23:39:02+00:00",
+      "Title": "~Homebrew~ Frog Detective -1",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/105651.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 32487,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 165
     }
   ]
 }

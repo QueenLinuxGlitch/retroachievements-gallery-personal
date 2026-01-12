@@ -1,5 +1,19 @@
 {
+  "Total": 273,
   "Results": [
+    {
+      "GameID": 32487,
+      "Title": "~Homebrew~ Frog Detective -1",
+      "ImageIcon": "/Images/105651.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-11T23:39:02+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-11T23:39:02+00:00"
+    },
     {
       "GameID": 34129,
       "Title": "~Homebrew~ GSPS The Game",
@@ -3536,6 +3550,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 272
+  ]
 }
