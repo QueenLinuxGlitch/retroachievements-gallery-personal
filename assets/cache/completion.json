@@ -1,6 +1,32 @@
 {
-  "Total": 273,
+  "Total": 275,
   "Results": [
+    {
+      "GameID": 6396,
+      "Title": "~Homebrew~ ~Demo~ Metroid Dread",
+      "ImageIcon": "/Images/070319.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 8,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-12T03:16:15+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-12T03:16:15+00:00"
+    },
+    {
+      "GameID": 28796,
+      "Title": "~Homebrew~ Days Without",
+      "ImageIcon": "/Images/092886.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-12T02:47:46+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-12T02:47:46+00:00"
+    },
     {
       "GameID": 32487,
       "Title": "~Homebrew~ Frog Detective -1",
