@@ -1,6 +1,19 @@
 {
-  "Total": 275,
+  "Total": 276,
   "Results": [
+    {
+      "GameID": 28618,
+      "Title": "~Hack~ Metroid: Salt Mission",
+      "ImageIcon": "/Images/089995.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-13T00:58:54+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-13T00:58:54+00:00"
+    },
     {
       "GameID": 6396,
       "Title": "~Homebrew~ ~Demo~ Metroid Dread",

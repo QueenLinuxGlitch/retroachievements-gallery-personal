@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 169,
+  "TotalAwardsCount": 171,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 75,
+  "MasteryAwardsCount": 76,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 92,
+  "BeatenHardcoreAwardsCount": 93,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2035,6 +2035,30 @@
       "AwardData": 6396,
       "AwardDataExtra": 1,
       "DisplayOrder": 168
+    },
+    {
+      "AwardedAt": "2026-01-13T00:58:46+00:00",
+      "Title": "~Hack~ Metroid: Salt Mission",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/089995.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 28618,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 169
+    },
+    {
+      "AwardedAt": "2026-01-13T00:58:54+00:00",
+      "Title": "~Hack~ Metroid: Salt Mission",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/089995.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 28618,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 170
     }
   ]
 }
