@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 171,
+  "TotalAwardsCount": 173,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 76,
+  "MasteryAwardsCount": 77,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 93,
+  "BeatenHardcoreAwardsCount": 94,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2059,6 +2059,30 @@
       "AwardData": 28618,
       "AwardDataExtra": 1,
       "DisplayOrder": 170
+    },
+    {
+      "AwardedAt": "2026-01-13T02:29:46+00:00",
+      "Title": "~Hack~ Gourmet Guy's 1000 IQ Food Quiz",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": null,
+      "ImageIcon": "/Images/059727.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 20051,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 171
+    },
+    {
+      "AwardedAt": "2026-01-13T02:29:46+00:00",
+      "Title": "~Hack~ Gourmet Guy's 1000 IQ Food Quiz",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": null,
+      "ImageIcon": "/Images/059727.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 20051,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 172
     }
   ]
 }

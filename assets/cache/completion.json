@@ -1,6 +1,58 @@
 {
-  "Total": 276,
+  "Total": 280,
   "Results": [
+    {
+      "GameID": 21683,
+      "Title": "~Hack~ Gacha Hack",
+      "ImageIcon": "/Images/101596.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 8,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-13T03:01:54+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 20051,
+      "Title": "~Hack~ Gourmet Guy's 1000 IQ Food Quiz",
+      "ImageIcon": "/Images/059727.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-13T02:29:46+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-13T02:29:46+00:00"
+    },
+    {
+      "GameID": 28593,
+      "Title": "~Hack~ Metroid: Juicy Mission lite",
+      "ImageIcon": "/Images/089687.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 8,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-13T02:03:52+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 15964,
+      "Title": "~Hack~ Smash Remix",
+      "ImageIcon": "/Images/121623.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 201,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-13T01:46:22+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 28618,
       "Title": "~Hack~ Metroid: Salt Mission",
