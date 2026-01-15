@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 173,
+  "TotalAwardsCount": 176,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 77,
+  "MasteryAwardsCount": 78,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 94,
+  "BeatenHardcoreAwardsCount": 96,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2083,6 +2083,42 @@
       "AwardData": 20051,
       "AwardDataExtra": 1,
       "DisplayOrder": 172
+    },
+    {
+      "AwardedAt": "2026-01-15T01:45:21+00:00",
+      "Title": "~Hack~ Gacha Hack",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/101596.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 21683,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 173
+    },
+    {
+      "AwardedAt": "2026-01-15T01:45:21+00:00",
+      "Title": "~Hack~ Gacha Hack",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/101596.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 21683,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 174
+    },
+    {
+      "AwardedAt": "2026-01-15T01:52:50+00:00",
+      "Title": "~Demo~ WarioWare, Inc.: Trial Version",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "Flags": null,
+      "ImageIcon": "/Images/098061.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29874,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 175
     }
   ]
 }

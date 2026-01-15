@@ -1,6 +1,19 @@
 {
-  "Total": 280,
+  "Total": 281,
   "Results": [
+    {
+      "GameID": 29874,
+      "Title": "~Demo~ WarioWare, Inc.: Trial Version",
+      "ImageIcon": "/Images/098061.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 8,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-15T01:52:50+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-15T01:52:50+00:00"
+    },
     {
       "GameID": 21683,
       "Title": "~Hack~ Gacha Hack",
@@ -8,11 +21,11 @@
       "ConsoleID": 5,
       "ConsoleName": "Game Boy Advance",
       "MaxPossible": 8,
-      "NumAwarded": 7,
-      "NumAwardedHardcore": 7,
-      "MostRecentAwardedDate": "2026-01-13T03:31:14+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-15T01:45:21+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-15T01:45:21+00:00"
     },
     {
       "GameID": 20051,
