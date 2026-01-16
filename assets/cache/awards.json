@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 178,
+  "TotalAwardsCount": 179,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 79,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 97,
+  "BeatenHardcoreAwardsCount": 98,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2143,6 +2143,18 @@
       "AwardData": 1261,
       "AwardDataExtra": 1,
       "DisplayOrder": 177
+    },
+    {
+      "AwardedAt": "2026-01-16T03:44:18+00:00",
+      "Title": "Minigolf",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "Flags": null,
+      "ImageIcon": "/Images/116462.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 24122,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 178
     }
   ]
 }
