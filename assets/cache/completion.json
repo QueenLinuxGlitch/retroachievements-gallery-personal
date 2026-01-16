@@ -1,6 +1,19 @@
 {
-  "Total": 284,
+  "Total": 285,
   "Results": [
+    {
+      "GameID": 24122,
+      "Title": "Minigolf",
+      "ImageIcon": "/Images/116462.png",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "MaxPossible": 8,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-16T03:49:21+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-16T03:44:18+00:00"
+    },
     {
       "GameID": 13315,
       "Title": "Robot Tank",
