@@ -449,16 +449,6 @@
     "points": 3,
     "date": "2023-10-24 05:20:18"
   },
-  "92666": {
-    "id": 92666,
-    "title": "The Fighting Brother",
-    "description": "Complete any course using Proto Man",
-    "gameTitle": "Mega Man: The Power Battle",
-    "gameId": 11794,
-    "badgeName": "102031",
-    "points": 5,
-    "date": "2023-10-24 05:22:28"
-  },
   "65420": {
     "id": 65420,
     "title": "More Than A Robot",
@@ -466,6 +456,16 @@
     "gameTitle": "Mega Man: The Power Battle",
     "gameId": 11794,
     "badgeName": "102655",
+    "points": 5,
+    "date": "2023-10-24 05:22:28"
+  },
+  "92666": {
+    "id": 92666,
+    "title": "The Fighting Brother",
+    "description": "Complete any course using Proto Man",
+    "gameTitle": "Mega Man: The Power Battle",
+    "gameId": 11794,
+    "badgeName": "102031",
     "points": 5,
     "date": "2023-10-24 05:22:28"
   },
@@ -1179,16 +1179,6 @@
     "points": 2,
     "date": "2023-11-06 03:27:41"
   },
-  "334807": {
-    "id": 334807,
-    "title": "Krazy Cup Qualifier",
-    "description": "Complete the Krazy Cup with at least a Bronze Cup on any difficulty",
-    "gameTitle": "Konami Krazy Racers",
-    "gameId": 2543,
-    "badgeName": "378211",
-    "points": 5,
-    "date": "2023-11-06 03:29:19"
-  },
   "334808": {
     "id": 334808,
     "title": "Krazy Cup Conqueror",
@@ -1197,6 +1187,16 @@
     "gameId": 2543,
     "badgeName": "378212",
     "points": 10,
+    "date": "2023-11-06 03:29:19"
+  },
+  "334807": {
+    "id": 334807,
+    "title": "Krazy Cup Qualifier",
+    "description": "Complete the Krazy Cup with at least a Bronze Cup on any difficulty",
+    "gameTitle": "Konami Krazy Racers",
+    "gameId": 2543,
+    "badgeName": "378211",
+    "points": 5,
     "date": "2023-11-06 03:29:19"
   },
   "334828": {
@@ -1269,20 +1269,20 @@
     "points": 5,
     "date": "2023-11-06 04:06:36"
   },
-  "89099": {
-    "id": 89099,
-    "title": "Multiplier Madness VII",
-    "description": "Get to a x7 multiplier on the bottom screen in Fast Mode",
+  "89095": {
+    "id": 89095,
+    "title": "Multiplier Madness III",
+    "description": "Get to a x7 multiplier on the bottom screen",
     "gameTitle": "Alien Crush",
     "gameId": 2271,
     "badgeName": "97191",
     "points": 10,
     "date": "2023-11-06 04:07:06"
   },
-  "89095": {
-    "id": 89095,
-    "title": "Multiplier Madness III",
-    "description": "Get to a x7 multiplier on the bottom screen",
+  "89099": {
+    "id": 89099,
+    "title": "Multiplier Madness VII",
+    "description": "Get to a x7 multiplier on the bottom screen in Fast Mode",
     "gameTitle": "Alien Crush",
     "gameId": 2271,
     "badgeName": "97191",
@@ -3099,16 +3099,6 @@
     "points": 3,
     "date": "2025-06-30 01:53:15"
   },
-  "167719": {
-    "id": 167719,
-    "title": "Haunted Boardwalk 5,000",
-    "description": "Reach 5,000 points on Haunted Boardwalk table",
-    "gameTitle": "Pac-Man Pinball Advance",
-    "gameId": 7274,
-    "badgeName": "188611",
-    "points": 3,
-    "date": "2025-06-30 01:53:35"
-  },
   "167715": {
     "id": 167715,
     "title": "Ghosts Haunted Boardwalk",
@@ -3117,6 +3107,16 @@
     "gameId": 7274,
     "badgeName": "188607",
     "points": 4,
+    "date": "2025-06-30 01:53:35"
+  },
+  "167719": {
+    "id": 167719,
+    "title": "Haunted Boardwalk 5,000",
+    "description": "Reach 5,000 points on Haunted Boardwalk table",
+    "gameTitle": "Pac-Man Pinball Advance",
+    "gameId": 7274,
+    "badgeName": "188611",
+    "points": 3,
     "date": "2025-06-30 01:53:35"
   },
   "167709": {
@@ -3139,6 +3139,16 @@
     "points": 5,
     "date": "2025-06-30 01:53:51"
   },
+  "31896": {
+    "id": 31896,
+    "title": "Baby Steps First",
+    "description": "Reach 1,000 points on Pac Village table",
+    "gameTitle": "Pac-Man Pinball Advance",
+    "gameId": 7274,
+    "badgeName": "32681",
+    "points": 2,
+    "date": "2025-06-30 01:57:08"
+  },
   "31897": {
     "id": 31897,
     "title": "Can we keep it up?",
@@ -3157,16 +3167,6 @@
     "gameId": 7274,
     "badgeName": "32683",
     "points": 3,
-    "date": "2025-06-30 01:57:08"
-  },
-  "31896": {
-    "id": 31896,
-    "title": "Baby Steps First",
-    "description": "Reach 1,000 points on Pac Village table",
-    "gameTitle": "Pac-Man Pinball Advance",
-    "gameId": 7274,
-    "badgeName": "32681",
-    "points": 2,
     "date": "2025-06-30 01:57:08"
   },
   "31899": {
@@ -3889,16 +3889,6 @@
     "points": 3,
     "date": "2025-07-10 23:18:37"
   },
-  "494116": {
-    "id": 494116,
-    "title": "Ace Pilot",
-    "description": "In any mode shoot down 60 enemies",
-    "gameTitle": "RA Roulette 2024 - Evergreen",
-    "gameId": 32838,
-    "badgeName": "360645",
-    "points": 1,
-    "date": "2025-07-10 23:21:46"
-  },
   "323112": {
     "id": 323112,
     "title": "Ace Pilot",
@@ -3907,6 +3897,16 @@
     "gameId": 15635,
     "badgeName": "360645",
     "points": 2,
+    "date": "2025-07-10 23:21:46"
+  },
+  "494116": {
+    "id": 494116,
+    "title": "Ace Pilot",
+    "description": "In any mode shoot down 60 enemies",
+    "gameTitle": "RA Roulette 2024 - Evergreen",
+    "gameId": 32838,
+    "badgeName": "360645",
+    "points": 1,
     "date": "2025-07-10 23:21:46"
   },
   "183494": {
@@ -4009,16 +4009,6 @@
     "points": 1,
     "date": "2025-07-13 20:49:53"
   },
-  "222610": {
-    "id": 222610,
-    "title": "Criador de Cometas",
-    "description": "Create a Comet for Make a Star 3.",
-    "gameTitle": "Katamari Damacy",
-    "gameId": 1323,
-    "badgeName": "246151",
-    "points": 5,
-    "date": "2025-07-13 21:52:55"
-  },
   "222589": {
     "id": 222589,
     "title": "Going Into Town",
@@ -4026,6 +4016,16 @@
     "gameTitle": "Katamari Damacy",
     "gameId": 1323,
     "badgeName": "246130",
+    "points": 5,
+    "date": "2025-07-13 21:52:55"
+  },
+  "222610": {
+    "id": 222610,
+    "title": "Criador de Cometas",
+    "description": "Create a Comet for Make a Star 3.",
+    "gameTitle": "Katamari Damacy",
+    "gameId": 1323,
+    "badgeName": "246151",
     "points": 5,
     "date": "2025-07-13 21:52:55"
   },
@@ -4229,16 +4229,6 @@
     "points": 4,
     "date": "2025-07-18 21:21:26"
   },
-  "179752": {
-    "id": 179752,
-    "title": "Field Elite",
-    "description": "Reach 150,000 Points on the Field Stage Without Losing a Single Ball (Restart if you Fail) (Start From Zero Total Points)",
-    "gameTitle": "Battle Pinball",
-    "gameId": 11653,
-    "badgeName": "274485",
-    "points": 25,
-    "date": "2025-07-18 21:21:32"
-  },
   "179750": {
     "id": 179750,
     "title": "Field Expert",
@@ -4247,6 +4237,16 @@
     "gameId": 11653,
     "badgeName": "274483",
     "points": 5,
+    "date": "2025-07-18 21:21:32"
+  },
+  "179752": {
+    "id": 179752,
+    "title": "Field Elite",
+    "description": "Reach 150,000 Points on the Field Stage Without Losing a Single Ball (Restart if you Fail) (Start From Zero Total Points)",
+    "gameTitle": "Battle Pinball",
+    "gameId": 11653,
+    "badgeName": "274485",
+    "points": 25,
     "date": "2025-07-18 21:21:32"
   },
   "179751": {
@@ -4479,16 +4479,6 @@
     "points": 1,
     "date": "2025-07-25 15:53:43"
   },
-  "230236": {
-    "id": 230236,
-    "title": "Underground Tetris",
-    "description": "[Standard - Marathon] Reach Level 3",
-    "gameTitle": "Tetris DS",
-    "gameId": 9878,
-    "badgeName": "255828",
-    "points": 2,
-    "date": "2025-07-25 15:55:39"
-  },
   "230046": {
     "id": 230046,
     "title": "Triple Decker",
@@ -4499,15 +4489,15 @@
     "points": 2,
     "date": "2025-07-25 15:55:39"
   },
-  "230053": {
-    "id": 230053,
-    "title": "Back-To-Back Tetris",
-    "description": "[Standard - Marathon] Clear four lines at once two times in a row",
+  "230236": {
+    "id": 230236,
+    "title": "Underground Tetris",
+    "description": "[Standard - Marathon] Reach Level 3",
     "gameTitle": "Tetris DS",
     "gameId": 9878,
-    "badgeName": "255777",
+    "badgeName": "255828",
     "points": 2,
-    "date": "2025-07-25 15:56:13"
+    "date": "2025-07-25 15:55:39"
   },
   "230237": {
     "id": 230237,
@@ -4517,6 +4507,16 @@
     "gameId": 9878,
     "badgeName": "255829",
     "points": 3,
+    "date": "2025-07-25 15:56:13"
+  },
+  "230053": {
+    "id": 230053,
+    "title": "Back-To-Back Tetris",
+    "description": "[Standard - Marathon] Clear four lines at once two times in a row",
+    "gameTitle": "Tetris DS",
+    "gameId": 9878,
+    "badgeName": "255777",
+    "points": 2,
     "date": "2025-07-25 15:56:13"
   },
   "230054": {
@@ -4719,16 +4719,6 @@
     "points": 5,
     "date": "2025-12-08 19:45:25"
   },
-  "325824": {
-    "id": 325824,
-    "title": "Sentinels of Renewal",
-    "description": "Collect Elf Artifacts quest complete on Hard",
-    "gameTitle": "The Lord of the Rings: The Third Age",
-    "gameId": 19264,
-    "badgeName": "363893",
-    "points": 5,
-    "date": "2025-12-08 21:27:53"
-  },
   "325823": {
     "id": 325823,
     "title": "Wellspring Defenders",
@@ -4736,6 +4726,16 @@
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
     "badgeName": "363892",
+    "points": 5,
+    "date": "2025-12-08 21:27:53"
+  },
+  "325824": {
+    "id": 325824,
+    "title": "Sentinels of Renewal",
+    "description": "Collect Elf Artifacts quest complete on Hard",
+    "gameTitle": "The Lord of the Rings: The Third Age",
+    "gameId": 19264,
+    "badgeName": "363893",
     "points": 5,
     "date": "2025-12-08 21:27:53"
   },
@@ -4759,16 +4759,6 @@
     "points": 5,
     "date": "2025-12-08 22:59:14"
   },
-  "325827": {
-    "id": 325827,
-    "title": "Riptide Retribution",
-    "description": "Confront The Watcher in the Water quest complete on Hard",
-    "gameTitle": "The Lord of the Rings: The Third Age",
-    "gameId": 19264,
-    "badgeName": "363896",
-    "points": 10,
-    "date": "2025-12-08 23:15:32"
-  },
   "325826": {
     "id": 325826,
     "title": "Monstrous Tide",
@@ -4776,6 +4766,16 @@
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
     "badgeName": "363895",
+    "points": 10,
+    "date": "2025-12-08 23:15:32"
+  },
+  "325827": {
+    "id": 325827,
+    "title": "Riptide Retribution",
+    "description": "Confront The Watcher in the Water quest complete on Hard",
+    "gameTitle": "The Lord of the Rings: The Third Age",
+    "gameId": 19264,
+    "badgeName": "363896",
     "points": 10,
     "date": "2025-12-08 23:15:32"
   },
@@ -4819,16 +4819,6 @@
     "points": 5,
     "date": "2025-12-09 03:24:50"
   },
-  "325832": {
-    "id": 325832,
-    "title": "Legacy of the Dwarves",
-    "description": "Find the Dwarf Lord Statue quest complete on Hard",
-    "gameTitle": "The Lord of the Rings: The Third Age",
-    "gameId": 19264,
-    "badgeName": "363901",
-    "points": 5,
-    "date": "2025-12-09 23:13:37"
-  },
   "325831": {
     "id": 325831,
     "title": "Stone of Kings",
@@ -4839,15 +4829,15 @@
     "points": 5,
     "date": "2025-12-09 23:13:37"
   },
-  "325834": {
-    "id": 325834,
-    "title": "Drums of Silence",
-    "description": "Stop the Goblin Drummer quest complete on Hard",
+  "325832": {
+    "id": 325832,
+    "title": "Legacy of the Dwarves",
+    "description": "Find the Dwarf Lord Statue quest complete on Hard",
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
-    "badgeName": "363903",
+    "badgeName": "363901",
     "points": 5,
-    "date": "2025-12-10 01:09:27"
+    "date": "2025-12-09 23:13:37"
   },
   "325833": {
     "id": 325833,
@@ -4856,6 +4846,16 @@
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
     "badgeName": "363902",
+    "points": 5,
+    "date": "2025-12-10 01:09:27"
+  },
+  "325834": {
+    "id": 325834,
+    "title": "Drums of Silence",
+    "description": "Stop the Goblin Drummer quest complete on Hard",
+    "gameTitle": "The Lord of the Rings: The Third Age",
+    "gameId": 19264,
+    "badgeName": "363903",
     "points": 5,
     "date": "2025-12-10 01:09:27"
   },
@@ -4879,16 +4879,6 @@
     "points": 5,
     "date": "2025-12-10 01:53:39"
   },
-  "325837": {
-    "id": 325837,
-    "title": "The Trollpocalypse",
-    "description": "Kill Nine Trolls of Moria quest complete",
-    "gameTitle": "The Lord of the Rings: The Third Age",
-    "gameId": 19264,
-    "badgeName": "363906",
-    "points": 5,
-    "date": "2025-12-10 02:18:15"
-  },
   "325838": {
     "id": 325838,
     "title": "Trollbane",
@@ -4896,6 +4886,16 @@
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
     "badgeName": "363907",
+    "points": 5,
+    "date": "2025-12-10 02:18:15"
+  },
+  "325837": {
+    "id": 325837,
+    "title": "The Trollpocalypse",
+    "description": "Kill Nine Trolls of Moria quest complete",
+    "gameTitle": "The Lord of the Rings: The Third Age",
+    "gameId": 19264,
+    "badgeName": "363906",
     "points": 5,
     "date": "2025-12-10 02:18:15"
   },
@@ -4979,16 +4979,6 @@
     "points": 5,
     "date": "2025-12-15 00:11:04"
   },
-  "225694": {
-    "id": 225694,
-    "title": "Tridentless, I Suppose",
-    "description": "Create Neptune",
-    "gameTitle": "We Love Katamari",
-    "gameId": 2672,
-    "badgeName": "249926",
-    "points": 5,
-    "date": "2025-12-15 00:22:43"
-  },
   "225696": {
     "id": 225696,
     "title": "Aquaman Is The Worst Superfriend",
@@ -4997,6 +4987,16 @@
     "gameId": 2672,
     "badgeName": "249928",
     "points": 10,
+    "date": "2025-12-15 00:22:43"
+  },
+  "225694": {
+    "id": 225694,
+    "title": "Tridentless, I Suppose",
+    "description": "Create Neptune",
+    "gameTitle": "We Love Katamari",
+    "gameId": 2672,
+    "badgeName": "249926",
+    "points": 5,
     "date": "2025-12-15 00:22:43"
   },
   "225690": {
@@ -5219,16 +5219,6 @@
     "points": 2,
     "date": "2025-12-20 05:44:04"
   },
-  "233092": {
-    "id": 233092,
-    "title": "Mommy Mearest",
-    "description": "Beat Week 4 on Hard",
-    "gameTitle": "~Homebrew~ PSXFunkin",
-    "gameId": 18282,
-    "badgeName": "258280",
-    "points": 3,
-    "date": "2025-12-20 05:50:12"
-  },
   "233058": {
     "id": 233058,
     "title": "Mommy Must Murder",
@@ -5237,6 +5227,16 @@
     "gameId": 18282,
     "badgeName": "258233",
     "points": 2,
+    "date": "2025-12-20 05:50:12"
+  },
+  "233092": {
+    "id": 233092,
+    "title": "Mommy Mearest",
+    "description": "Beat Week 4 on Hard",
+    "gameTitle": "~Homebrew~ PSXFunkin",
+    "gameId": 18282,
+    "badgeName": "258280",
+    "points": 3,
     "date": "2025-12-20 05:50:12"
   },
   "225225": {
@@ -5979,16 +5979,6 @@
     "points": 3,
     "date": "2025-12-24 22:31:50"
   },
-  "233061": {
-    "id": 233061,
-    "title": "Tankman",
-    "description": "Beat Week 7",
-    "gameTitle": "~Homebrew~ PSXFunkin",
-    "gameId": 18282,
-    "badgeName": "258236",
-    "points": 3,
-    "date": "2025-12-24 22:38:08"
-  },
   "233095": {
     "id": 233095,
     "title": "This Is War",
@@ -5997,6 +5987,16 @@
     "gameId": 18282,
     "badgeName": "258286",
     "points": 4,
+    "date": "2025-12-24 22:38:08"
+  },
+  "233061": {
+    "id": 233061,
+    "title": "Tankman",
+    "description": "Beat Week 7",
+    "gameTitle": "~Homebrew~ PSXFunkin",
+    "gameId": 18282,
+    "badgeName": "258236",
+    "points": 3,
     "date": "2025-12-24 22:38:08"
   },
   "99907": {
@@ -6319,16 +6319,6 @@
     "points": 4,
     "date": "2025-12-26 23:00:57"
   },
-  "487252": {
-    "id": 487252,
-    "title": "Ah! A Giant Killer Lunch Box!",
-    "description": "Defeat Balrog in the shack.",
-    "gameTitle": "~Homebrew~ Cave Story",
-    "gameId": 29730,
-    "badgeName": "552775",
-    "points": 2,
-    "date": "2025-12-26 23:00:57"
-  },
   "492807": {
     "id": 492807,
     "title": "Pea Shooter",
@@ -6337,6 +6327,16 @@
     "gameId": 29730,
     "badgeName": "561292",
     "points": 3,
+    "date": "2025-12-26 23:00:57"
+  },
+  "487252": {
+    "id": 487252,
+    "title": "Ah! A Giant Killer Lunch Box!",
+    "description": "Defeat Balrog in the shack.",
+    "gameTitle": "~Homebrew~ Cave Story",
+    "gameId": 29730,
+    "badgeName": "552775",
+    "points": 2,
     "date": "2025-12-26 23:00:57"
   },
   "492556": {
@@ -7339,13 +7339,13 @@
     "points": 1,
     "date": "2025-12-27 06:25:59"
   },
-  "216719": {
-    "id": 216719,
-    "title": "50 Points",
-    "description": "Score 50 points",
+  "216718": {
+    "id": 216718,
+    "title": "25 Points",
+    "description": "Score 25 points",
     "gameTitle": "~Homebrew~ Sonic Arena",
     "gameId": 15729,
-    "badgeName": "239679",
+    "badgeName": "239678",
     "points": 1,
     "date": "2025-12-27 06:28:10"
   },
@@ -7359,25 +7359,15 @@
     "points": 1,
     "date": "2025-12-27 06:28:10"
   },
-  "216718": {
-    "id": 216718,
-    "title": "25 Points",
-    "description": "Score 25 points",
+  "216719": {
+    "id": 216719,
+    "title": "50 Points",
+    "description": "Score 50 points",
     "gameTitle": "~Homebrew~ Sonic Arena",
     "gameId": 15729,
-    "badgeName": "239678",
+    "badgeName": "239679",
     "points": 1,
     "date": "2025-12-27 06:28:10"
-  },
-  "216721": {
-    "id": 216721,
-    "title": "Max Score!",
-    "description": "Score 99 points",
-    "gameTitle": "~Homebrew~ Sonic Arena",
-    "gameId": 15729,
-    "badgeName": "239682",
-    "points": 1,
-    "date": "2025-12-27 06:28:11"
   },
   "216720": {
     "id": 216720,
@@ -7386,6 +7376,16 @@
     "gameTitle": "~Homebrew~ Sonic Arena",
     "gameId": 15729,
     "badgeName": "239681",
+    "points": 1,
+    "date": "2025-12-27 06:28:11"
+  },
+  "216721": {
+    "id": 216721,
+    "title": "Max Score!",
+    "description": "Score 99 points",
+    "gameTitle": "~Homebrew~ Sonic Arena",
+    "gameId": 15729,
+    "badgeName": "239682",
     "points": 1,
     "date": "2025-12-27 06:28:11"
   },
@@ -7609,22 +7609,22 @@
     "points": 1,
     "date": "2025-12-28 04:25:29"
   },
-  "521552": {
-    "id": 521552,
-    "title": "I Wanna Be The Very Best",
-    "description": "Complete your Pokémon journey.",
-    "gameTitle": "RAD 2025",
-    "gameId": 33627,
-    "badgeName": "563753",
-    "points": 1,
-    "date": "2025-12-28 04:27:25"
-  },
   "498275": {
     "id": 498275,
     "title": "I Wanna Be The Very Best",
     "description": "Complete your Pokémon journey.",
     "gameTitle": "~Hack~ Pokémon Professor Oak Challenge",
     "gameId": 32928,
+    "badgeName": "563753",
+    "points": 1,
+    "date": "2025-12-28 04:27:25"
+  },
+  "521552": {
+    "id": 521552,
+    "title": "I Wanna Be The Very Best",
+    "description": "Complete your Pokémon journey.",
+    "gameTitle": "RAD 2025",
+    "gameId": 33627,
     "badgeName": "563753",
     "points": 1,
     "date": "2025-12-28 04:27:25"
@@ -7699,16 +7699,6 @@
     "points": 5,
     "date": "2025-12-28 05:20:02"
   },
-  "426458": {
-    "id": 426458,
-    "title": "Receive You",
-    "description": "Defeat an enemy while in Extreme Heat",
-    "gameTitle": "~Homebrew~ Yakuza GB",
-    "gameId": 29764,
-    "badgeName": "481097",
-    "points": 2,
-    "date": "2025-12-28 05:25:47"
-  },
   "426457": {
     "id": 426457,
     "title": "Funk Goes On",
@@ -7717,6 +7707,16 @@
     "gameId": 29764,
     "badgeName": "481096",
     "points": 1,
+    "date": "2025-12-28 05:25:47"
+  },
+  "426458": {
+    "id": 426458,
+    "title": "Receive You",
+    "description": "Defeat an enemy while in Extreme Heat",
+    "gameTitle": "~Homebrew~ Yakuza GB",
+    "gameId": 29764,
+    "badgeName": "481097",
+    "points": 2,
     "date": "2025-12-28 05:25:47"
   },
   "503334": {
@@ -7849,16 +7849,6 @@
     "points": 1,
     "date": "2025-12-28 06:40:49"
   },
-  "521600": {
-    "id": 521600,
-    "title": "The Cake Is Not a Lie",
-    "description": "Beat the game",
-    "gameTitle": "RAD 2025",
-    "gameId": 33627,
-    "badgeName": "614341",
-    "points": 1,
-    "date": "2025-12-28 06:42:31"
-  },
   "539997": {
     "id": 539997,
     "title": "The Cake Is Not a Lie",
@@ -7867,6 +7857,16 @@
     "gameId": 33742,
     "badgeName": "614341",
     "points": 2,
+    "date": "2025-12-28 06:42:31"
+  },
+  "521600": {
+    "id": 521600,
+    "title": "The Cake Is Not a Lie",
+    "description": "Beat the game",
+    "gameTitle": "RAD 2025",
+    "gameId": 33627,
+    "badgeName": "614341",
+    "points": 1,
     "date": "2025-12-28 06:42:31"
   },
   "199091": {
@@ -8249,22 +8249,22 @@
     "points": 3,
     "date": "2025-12-28 17:09:05"
   },
-  "517038": {
-    "id": 517038,
-    "title": "A New Beginning...",
-    "description": "Finish the game.",
-    "gameTitle": "~Homebrew~ Fable: 20th Anniversary Demake",
-    "gameId": 33577,
-    "badgeName": "585097",
-    "points": 1,
-    "date": "2025-12-28 17:09:58"
-  },
   "521576": {
     "id": 521576,
     "title": "A New Beginning...",
     "description": "Finish the game.",
     "gameTitle": "RAD 2025",
     "gameId": 33627,
+    "badgeName": "585097",
+    "points": 1,
+    "date": "2025-12-28 17:09:58"
+  },
+  "517038": {
+    "id": 517038,
+    "title": "A New Beginning...",
+    "description": "Finish the game.",
+    "gameTitle": "~Homebrew~ Fable: 20th Anniversary Demake",
+    "gameId": 33577,
     "badgeName": "585097",
     "points": 1,
     "date": "2025-12-28 17:09:58"
@@ -8389,16 +8389,6 @@
     "points": 3,
     "date": "2025-12-28 17:57:06"
   },
-  "311387": {
-    "id": 311387,
-    "title": "20 Seconds of Existing",
-    "description": "Complete the game",
-    "gameTitle": "~Homebrew~ A 20 Second Platformer",
-    "gameId": 22589,
-    "badgeName": "344498",
-    "points": 1,
-    "date": "2025-12-28 18:02:36"
-  },
   "312101": {
     "id": 312101,
     "title": "20 Seconds of Rushing",
@@ -8407,6 +8397,16 @@
     "gameId": 22589,
     "badgeName": "344503",
     "points": 2,
+    "date": "2025-12-28 18:02:36"
+  },
+  "311387": {
+    "id": 311387,
+    "title": "20 Seconds of Existing",
+    "description": "Complete the game",
+    "gameTitle": "~Homebrew~ A 20 Second Platformer",
+    "gameId": 22589,
+    "badgeName": "344498",
+    "points": 1,
     "date": "2025-12-28 18:02:36"
   },
   "311388": {
@@ -8939,16 +8939,6 @@
     "points": 10,
     "date": "2025-12-30 02:59:51"
   },
-  "347273": {
-    "id": 347273,
-    "title": "Last Woman Standing",
-    "description": "Be the last Beatrix standing when the battle ends.",
-    "gameTitle": "~Hack~ Beatrix vs Beatrix vs Beatrix",
-    "gameId": 25588,
-    "badgeName": "392668",
-    "points": 5,
-    "date": "2025-12-30 03:27:29"
-  },
   "347286": {
     "id": 347286,
     "title": "Just Barely Standing",
@@ -8966,6 +8956,16 @@
     "gameTitle": "~Hack~ Beatrix vs Beatrix vs Beatrix",
     "gameId": 25588,
     "badgeName": "392670",
+    "points": 5,
+    "date": "2025-12-30 03:27:29"
+  },
+  "347273": {
+    "id": 347273,
+    "title": "Last Woman Standing",
+    "description": "Be the last Beatrix standing when the battle ends.",
+    "gameTitle": "~Hack~ Beatrix vs Beatrix vs Beatrix",
+    "gameId": 25588,
+    "badgeName": "392668",
     "points": 5,
     "date": "2025-12-30 03:27:29"
   },
@@ -9209,16 +9209,6 @@
     "points": 3,
     "date": "2026-01-01 05:23:15"
   },
-  "184518": {
-    "id": 184518,
-    "title": "Was There Someone Coughing in the Audience?",
-    "description": "Answer every question correctly without ever using a Lifeline.",
-    "gameTitle": "Who Wants to Be a Millionaire",
-    "gameId": 3700,
-    "badgeName": "205135",
-    "points": 10,
-    "date": "2026-01-01 05:24:43"
-  },
   "184516": {
     "id": 184516,
     "title": "The Million Pound Question",
@@ -9227,6 +9217,16 @@
     "gameId": 3700,
     "badgeName": "205133",
     "points": 5,
+    "date": "2026-01-01 05:24:43"
+  },
+  "184518": {
+    "id": 184518,
+    "title": "Was There Someone Coughing in the Audience?",
+    "description": "Answer every question correctly without ever using a Lifeline.",
+    "gameTitle": "Who Wants to Be a Millionaire",
+    "gameId": 3700,
+    "badgeName": "205135",
+    "points": 10,
     "date": "2026-01-01 05:24:43"
   },
   "184517": {
@@ -9569,106 +9569,6 @@
     "points": 1,
     "date": "2026-01-01 19:41:20"
   },
-  "292685": {
-    "id": 292685,
-    "title": "Tiggers Like Treasure Hunts",
-    "description": "Collect all 3 Stars in Tigger's Treasure Hunt",
-    "gameTitle": "Winnie the Pooh: Kindergarten",
-    "gameId": 22420,
-    "badgeName": "324766",
-    "points": 3,
-    "date": "2026-01-09 01:53:20"
-  },
-  "214781": {
-    "id": 214781,
-    "title": "I'm Dirty Dan",
-    "description": "Earn a point by having your opponent die for the first time!",
-    "gameTitle": "Showdown in 2100 A.D.",
-    "gameId": 16965,
-    "badgeName": "237724",
-    "points": 1,
-    "date": "2026-01-09 02:08:36"
-  },
-  "214787": {
-    "id": 214787,
-    "title": "Strategist",
-    "description": "Make your opponent waste all of their bullets without shooting any of yours!",
-    "gameTitle": "Showdown in 2100 A.D.",
-    "gameId": 16965,
-    "badgeName": "237730",
-    "points": 2,
-    "date": "2026-01-09 02:09:14"
-  },
-  "214782": {
-    "id": 214782,
-    "title": "Pinpoint Shot",
-    "description": "Gain five points in a round!",
-    "gameTitle": "Showdown in 2100 A.D.",
-    "gameId": 16965,
-    "badgeName": "237725",
-    "points": 2,
-    "date": "2026-01-09 02:11:01"
-  },
-  "214783": {
-    "id": 214783,
-    "title": "Master of the West!",
-    "description": "Gain 10 points to win your first round!",
-    "gameTitle": "Showdown in 2100 A.D.",
-    "gameId": 16965,
-    "badgeName": "237726",
-    "points": 5,
-    "date": "2026-01-09 02:11:44"
-  },
-  "214786": {
-    "id": 214786,
-    "title": "Pistol Enthusiast",
-    "description": "Shoot 100 bullets in one session",
-    "gameTitle": "Showdown in 2100 A.D.",
-    "gameId": 16965,
-    "badgeName": "237729",
-    "points": 5,
-    "date": "2026-01-09 02:11:48"
-  },
-  "214784": {
-    "id": 214784,
-    "title": "Half Perfectionist",
-    "description": "Score 5 points without letting your opponent score at all!",
-    "gameTitle": "Showdown in 2100 A.D.",
-    "gameId": 16965,
-    "badgeName": "237727",
-    "points": 5,
-    "date": "2026-01-09 02:13:52"
-  },
-  "257714": {
-    "id": 257714,
-    "title": "Don't Move!",
-    "description": "Return the ball without moving after your opponent touches it",
-    "gameTitle": "Pong",
-    "gameId": 19316,
-    "badgeName": "285667",
-    "points": 2,
-    "date": "2026-01-09 02:24:24"
-  },
-  "257708": {
-    "id": 257708,
-    "title": "The First One's Free",
-    "description": "Score 1 point",
-    "gameTitle": "Pong",
-    "gameId": 19316,
-    "badgeName": "285661",
-    "points": 1,
-    "date": "2026-01-09 02:24:59"
-  },
-  "257709": {
-    "id": 257709,
-    "title": "My Two Cents",
-    "description": "Score 2 points",
-    "gameTitle": "Pong",
-    "gameId": 19316,
-    "badgeName": "285662",
-    "points": 1,
-    "date": "2026-01-09 02:25:32"
-  },
   "397976": {
     "id": 397976,
     "title": "Two Heads Tall",
@@ -9779,16 +9679,6 @@
     "points": 3,
     "date": "2026-01-10 06:51:55"
   },
-  "212587": {
-    "id": 212587,
-    "title": "BRUTAL",
-    "description": "Win a game without losing health",
-    "gameTitle": "~Unlicensed~ Bomber",
-    "gameId": 18481,
-    "badgeName": "242578",
-    "points": 5,
-    "date": "2026-01-10 06:53:50"
-  },
   "212315": {
     "id": 212315,
     "title": "FATALITY!!!",
@@ -9797,6 +9687,16 @@
     "gameId": 18481,
     "badgeName": "235208",
     "points": 3,
+    "date": "2026-01-10 06:53:50"
+  },
+  "212587": {
+    "id": 212587,
+    "title": "BRUTAL",
+    "description": "Win a game without losing health",
+    "gameTitle": "~Unlicensed~ Bomber",
+    "gameId": 18481,
+    "badgeName": "242578",
+    "points": 5,
     "date": "2026-01-10 06:53:50"
   },
   "212317": {
@@ -9859,16 +9759,6 @@
     "points": 3,
     "date": "2026-01-10 07:09:53"
   },
-  "299774": {
-    "id": 299774,
-    "title": "Rainy Journey has Started!",
-    "description": "Get Past 5 Puddles in a Round",
-    "gameTitle": "Fluffles Rainy Day",
-    "gameId": 21500,
-    "badgeName": "333078",
-    "points": 1,
-    "date": "2026-01-10 07:27:27"
-  },
   "299780": {
     "id": 299780,
     "title": "Just Because It's Raining Shouldn't Mean You Should Be Depressed",
@@ -9876,6 +9766,16 @@
     "gameTitle": "Fluffles Rainy Day",
     "gameId": 21500,
     "badgeName": "333084",
+    "points": 1,
+    "date": "2026-01-10 07:27:27"
+  },
+  "299774": {
+    "id": 299774,
+    "title": "Rainy Journey has Started!",
+    "description": "Get Past 5 Puddles in a Round",
+    "gameTitle": "Fluffles Rainy Day",
+    "gameId": 21500,
+    "badgeName": "333078",
     "points": 1,
     "date": "2026-01-10 07:27:27"
   },
@@ -10169,16 +10069,6 @@
     "points": 4,
     "date": "2026-01-10 18:47:10"
   },
-  "68414": {
-    "id": 68414,
-    "title": "15 Lines",
-    "description": "Get 15 Points in one game.",
-    "gameTitle": "~Homebrew~ Tetris26",
-    "gameId": 13141,
-    "badgeName": "72591",
-    "points": 5,
-    "date": "2026-01-10 18:47:34"
-  },
   "68472": {
     "id": 68472,
     "title": "Is that a Tetris26?",
@@ -10187,6 +10077,16 @@
     "gameId": 13141,
     "badgeName": "72587",
     "points": 3,
+    "date": "2026-01-10 18:47:34"
+  },
+  "68414": {
+    "id": 68414,
+    "title": "15 Lines",
+    "description": "Get 15 Points in one game.",
+    "gameTitle": "~Homebrew~ Tetris26",
+    "gameId": 13141,
+    "badgeName": "72591",
+    "points": 5,
     "date": "2026-01-10 18:47:34"
   },
   "68471": {
@@ -10259,16 +10159,6 @@
     "points": 1,
     "date": "2026-01-10 19:07:22"
   },
-  "225932": {
-    "id": 225932,
-    "title": "Game Done Quick",
-    "description": "Win a battle in under a minute.",
-    "gameTitle": "~Homebrew~ Simple Battle FX",
-    "gameId": 19912,
-    "badgeName": "250484",
-    "points": 1,
-    "date": "2026-01-10 19:07:45"
-  },
   "225927": {
     "id": 225927,
     "title": "You are victorious !",
@@ -10276,6 +10166,16 @@
     "gameTitle": "~Homebrew~ Simple Battle FX",
     "gameId": 19912,
     "badgeName": "250479",
+    "points": 1,
+    "date": "2026-01-10 19:07:45"
+  },
+  "225932": {
+    "id": 225932,
+    "title": "Game Done Quick",
+    "description": "Win a battle in under a minute.",
+    "gameTitle": "~Homebrew~ Simple Battle FX",
+    "gameId": 19912,
+    "badgeName": "250484",
     "points": 1,
     "date": "2026-01-10 19:07:45"
   },
@@ -10449,16 +10349,6 @@
     "points": 0,
     "date": "2026-01-11 08:01:03"
   },
-  "157564": {
-    "id": 157564,
-    "title": "American Way is the truly Way of Life!!!",
-    "description": "Choose United States of America and win a game",
-    "gameTitle": "~Homebrew~ Ping-Pong Diplomacy Advance",
-    "gameId": 17755,
-    "badgeName": "177261",
-    "points": 1,
-    "date": "2026-01-11 08:17:50"
-  },
   "157566": {
     "id": 157566,
     "title": "Make America Great Again",
@@ -10467,6 +10357,16 @@
     "gameId": 17755,
     "badgeName": "177263",
     "points": 3,
+    "date": "2026-01-11 08:17:50"
+  },
+  "157564": {
+    "id": 157564,
+    "title": "American Way is the truly Way of Life!!!",
+    "description": "Choose United States of America and win a game",
+    "gameTitle": "~Homebrew~ Ping-Pong Diplomacy Advance",
+    "gameId": 17755,
+    "badgeName": "177261",
+    "points": 1,
     "date": "2026-01-11 08:17:50"
   },
   "157748": {
@@ -10479,16 +10379,6 @@
     "points": 3,
     "date": "2026-01-11 08:19:14"
   },
-  "157563": {
-    "id": 157563,
-    "title": "The Lifestyle of our People!!!",
-    "description": "Choose Peoples Republic of China and win a game",
-    "gameTitle": "~Homebrew~ Ping-Pong Diplomacy Advance",
-    "gameId": 17755,
-    "badgeName": "177260",
-    "points": 1,
-    "date": "2026-01-11 08:20:08"
-  },
   "157565": {
     "id": 157565,
     "title": "Hong Pong 97",
@@ -10497,6 +10387,16 @@
     "gameId": 17755,
     "badgeName": "177262",
     "points": 3,
+    "date": "2026-01-11 08:20:08"
+  },
+  "157563": {
+    "id": 157563,
+    "title": "The Lifestyle of our People!!!",
+    "description": "Choose Peoples Republic of China and win a game",
+    "gameTitle": "~Homebrew~ Ping-Pong Diplomacy Advance",
+    "gameId": 17755,
+    "badgeName": "177260",
+    "points": 1,
     "date": "2026-01-11 08:20:08"
   },
   "157740": {
@@ -11418,5 +11318,125 @@
     "badgeName": "261700",
     "points": 3,
     "date": "2026-01-15 03:38:20"
+  },
+  "66327": {
+    "id": 66327,
+    "title": "I know what I see",
+    "description": "Finish Thomas's Quiz. (8 years or older)",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69669",
+    "points": 3,
+    "date": "2026-01-16 02:50:04"
+  },
+  "66328": {
+    "id": 66328,
+    "title": "Like pulling Wagons",
+    "description": "Finish the Sliding Puzzle. (8 years or older)",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69670",
+    "points": 3,
+    "date": "2026-01-16 02:50:59"
+  },
+  "66329": {
+    "id": 66329,
+    "title": "All aboard!",
+    "description": "Finish Setting the Switches. (8 years or older)",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69671",
+    "points": 3,
+    "date": "2026-01-16 02:51:54"
+  },
+  "66330": {
+    "id": 66330,
+    "title": "Piece by Piece",
+    "description": "Finish the Jigsaw Puzzle. (8 years or older)",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69672",
+    "points": 3,
+    "date": "2026-01-16 02:53:52"
+  },
+  "66334": {
+    "id": 66334,
+    "title": "Vehicle Race",
+    "description": "Race against Bertie.",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69667",
+    "points": 2,
+    "date": "2026-01-16 02:55:38"
+  },
+  "66331": {
+    "id": 66331,
+    "title": "A Delivery for You",
+    "description": "Finish Fixing the Tracks. (8 years or older)",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69673",
+    "points": 3,
+    "date": "2026-01-16 02:59:55"
+  },
+  "66333": {
+    "id": 66333,
+    "title": "Engine Race",
+    "description": "Race against Percy.",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69668",
+    "points": 2,
+    "date": "2026-01-16 03:00:45"
+  },
+  "66332": {
+    "id": 66332,
+    "title": "Story-telling Engine",
+    "description": "Look at a story with Thomas.",
+    "gameTitle": "Thomas the Tank Engine & Friends",
+    "gameId": 1261,
+    "badgeName": "69674",
+    "points": 1,
+    "date": "2026-01-16 03:02:32"
+  },
+  "178005": {
+    "id": 178005,
+    "title": "Training Day",
+    "description": "Survive the first 14 hours.",
+    "gameTitle": "Robot Tank",
+    "gameId": 13315,
+    "badgeName": "198426",
+    "points": 1,
+    "date": "2026-01-16 03:10:44"
+  },
+  "178006": {
+    "id": 178006,
+    "title": "Rookie Survivor",
+    "description": "survive day 1.",
+    "gameTitle": "Robot Tank",
+    "gameId": 13315,
+    "badgeName": "198428",
+    "points": 2,
+    "date": "2026-01-16 03:12:31"
+  },
+  "178169": {
+    "id": 178169,
+    "title": "Pacifist training",
+    "description": "Survive day 0 without shooting or losing a reserve tank",
+    "gameTitle": "Robot Tank",
+    "gameId": 13315,
+    "badgeName": "198443",
+    "points": 3,
+    "date": "2026-01-16 03:17:05"
+  },
+  "178007": {
+    "id": 178007,
+    "title": "Determination",
+    "description": "Survive day 2.",
+    "gameTitle": "Robot Tank",
+    "gameId": 13315,
+    "badgeName": "198430",
+    "points": 3,
+    "date": "2026-01-16 03:17:20"
   }
 }
