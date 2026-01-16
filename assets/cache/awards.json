@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 176,
+  "TotalAwardsCount": 178,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 78,
+  "MasteryAwardsCount": 79,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 96,
+  "BeatenHardcoreAwardsCount": 97,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2119,6 +2119,30 @@
       "AwardData": 29874,
       "AwardDataExtra": 1,
       "DisplayOrder": 175
+    },
+    {
+      "AwardedAt": "2026-01-16T03:02:32+00:00",
+      "Title": "Thomas the Tank Engine & Friends",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "Flags": null,
+      "ImageIcon": "/Images/089849.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 1261,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 176
+    },
+    {
+      "AwardedAt": "2026-01-16T03:02:32+00:00",
+      "Title": "Thomas the Tank Engine & Friends",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "Flags": null,
+      "ImageIcon": "/Images/089849.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 1261,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 177
     }
   ]
 }

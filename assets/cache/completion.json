@@ -1,5 +1,32 @@
 {
+  "Total": 284,
   "Results": [
+    {
+      "GameID": 13315,
+      "Title": "Robot Tank",
+      "ImageIcon": "/Images/109834.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 8,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-16T03:17:20+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 1261,
+      "Title": "Thomas the Tank Engine & Friends",
+      "ImageIcon": "/Images/089849.png",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "MaxPossible": 8,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-16T03:02:32+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-16T03:02:32+00:00"
+    },
     {
       "GameID": 10303,
       "Title": "Videocart-16: Dodge-It",
@@ -3666,6 +3693,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 282
+  ]
 }
