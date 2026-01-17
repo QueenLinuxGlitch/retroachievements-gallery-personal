@@ -1,5 +1,19 @@
 {
+  "Total": 290,
   "Results": [
+    {
+      "GameID": 27582,
+      "Title": "~Homebrew~ Yuuto Ichika Makes Friends",
+      "ImageIcon": "/Images/121555.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 9,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-17T17:11:55+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 4565,
       "Title": "~Unlicensed~ Peek-A-Boo Poker",
@@ -3757,6 +3771,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 289
+  ]
 }
