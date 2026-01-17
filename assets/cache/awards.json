@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 180,
+  "TotalAwardsCount": 182,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 79,
+  "MasteryAwardsCount": 80,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 99,
+  "BeatenHardcoreAwardsCount": 100,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2167,6 +2167,30 @@
       "AwardData": 17592,
       "AwardDataExtra": 1,
       "DisplayOrder": 179
+    },
+    {
+      "AwardedAt": "2026-01-17T17:35:35+00:00",
+      "Title": "~Homebrew~ Yuuto Ichika Makes Friends",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/121555.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 27582,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 180
+    },
+    {
+      "AwardedAt": "2026-01-17T17:35:35+00:00",
+      "Title": "~Homebrew~ Yuuto Ichika Makes Friends",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/121555.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 27582,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 181
     }
   ]
 }
