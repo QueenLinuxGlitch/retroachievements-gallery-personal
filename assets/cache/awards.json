@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 179,
+  "TotalAwardsCount": 180,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 79,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 98,
+  "BeatenHardcoreAwardsCount": 99,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2155,6 +2155,18 @@
       "AwardData": 24122,
       "AwardDataExtra": 1,
       "DisplayOrder": 178
+    },
+    {
+      "AwardedAt": "2026-01-17T07:37:34+00:00",
+      "Title": "Galaxy Fighter",
+      "ConsoleID": 63,
+      "ConsoleName": "Watara Supervision",
+      "Flags": null,
+      "ImageIcon": "/Images/058362.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 17592,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 179
     }
   ]
 }

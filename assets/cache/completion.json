@@ -1,5 +1,32 @@
 {
+  "Total": 289,
   "Results": [
+    {
+      "GameID": 4565,
+      "Title": "~Unlicensed~ Peek-A-Boo Poker",
+      "ImageIcon": "/Images/073609.png",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "MaxPossible": 9,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-17T07:41:58+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 17592,
+      "Title": "Galaxy Fighter",
+      "ImageIcon": "/Images/058362.png",
+      "ConsoleID": 63,
+      "ConsoleName": "Watara Supervision",
+      "MaxPossible": 8,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-17T07:37:34+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-01-17T07:37:34+00:00"
+    },
     {
       "GameID": 17035,
       "Title": "GG Portrait: Pai Chan",
@@ -3731,6 +3758,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 287
+  ]
 }
