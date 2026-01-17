@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 17035,
+      "Title": "GG Portrait: Pai Chan",
+      "ImageIcon": "/Images/039278.png",
+      "ConsoleID": 15,
+      "ConsoleName": "Game Gear",
+      "MaxPossible": 8,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-17T07:10:15+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 17036,
+      "Title": "GG Portrait: Yuuki Akira",
+      "ImageIcon": "/Images/060810.png",
+      "ConsoleID": 15,
+      "ConsoleName": "Game Gear",
+      "MaxPossible": 8,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-17T07:00:04+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 24122,
       "Title": "Minigolf",
       "ImageIcon": "/Images/116462.png",
@@ -3706,5 +3732,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 285
+  "Total": 287
 }
