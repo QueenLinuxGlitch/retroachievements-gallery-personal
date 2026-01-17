@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 182,
+  "TotalAwardsCount": 183,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 80,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 100,
+  "BeatenHardcoreAwardsCount": 101,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2191,6 +2191,18 @@
       "AwardData": 27582,
       "AwardDataExtra": 1,
       "DisplayOrder": 181
+    },
+    {
+      "AwardedAt": "2026-01-17T23:10:00+00:00",
+      "Title": "~Homebrew~ Where's Derpy?",
+      "ConsoleID": 44,
+      "ConsoleName": "ColecoVision",
+      "Flags": null,
+      "ImageIcon": "/Images/118782.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 34944,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 182
     }
   ]
 }
