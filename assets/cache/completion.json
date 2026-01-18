@@ -1,5 +1,32 @@
 {
+  "Total": 301,
   "Results": [
+    {
+      "GameID": 29036,
+      "Title": "~Hack~ ~Demo~ Super Mario Bros. CD Speedrun Edition",
+      "ImageIcon": "/Images/092798.png",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "MaxPossible": 9,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-18T07:37:01+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 22554,
+      "Title": "~Hack~ Mario Aimlessly Drives a Car Around the City 64",
+      "ImageIcon": "/Images/068443.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 9,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-18T07:23:25+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 36980,
       "Title": "~Hack~ Sooper Wooper 64",
@@ -3887,6 +3914,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 299
+  ]
 }
