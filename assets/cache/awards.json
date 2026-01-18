@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 190,
+  "TotalAwardsCount": 194,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 84,
+  "MasteryAwardsCount": 86,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 104,
+  "BeatenHardcoreAwardsCount": 106,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2287,6 +2287,54 @@
       "AwardData": 29687,
       "AwardDataExtra": 1,
       "DisplayOrder": 189
+    },
+    {
+      "AwardedAt": "2026-01-18T06:58:47+00:00",
+      "Title": "~Homebrew~ ~Demo~ Zelda Mini",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "Flags": null,
+      "ImageIcon": "/Images/109281.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 18331,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 190
+    },
+    {
+      "AwardedAt": "2026-01-18T06:58:47+00:00",
+      "Title": "~Homebrew~ ~Demo~ Zelda Mini",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "Flags": null,
+      "ImageIcon": "/Images/109281.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 18331,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 191
+    },
+    {
+      "AwardedAt": "2026-01-18T07:05:52+00:00",
+      "Title": "~Homebrew~ ~Demo~ Five Nights at Freddy's",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/083746.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 25397,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 192
+    },
+    {
+      "AwardedAt": "2026-01-18T07:05:53+00:00",
+      "Title": "~Homebrew~ ~Demo~ Five Nights at Freddy's",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/083746.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 25397,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 193
     }
   ]
 }

@@ -1,6 +1,45 @@
 {
   "Results": [
     {
+      "GameID": 36980,
+      "Title": "~Hack~ Sooper Wooper 64",
+      "ImageIcon": "/Images/121004.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 9,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-18T07:12:26+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 25397,
+      "Title": "~Homebrew~ ~Demo~ Five Nights at Freddy's",
+      "ImageIcon": "/Images/083746.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 9,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-18T07:05:53+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-18T07:05:53+00:00"
+    },
+    {
+      "GameID": 18331,
+      "Title": "~Homebrew~ ~Demo~ Zelda Mini",
+      "ImageIcon": "/Images/109281.png",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "MaxPossible": 9,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-18T06:58:47+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-18T06:58:47+00:00"
+    },
+    {
       "GameID": 29687,
       "Title": "~Homebrew~ The Best Text Adventure",
       "ImageIcon": "/Images/095562.png",
@@ -3849,5 +3888,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 296
+  "Total": 299
 }
