@@ -1,6 +1,31 @@
 {
-  "Total": 293,
   "Results": [
+    {
+      "GameID": 29774,
+      "Title": "~Homebrew~ Borbo's Quest",
+      "ImageIcon": "/Images/096605.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 9,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-18T04:34:19+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 29776,
+      "Title": "~Homebrew~ Ciao Nonna",
+      "ImageIcon": "/Images/111705.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 9,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-18T04:16:16+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-18T04:16:16+00:00"
+    },
     {
       "GameID": 25183,
       "Title": "~Homebrew~ The Great Fumo Binning",
@@ -8,9 +33,9 @@
       "ConsoleID": 8,
       "ConsoleName": "PC Engine/TurboGrafx-16",
       "MaxPossible": 9,
-      "NumAwarded": 3,
-      "NumAwardedHardcore": 3,
-      "MostRecentAwardedDate": "2026-01-18T03:15:09+00:00",
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-18T04:05:41+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -3810,5 +3835,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 295
 }

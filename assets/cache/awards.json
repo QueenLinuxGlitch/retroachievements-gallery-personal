@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 184,
+  "TotalAwardsCount": 186,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 81,
+  "MasteryAwardsCount": 82,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 101,
+  "BeatenHardcoreAwardsCount": 102,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2215,6 +2215,30 @@
       "AwardData": 34944,
       "AwardDataExtra": 1,
       "DisplayOrder": 183
+    },
+    {
+      "AwardedAt": "2026-01-18T04:16:16+00:00",
+      "Title": "~Homebrew~ Ciao Nonna",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/111705.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29776,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 184
+    },
+    {
+      "AwardedAt": "2026-01-18T04:16:16+00:00",
+      "Title": "~Homebrew~ Ciao Nonna",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/111705.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 29776,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 185
     }
   ]
 }
