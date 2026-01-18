@@ -1,7 +1,7 @@
 {
-  "TotalAwardsCount": 183,
+  "TotalAwardsCount": 184,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 80,
+  "MasteryAwardsCount": 81,
   "CompletionAwardsCount": 1,
   "BeatenHardcoreAwardsCount": 101,
   "BeatenSoftcoreAwardsCount": 1,
@@ -2203,6 +2203,18 @@
       "AwardData": 34944,
       "AwardDataExtra": 1,
       "DisplayOrder": 182
+    },
+    {
+      "AwardedAt": "2026-01-17T23:14:01+00:00",
+      "Title": "~Homebrew~ Where's Derpy?",
+      "ConsoleID": 44,
+      "ConsoleName": "ColecoVision",
+      "Flags": null,
+      "ImageIcon": "/Images/118782.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 34944,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 183
     }
   ]
 }
