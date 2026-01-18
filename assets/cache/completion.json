@@ -1,6 +1,31 @@
 {
-  "Total": 301,
   "Results": [
+    {
+      "GameID": 21490,
+      "Title": "Zoop Zoop Bee Adventures 7",
+      "ImageIcon": "/Images/071081.png",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "MaxPossible": 9,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-18T17:40:24+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-18T17:40:24+00:00"
+    },
+    {
+      "GameID": 11715,
+      "Title": "~Demo~ Venetian Blinds",
+      "ImageIcon": "/Images/111294.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 9,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-18T17:21:45+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-18T17:21:45+00:00"
+    },
     {
       "GameID": 29036,
       "Title": "~Hack~ ~Demo~ Super Mario Bros. CD Speedrun Edition",
@@ -3914,5 +3939,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 303
 }

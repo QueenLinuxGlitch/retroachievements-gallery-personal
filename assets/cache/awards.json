@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 194,
+  "TotalAwardsCount": 198,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 86,
+  "MasteryAwardsCount": 88,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 106,
+  "BeatenHardcoreAwardsCount": 108,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2335,6 +2335,54 @@
       "AwardData": 25397,
       "AwardDataExtra": 1,
       "DisplayOrder": 193
+    },
+    {
+      "AwardedAt": "2026-01-18T17:21:45+00:00",
+      "Title": "~Demo~ Venetian Blinds",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "Flags": null,
+      "ImageIcon": "/Images/111294.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 11715,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 194
+    },
+    {
+      "AwardedAt": "2026-01-18T17:21:45+00:00",
+      "Title": "~Demo~ Venetian Blinds",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "Flags": null,
+      "ImageIcon": "/Images/111294.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 11715,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 195
+    },
+    {
+      "AwardedAt": "2026-01-18T17:40:24+00:00",
+      "Title": "Zoop Zoop Bee Adventures 7",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "Flags": null,
+      "ImageIcon": "/Images/071081.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 21490,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 196
+    },
+    {
+      "AwardedAt": "2026-01-18T17:40:24+00:00",
+      "Title": "Zoop Zoop Bee Adventures 7",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "Flags": null,
+      "ImageIcon": "/Images/071081.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 21490,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 197
     }
   ]
 }
