@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 188,
+  "TotalAwardsCount": 190,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 83,
+  "MasteryAwardsCount": 84,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 103,
+  "BeatenHardcoreAwardsCount": 104,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2263,6 +2263,30 @@
       "AwardData": 29774,
       "AwardDataExtra": 1,
       "DisplayOrder": 187
+    },
+    {
+      "AwardedAt": "2026-01-18T05:48:42+00:00",
+      "Title": "~Homebrew~ The Best Text Adventure",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/095562.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29687,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 188
+    },
+    {
+      "AwardedAt": "2026-01-18T05:48:42+00:00",
+      "Title": "~Homebrew~ The Best Text Adventure",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/095562.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 29687,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 189
     }
   ]
 }
