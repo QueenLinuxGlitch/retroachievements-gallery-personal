@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 186,
+  "TotalAwardsCount": 188,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 82,
+  "MasteryAwardsCount": 83,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 102,
+  "BeatenHardcoreAwardsCount": 103,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2239,6 +2239,30 @@
       "AwardData": 29776,
       "AwardDataExtra": 1,
       "DisplayOrder": 185
+    },
+    {
+      "AwardedAt": "2026-01-18T05:02:09+00:00",
+      "Title": "~Homebrew~ Borbo's Quest",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/096605.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29774,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 186
+    },
+    {
+      "AwardedAt": "2026-01-18T05:02:09+00:00",
+      "Title": "~Homebrew~ Borbo's Quest",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/096605.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 29774,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 187
     }
   ]
 }

@@ -1,17 +1,30 @@
 {
   "Results": [
     {
+      "GameID": 29687,
+      "Title": "~Homebrew~ The Best Text Adventure",
+      "ImageIcon": "/Images/095562.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 9,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-18T05:05:02+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 29774,
       "Title": "~Homebrew~ Borbo's Quest",
       "ImageIcon": "/Images/096605.png",
       "ConsoleID": 6,
       "ConsoleName": "Game Boy Color",
       "MaxPossible": 9,
-      "NumAwarded": 2,
-      "NumAwardedHardcore": 2,
-      "MostRecentAwardedDate": "2026-01-18T04:34:19+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-18T05:02:09+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-18T05:02:09+00:00"
     },
     {
       "GameID": 29776,
@@ -3836,5 +3849,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 295
+  "Total": 296
 }
