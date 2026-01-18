@@ -1,6 +1,19 @@
 {
-  "Total": 292,
+  "Total": 293,
   "Results": [
+    {
+      "GameID": 25183,
+      "Title": "~Homebrew~ The Great Fumo Binning",
+      "ImageIcon": "/Images/079404.png",
+      "ConsoleID": 8,
+      "ConsoleName": "PC Engine/TurboGrafx-16",
+      "MaxPossible": 9,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-18T03:15:09+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 24124,
       "Title": "~Homebrew~ Slender: The 8 Pages",
