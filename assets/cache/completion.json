@@ -1,6 +1,19 @@
 {
-  "Total": 291,
+  "Total": 292,
   "Results": [
+    {
+      "GameID": 24124,
+      "Title": "~Homebrew~ Slender: The 8 Pages",
+      "ImageIcon": "/Images/071726.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 9,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-01-17T23:27:33+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 34944,
       "Title": "~Homebrew~ Where's Derpy?",
@@ -8,11 +21,11 @@
       "ConsoleID": 44,
       "ConsoleName": "ColecoVision",
       "MaxPossible": 9,
-      "NumAwarded": 8,
-      "NumAwardedHardcore": 8,
-      "MostRecentAwardedDate": "2026-01-17T23:11:27+00:00",
-      "HighestAwardKind": "beaten-hardcore",
-      "HighestAwardDate": "2026-01-17T23:10:00+00:00"
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-17T23:14:01+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-17T23:14:01+00:00"
     },
     {
       "GameID": 27582,
