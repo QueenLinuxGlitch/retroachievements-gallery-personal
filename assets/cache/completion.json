@@ -1,6 +1,19 @@
 {
   "Results": [
     {
+      "GameID": 14766,
+      "Title": "~Homebrew~ Riley's Letter Recycle",
+      "ImageIcon": "/Images/066888.png",
+      "ConsoleID": 9,
+      "ConsoleName": "Sega CD",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-19T22:32:29+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T22:32:29+00:00"
+    },
+    {
       "GameID": 22416,
       "Title": "~Homebrew~ Shark",
       "ImageIcon": "/Images/068673.png",
@@ -4083,5 +4096,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 314
+  "Total": 315
 }
