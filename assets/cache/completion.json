@@ -1,5 +1,19 @@
 {
+  "Total": 306,
   "Results": [
+    {
+      "GameID": 21466,
+      "Title": "Holidate",
+      "ImageIcon": "/Images/088655.png",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "MaxPossible": 9,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-19T07:07:32+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T07:07:32+00:00"
+    },
     {
       "GameID": 1937,
       "Title": "Sesame Street: Big Bird's Hide and Speak",
@@ -3965,6 +3979,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 305
+  ]
 }

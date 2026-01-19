@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 200,
+  "TotalAwardsCount": 202,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 89,
+  "MasteryAwardsCount": 90,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 109,
+  "BeatenHardcoreAwardsCount": 110,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2407,6 +2407,30 @@
       "AwardData": 2912,
       "AwardDataExtra": 1,
       "DisplayOrder": 199
+    },
+    {
+      "AwardedAt": "2026-01-19T06:58:18+00:00",
+      "Title": "Holidate",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "Flags": null,
+      "ImageIcon": "/Images/088655.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 21466,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 200
+    },
+    {
+      "AwardedAt": "2026-01-19T07:07:32+00:00",
+      "Title": "Holidate",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "Flags": null,
+      "ImageIcon": "/Images/088655.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 21466,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 201
     }
   ]
 }
