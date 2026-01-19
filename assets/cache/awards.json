@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 198,
+  "TotalAwardsCount": 200,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 88,
+  "MasteryAwardsCount": 89,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 108,
+  "BeatenHardcoreAwardsCount": 109,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2383,6 +2383,30 @@
       "AwardData": 21490,
       "AwardDataExtra": 1,
       "DisplayOrder": 197
+    },
+    {
+      "AwardedAt": "2026-01-19T02:55:03+00:00",
+      "Title": "Who Wants to Be a Millionaire: 3rd Edition",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "Flags": null,
+      "ImageIcon": "/Images/080065.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 2912,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 198
+    },
+    {
+      "AwardedAt": "2026-01-19T03:10:20+00:00",
+      "Title": "Who Wants to Be a Millionaire: 3rd Edition",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "Flags": null,
+      "ImageIcon": "/Images/080065.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 2912,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 199
     }
   ]
 }
