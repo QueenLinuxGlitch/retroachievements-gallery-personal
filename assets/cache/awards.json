@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 208,
+  "TotalAwardsCount": 210,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 93,
+  "MasteryAwardsCount": 94,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 113,
+  "BeatenHardcoreAwardsCount": 114,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2503,6 +2503,30 @@
       "AwardData": 24006,
       "AwardDataExtra": 1,
       "DisplayOrder": 207
+    },
+    {
+      "AwardedAt": "2026-01-19T22:13:02+00:00",
+      "Title": "~Homebrew~ Shark",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "Flags": null,
+      "ImageIcon": "/Images/068673.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 22416,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 208
+    },
+    {
+      "AwardedAt": "2026-01-19T22:13:02+00:00",
+      "Title": "~Homebrew~ Shark",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "Flags": null,
+      "ImageIcon": "/Images/068673.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 22416,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 209
     }
   ]
 }
