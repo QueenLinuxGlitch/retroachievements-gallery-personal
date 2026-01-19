@@ -1,5 +1,19 @@
 {
+  "Total": 309,
   "Results": [
+    {
+      "GameID": 7405,
+      "Title": "~Unlicensed~ King James Bible",
+      "ImageIcon": "/Images/047418.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 10,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-19T08:35:46+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 19324,
       "Title": "Hammer Joe",
@@ -4004,6 +4018,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 308
+  ]
 }
