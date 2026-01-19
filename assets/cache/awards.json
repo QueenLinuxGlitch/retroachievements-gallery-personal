@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 210,
+  "TotalAwardsCount": 212,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 94,
+  "MasteryAwardsCount": 95,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 114,
+  "BeatenHardcoreAwardsCount": 115,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2527,6 +2527,30 @@
       "AwardData": 22416,
       "AwardDataExtra": 1,
       "DisplayOrder": 209
+    },
+    {
+      "AwardedAt": "2026-01-19T22:22:13+00:00",
+      "Title": "~Homebrew~ Riley's Letter Recycle",
+      "ConsoleID": 9,
+      "ConsoleName": "Sega CD",
+      "Flags": null,
+      "ImageIcon": "/Images/066888.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 14766,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 210
+    },
+    {
+      "AwardedAt": "2026-01-19T22:32:29+00:00",
+      "Title": "~Homebrew~ Riley's Letter Recycle",
+      "ConsoleID": 9,
+      "ConsoleName": "Sega CD",
+      "Flags": null,
+      "ImageIcon": "/Images/066888.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 14766,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 211
     }
   ]
 }
