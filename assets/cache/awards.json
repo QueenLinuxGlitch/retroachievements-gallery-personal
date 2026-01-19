@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 202,
+  "TotalAwardsCount": 206,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 90,
+  "MasteryAwardsCount": 92,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 110,
+  "BeatenHardcoreAwardsCount": 112,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2431,6 +2431,54 @@
       "AwardData": 21466,
       "AwardDataExtra": 1,
       "DisplayOrder": 201
+    },
+    {
+      "AwardedAt": "2026-01-19T17:31:19+00:00",
+      "Title": "~Prototype~ Rayman",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "Flags": null,
+      "ImageIcon": "/Images/065857.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 14013,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 202
+    },
+    {
+      "AwardedAt": "2026-01-19T17:36:58+00:00",
+      "Title": "~Prototype~ Rayman",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "Flags": null,
+      "ImageIcon": "/Images/065857.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 14013,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 203
+    },
+    {
+      "AwardedAt": "2026-01-19T17:42:36+00:00",
+      "Title": "~Unlicensed~ Frog Feast",
+      "ConsoleID": 77,
+      "ConsoleName": "Atari Jaguar CD",
+      "Flags": null,
+      "ImageIcon": "/Images/071537.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 22996,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 204
+    },
+    {
+      "AwardedAt": "2026-01-19T17:42:36+00:00",
+      "Title": "~Unlicensed~ Frog Feast",
+      "ConsoleID": 77,
+      "ConsoleName": "Atari Jaguar CD",
+      "Flags": null,
+      "ImageIcon": "/Images/071537.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 22996,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 205
     }
   ]
 }

@@ -1,6 +1,19 @@
 {
-  "Total": 310,
+  "Total": 312,
   "Results": [
+    {
+      "GameID": 19894,
+      "Title": "~Prototype~ Quake",
+      "ImageIcon": "/Images/059360.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 10,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-19T17:56:40+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 22996,
       "Title": "~Unlicensed~ Frog Feast",
@@ -8,11 +21,24 @@
       "ConsoleID": 77,
       "ConsoleName": "Atari Jaguar CD",
       "MaxPossible": 10,
-      "NumAwarded": 8,
-      "NumAwardedHardcore": 0,
-      "MostRecentAwardedDate": "2026-01-19T16:15:10+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-19T17:42:36+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T17:42:36+00:00"
+    },
+    {
+      "GameID": 14013,
+      "Title": "~Prototype~ Rayman",
+      "ImageIcon": "/Images/065857.png",
+      "ConsoleID": 3,
+      "ConsoleName": "SNES/Super Famicom",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-19T17:36:58+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T17:36:58+00:00"
     },
     {
       "GameID": 7405,
