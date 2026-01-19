@@ -1,6 +1,31 @@
 {
-  "Total": 306,
   "Results": [
+    {
+      "GameID": 19324,
+      "Title": "Hammer Joe",
+      "ImageIcon": "/Images/057175.png",
+      "ConsoleID": 72,
+      "ConsoleName": "WASM-4",
+      "MaxPossible": 9,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2026-01-19T08:12:38+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 11149,
+      "Title": "Hello Kitty no Magical Museum",
+      "ImageIcon": "/Images/053496.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 9,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-01-19T08:01:19+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 21466,
       "Title": "Holidate",
@@ -3979,5 +4004,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 308
 }
