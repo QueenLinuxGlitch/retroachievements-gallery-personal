@@ -1,4 +1,5 @@
 {
+  "Total": 313,
   "Results": [
     {
       "GameID": 24006,
@@ -7,11 +8,11 @@
       "ConsoleID": 6,
       "ConsoleName": "Game Boy Color",
       "MaxPossible": 10,
-      "NumAwarded": 8,
-      "NumAwardedHardcore": 8,
-      "MostRecentAwardedDate": "2026-01-19T19:14:06+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-19T19:36:41+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T19:36:41+00:00"
     },
     {
       "GameID": 19894,
@@ -4069,6 +4070,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 313
+  ]
 }

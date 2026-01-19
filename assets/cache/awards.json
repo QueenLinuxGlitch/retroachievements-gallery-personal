@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 206,
+  "TotalAwardsCount": 208,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 92,
+  "MasteryAwardsCount": 93,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 112,
+  "BeatenHardcoreAwardsCount": 113,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2479,6 +2479,30 @@
       "AwardData": 22996,
       "AwardDataExtra": 1,
       "DisplayOrder": 205
+    },
+    {
+      "AwardedAt": "2026-01-19T19:18:48+00:00",
+      "Title": "~Homebrew~ Skinner & The Superintendent",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/071352.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 24006,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 206
+    },
+    {
+      "AwardedAt": "2026-01-19T19:36:41+00:00",
+      "Title": "~Homebrew~ Skinner & The Superintendent",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/071352.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 24006,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 207
     }
   ]
 }
