@@ -1,6 +1,18 @@
 {
-  "Total": 313,
   "Results": [
+    {
+      "GameID": 22416,
+      "Title": "~Homebrew~ Shark",
+      "ImageIcon": "/Images/068673.png",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-19T22:13:02+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T22:13:02+00:00"
+    },
     {
       "GameID": 24006,
       "Title": "~Homebrew~ Skinner & The Superintendent",
@@ -4070,5 +4082,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 314
 }
