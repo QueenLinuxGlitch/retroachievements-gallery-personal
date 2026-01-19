@@ -1,6 +1,18 @@
 {
-  "Total": 312,
   "Results": [
+    {
+      "GameID": 24006,
+      "Title": "~Homebrew~ Skinner & The Superintendent",
+      "ImageIcon": "/Images/071352.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 10,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-01-19T19:14:06+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 19894,
       "Title": "~Prototype~ Quake",
@@ -4057,5 +4069,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 313
 }
