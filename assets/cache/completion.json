@@ -1,6 +1,18 @@
 {
-  "Total": 309,
   "Results": [
+    {
+      "GameID": 22996,
+      "Title": "~Unlicensed~ Frog Feast",
+      "ImageIcon": "/Images/071537.png",
+      "ConsoleID": 77,
+      "ConsoleName": "Atari Jaguar CD",
+      "MaxPossible": 10,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 0,
+      "MostRecentAwardedDate": "2026-01-19T16:15:10+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 7405,
       "Title": "~Unlicensed~ King James Bible",
@@ -4018,5 +4030,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 310
 }
