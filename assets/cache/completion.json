@@ -1,6 +1,19 @@
 {
   "Results": [
     {
+      "GameID": 22567,
+      "Title": "~Homebrew~ Boxing",
+      "ImageIcon": "/Images/075425.png",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-20T03:45:07+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-20T03:45:07+00:00"
+    },
+    {
       "GameID": 31974,
       "Title": "~Homebrew~ Date with Falco",
       "ImageIcon": "/Images/105152.png",
@@ -4161,5 +4174,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 320
+  "Total": 321
 }

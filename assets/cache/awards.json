@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 220,
+  "TotalAwardsCount": 222,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 99,
+  "MasteryAwardsCount": 100,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 119,
+  "BeatenHardcoreAwardsCount": 120,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2647,6 +2647,30 @@
       "AwardData": 31974,
       "AwardDataExtra": 1,
       "DisplayOrder": 219
+    },
+    {
+      "AwardedAt": "2026-01-20T03:45:07+00:00",
+      "Title": "~Homebrew~ Boxing",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "Flags": null,
+      "ImageIcon": "/Images/075425.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 22567,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 220
+    },
+    {
+      "AwardedAt": "2026-01-20T03:45:07+00:00",
+      "Title": "~Homebrew~ Boxing",
+      "ConsoleID": 57,
+      "ConsoleName": "Fairchild Channel F",
+      "Flags": null,
+      "ImageIcon": "/Images/075425.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 22567,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 221
     }
   ]
 }
