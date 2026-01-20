@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 212,
+  "TotalAwardsCount": 214,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 95,
+  "MasteryAwardsCount": 96,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 115,
+  "BeatenHardcoreAwardsCount": 116,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2551,6 +2551,30 @@
       "AwardData": 14766,
       "AwardDataExtra": 1,
       "DisplayOrder": 211
+    },
+    {
+      "AwardedAt": "2026-01-19T23:53:09+00:00",
+      "Title": "~Homebrew~ Penguins Luv Melons",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": null,
+      "ImageIcon": "/Images/076907.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 25080,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 212
+    },
+    {
+      "AwardedAt": "2026-01-19T23:53:09+00:00",
+      "Title": "~Homebrew~ Penguins Luv Melons",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": null,
+      "ImageIcon": "/Images/076907.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 25080,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 213
     }
   ]
 }
