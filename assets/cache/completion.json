@@ -1,6 +1,44 @@
 {
-  "Total": 317,
   "Results": [
+    {
+      "GameID": 31974,
+      "Title": "~Homebrew~ Date with Falco",
+      "ImageIcon": "/Images/105152.png",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-20T03:23:51+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-20T03:23:51+00:00"
+    },
+    {
+      "GameID": 30915,
+      "Title": "~Homebrew~ Five Nights at Freddy's",
+      "ImageIcon": "/Images/122568.png",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-20T02:38:39+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-20T02:38:39+00:00"
+    },
+    {
+      "GameID": 12795,
+      "Title": "~Homebrew~ Flappy",
+      "ImageIcon": "/Images/063145.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 10,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-20T02:00:19+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 19726,
       "Title": "~Homebrew~ Flappy Bird for MSX",
@@ -8,11 +46,11 @@
       "ConsoleID": 29,
       "ConsoleName": "MSX",
       "MaxPossible": 10,
-      "NumAwarded": 9,
-      "NumAwardedHardcore": 9,
-      "MostRecentAwardedDate": "2026-01-20T00:41:52+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-20T01:13:37+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-20T01:13:37+00:00"
     },
     {
       "GameID": 25080,
@@ -4122,5 +4160,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 320
 }

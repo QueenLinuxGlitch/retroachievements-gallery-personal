@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 214,
+  "TotalAwardsCount": 220,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 96,
+  "MasteryAwardsCount": 99,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 116,
+  "BeatenHardcoreAwardsCount": 119,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2575,6 +2575,78 @@
       "AwardData": 25080,
       "AwardDataExtra": 1,
       "DisplayOrder": 213
+    },
+    {
+      "AwardedAt": "2026-01-20T01:13:37+00:00",
+      "Title": "~Homebrew~ Flappy Bird for MSX",
+      "ConsoleID": 29,
+      "ConsoleName": "MSX",
+      "Flags": null,
+      "ImageIcon": "/Images/088588.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 19726,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 214
+    },
+    {
+      "AwardedAt": "2026-01-20T01:13:37+00:00",
+      "Title": "~Homebrew~ Flappy Bird for MSX",
+      "ConsoleID": 29,
+      "ConsoleName": "MSX",
+      "Flags": null,
+      "ImageIcon": "/Images/088588.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 19726,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 215
+    },
+    {
+      "AwardedAt": "2026-01-20T02:20:56+00:00",
+      "Title": "~Homebrew~ Five Nights at Freddy's",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "Flags": null,
+      "ImageIcon": "/Images/122568.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 30915,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 216
+    },
+    {
+      "AwardedAt": "2026-01-20T02:38:39+00:00",
+      "Title": "~Homebrew~ Five Nights at Freddy's",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "Flags": null,
+      "ImageIcon": "/Images/122568.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 30915,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 217
+    },
+    {
+      "AwardedAt": "2026-01-20T03:23:36+00:00",
+      "Title": "~Homebrew~ Date with Falco",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/105152.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 31974,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 218
+    },
+    {
+      "AwardedAt": "2026-01-20T03:23:51+00:00",
+      "Title": "~Homebrew~ Date with Falco",
+      "ConsoleID": 6,
+      "ConsoleName": "Game Boy Color",
+      "Flags": null,
+      "ImageIcon": "/Images/105152.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 31974,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 219
     }
   ]
 }
