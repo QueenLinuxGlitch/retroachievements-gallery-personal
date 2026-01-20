@@ -1,5 +1,32 @@
 {
+  "Total": 317,
   "Results": [
+    {
+      "GameID": 19726,
+      "Title": "~Homebrew~ Flappy Bird for MSX",
+      "ImageIcon": "/Images/088588.png",
+      "ConsoleID": 29,
+      "ConsoleName": "MSX",
+      "MaxPossible": 10,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-01-20T00:41:52+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 25080,
+      "Title": "~Homebrew~ Penguins Luv Melons",
+      "ImageIcon": "/Images/076907.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-19T23:53:09+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-19T23:53:09+00:00"
+    },
     {
       "GameID": 14766,
       "Title": "~Homebrew~ Riley's Letter Recycle",
@@ -4095,6 +4122,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 315
+  ]
 }
