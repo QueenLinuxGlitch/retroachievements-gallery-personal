@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 222,
+  "TotalAwardsCount": 224,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 100,
+  "MasteryAwardsCount": 101,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 120,
+  "BeatenHardcoreAwardsCount": 121,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2671,6 +2671,30 @@
       "AwardData": 22567,
       "AwardDataExtra": 1,
       "DisplayOrder": 221
+    },
+    {
+      "AwardedAt": "2026-01-21T03:26:02+00:00",
+      "Title": "~Homebrew~ ~Demo~ Silver Falls: Monsters in North Island",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "Flags": null,
+      "ImageIcon": "/Images/103570.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 28820,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 222
+    },
+    {
+      "AwardedAt": "2026-01-21T03:26:02+00:00",
+      "Title": "~Homebrew~ ~Demo~ Silver Falls: Monsters in North Island",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "Flags": null,
+      "ImageIcon": "/Images/103570.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 28820,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 223
     }
   ]
 }

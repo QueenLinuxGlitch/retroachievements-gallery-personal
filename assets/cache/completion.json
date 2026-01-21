@@ -1,5 +1,19 @@
 {
+  "Total": 322,
   "Results": [
+    {
+      "GameID": 28820,
+      "Title": "~Homebrew~ ~Demo~ Silver Falls: Monsters in North Island",
+      "ImageIcon": "/Images/103570.png",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "MaxPossible": 10,
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-01-21T03:26:02+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-01-21T03:26:02+00:00"
+    },
     {
       "GameID": 22567,
       "Title": "~Homebrew~ Boxing",
@@ -4173,6 +4187,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 321
+  ]
 }
