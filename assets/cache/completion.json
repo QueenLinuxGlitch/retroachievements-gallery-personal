@@ -1,6 +1,31 @@
 {
-  "Total": 322,
   "Results": [
+    {
+      "GameID": 13095,
+      "Title": "Donkey Kong",
+      "ImageIcon": "/Images/107021.png",
+      "ConsoleID": 25,
+      "ConsoleName": "Atari 2600",
+      "MaxPossible": 10,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-01-23T03:26:08+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 14157,
+      "Title": "~Hack~ Waluigi's Taco Stand",
+      "ImageIcon": "/Images/024242.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 10,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-01-23T03:21:20+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 28820,
       "Title": "~Homebrew~ ~Demo~ Silver Falls: Monsters in North Island",
@@ -3200,19 +3225,6 @@
       "HighestAwardDate": null
     },
     {
-      "GameID": 13095,
-      "Title": "Donkey Kong",
-      "ImageIcon": "/Images/107021.png",
-      "ConsoleID": 25,
-      "ConsoleName": "Atari 2600",
-      "MaxPossible": 10,
-      "NumAwarded": 3,
-      "NumAwardedHardcore": 3,
-      "MostRecentAwardedDate": "2025-06-29T23:38:56+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
-    },
-    {
       "GameID": 14759,
       "Title": "Beat 'Em & Eat 'Em",
       "ImageIcon": "/Images/086245.png",
@@ -4187,5 +4199,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 323
 }
