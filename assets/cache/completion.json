@@ -1,4 +1,5 @@
 {
+  "Total": 323,
   "Results": [
     {
       "GameID": 13095,
@@ -7,9 +8,9 @@
       "ConsoleID": 25,
       "ConsoleName": "Atari 2600",
       "MaxPossible": 10,
-      "NumAwarded": 4,
-      "NumAwardedHardcore": 4,
-      "MostRecentAwardedDate": "2026-01-23T03:26:08+00:00",
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-01-23T03:29:40+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -4199,6 +4200,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 323
+  ]
 }
