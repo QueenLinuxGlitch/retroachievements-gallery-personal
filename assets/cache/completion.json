@@ -1,5 +1,4 @@
 {
-  "Total": 323,
   "Results": [
     {
       "GameID": 13095,
@@ -2811,7 +2810,7 @@
     },
     {
       "GameID": 4228,
-      "Title": "Devil Crash MD | Dragon's Fury",
+      "Title": "Devil Crash MD",
       "ImageIcon": "/Images/061849.png",
       "ConsoleID": 1,
       "ConsoleName": "Genesis/Mega Drive",
@@ -4200,5 +4199,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 323
 }
