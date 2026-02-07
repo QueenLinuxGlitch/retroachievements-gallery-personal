@@ -1,6 +1,45 @@
 {
   "Results": [
     {
+      "GameID": 4391,
+      "Title": "~Homebrew~ Yazzie",
+      "ImageIcon": "/Images/045889.png",
+      "ConsoleID": 1,
+      "ConsoleName": "Genesis/Mega Drive",
+      "MaxPossible": 11,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-02-07T17:11:23+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 11492,
+      "Title": "~Prototype~ Marlboro Go!",
+      "ImageIcon": "/Images/115912.png",
+      "ConsoleID": 13,
+      "ConsoleName": "Atari Lynx",
+      "MaxPossible": 11,
+      "NumAwarded": 8,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-02-07T16:50:56+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-02-07T16:49:16+00:00"
+    },
+    {
+      "GameID": 12748,
+      "Title": "~Prototype~ Resident Evil 2",
+      "ImageIcon": "/Images/101590.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 11,
+      "NumAwarded": 11,
+      "NumAwardedHardcore": 11,
+      "MostRecentAwardedDate": "2026-02-07T16:43:54+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-02-07T16:43:54+00:00"
+    },
+    {
       "GameID": 13023,
       "Title": "~Prototype~ Xevious",
       "ImageIcon": "/Images/051013.png",
@@ -4213,5 +4252,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 324
+  "Total": 327
 }
