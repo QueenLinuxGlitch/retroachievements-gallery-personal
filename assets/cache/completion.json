@@ -1,6 +1,32 @@
 {
-  "Total": 327,
+  "Total": 329,
   "Results": [
+    {
+      "GameID": 27533,
+      "Title": "~Homebrew~ The Dead in My Living Room",
+      "ImageIcon": "/Images/097208.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 11,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-02-08T06:42:09+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 29886,
+      "Title": "~Homebrew~ Tiny Golf",
+      "ImageIcon": "/Images/098700.png",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "MaxPossible": 11,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-02-08T06:09:16+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-02-08T06:09:16+00:00"
+    },
     {
       "GameID": 4391,
       "Title": "~Homebrew~ Yazzie",

@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 227,
+  "TotalAwardsCount": 228,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 102,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 123,
+  "BeatenHardcoreAwardsCount": 124,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2731,6 +2731,18 @@
       "AwardData": 11492,
       "AwardDataExtra": 1,
       "DisplayOrder": 226
+    },
+    {
+      "AwardedAt": "2026-02-08T06:09:16+00:00",
+      "Title": "~Homebrew~ Tiny Golf",
+      "ConsoleID": 7,
+      "ConsoleName": "NES/Famicom",
+      "Flags": null,
+      "ImageIcon": "/Images/098700.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 29886,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 227
     }
   ]
 }
