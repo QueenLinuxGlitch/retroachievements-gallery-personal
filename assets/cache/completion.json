@@ -8,11 +8,11 @@
       "ConsoleID": 4,
       "ConsoleName": "Game Boy",
       "MaxPossible": 11,
-      "NumAwarded": 6,
-      "NumAwardedHardcore": 6,
-      "MostRecentAwardedDate": "2026-02-08T06:59:42+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 11,
+      "NumAwardedHardcore": 11,
+      "MostRecentAwardedDate": "2026-02-08T23:17:01+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-02-08T23:17:01+00:00"
     },
     {
       "GameID": 29886,
