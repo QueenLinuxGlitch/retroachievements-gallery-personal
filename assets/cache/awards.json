@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 228,
+  "TotalAwardsCount": 230,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 102,
+  "MasteryAwardsCount": 103,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 124,
+  "BeatenHardcoreAwardsCount": 125,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2743,6 +2743,30 @@
       "AwardData": 29886,
       "AwardDataExtra": 1,
       "DisplayOrder": 227
+    },
+    {
+      "AwardedAt": "2026-02-08T23:07:04+00:00",
+      "Title": "~Homebrew~ The Dead in My Living Room",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/097208.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 27533,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 228
+    },
+    {
+      "AwardedAt": "2026-02-08T23:17:01+00:00",
+      "Title": "~Homebrew~ The Dead in My Living Room",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/097208.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 27533,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 229
     }
   ]
 }
