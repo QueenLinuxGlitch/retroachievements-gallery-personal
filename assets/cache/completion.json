@@ -1,5 +1,4 @@
 {
-  "Total": 329,
   "Results": [
     {
       "GameID": 27533,
@@ -8,9 +7,9 @@
       "ConsoleID": 4,
       "ConsoleName": "Game Boy",
       "MaxPossible": 11,
-      "NumAwarded": 2,
-      "NumAwardedHardcore": 2,
-      "MostRecentAwardedDate": "2026-02-08T06:42:09+00:00",
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-02-08T06:59:42+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -4278,5 +4277,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 329
 }
