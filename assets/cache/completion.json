@@ -1,6 +1,19 @@
 {
-  "Total": 329,
+  "Total": 330,
   "Results": [
+    {
+      "GameID": 9222,
+      "Title": "~Homebrew~ Misfortune Advance",
+      "ImageIcon": "/Images/045860.png",
+      "ConsoleID": 5,
+      "ConsoleName": "Game Boy Advance",
+      "MaxPossible": 11,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-02-09T00:59:32+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 27533,
       "Title": "~Homebrew~ The Dead in My Living Room",
