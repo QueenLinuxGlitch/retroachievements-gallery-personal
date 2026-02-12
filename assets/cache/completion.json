@@ -1,6 +1,32 @@
 {
-  "Total": 331,
+  "Total": 333,
   "Results": [
+    {
+      "GameID": 16529,
+      "Title": "~Hack~ Thamz in a Wheelchair",
+      "ImageIcon": "/Images/052024.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 11,
+      "NumAwarded": 7,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2026-02-12T03:19:56+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-02-12T03:07:58+00:00"
+    },
+    {
+      "GameID": 15722,
+      "Title": "~Homebrew~ ~Prototype~ PokeMaze",
+      "ImageIcon": "/Images/053899.png",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "MaxPossible": 11,
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-02-12T01:52:32+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-02-12T01:49:53+00:00"
+    },
     {
       "GameID": 33578,
       "Title": "~Homebrew~ 204863: A P.T. Silent Hills Demake",
@@ -8,11 +34,11 @@
       "ConsoleID": 4,
       "ConsoleName": "Game Boy",
       "MaxPossible": 11,
-      "NumAwarded": 4,
-      "NumAwardedHardcore": 4,
-      "MostRecentAwardedDate": "2026-02-12T01:24:32+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
+      "NumAwarded": 11,
+      "NumAwardedHardcore": 11,
+      "MostRecentAwardedDate": "2026-02-12T01:38:56+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-02-12T01:38:56+00:00"
     },
     {
       "GameID": 9222,
