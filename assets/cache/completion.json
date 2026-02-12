@@ -1,5 +1,19 @@
 {
+  "Total": 331,
   "Results": [
+    {
+      "GameID": 33578,
+      "Title": "~Homebrew~ 204863: A P.T. Silent Hills Demake",
+      "ImageIcon": "/Images/111619.png",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "MaxPossible": 11,
+      "NumAwarded": 4,
+      "NumAwardedHardcore": 4,
+      "MostRecentAwardedDate": "2026-02-12T01:24:32+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 9222,
       "Title": "~Homebrew~ Misfortune Advance",
@@ -4290,6 +4304,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 330
+  ]
 }
