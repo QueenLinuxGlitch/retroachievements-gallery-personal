@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 230,
+  "TotalAwardsCount": 234,
   "HiddenAwardsCount": 0,
-  "MasteryAwardsCount": 103,
+  "MasteryAwardsCount": 104,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 125,
+  "BeatenHardcoreAwardsCount": 128,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2767,6 +2767,54 @@
       "AwardData": 27533,
       "AwardDataExtra": 1,
       "DisplayOrder": 229
+    },
+    {
+      "AwardedAt": "2026-02-12T01:38:56+00:00",
+      "Title": "~Homebrew~ 204863: A P.T. Silent Hills Demake",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/111619.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 33578,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 230
+    },
+    {
+      "AwardedAt": "2026-02-12T01:38:56+00:00",
+      "Title": "~Homebrew~ 204863: A P.T. Silent Hills Demake",
+      "ConsoleID": 4,
+      "ConsoleName": "Game Boy",
+      "Flags": null,
+      "ImageIcon": "/Images/111619.png",
+      "AwardType": "Mastery/Completion",
+      "AwardData": 33578,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 231
+    },
+    {
+      "AwardedAt": "2026-02-12T01:49:53+00:00",
+      "Title": "~Homebrew~ ~Prototype~ PokeMaze",
+      "ConsoleID": 24,
+      "ConsoleName": "Pokemon Mini",
+      "Flags": null,
+      "ImageIcon": "/Images/053899.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 15722,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 232
+    },
+    {
+      "AwardedAt": "2026-02-12T03:07:58+00:00",
+      "Title": "~Hack~ Thamz in a Wheelchair",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "Flags": null,
+      "ImageIcon": "/Images/052024.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 16529,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 233
     }
   ]
 }
