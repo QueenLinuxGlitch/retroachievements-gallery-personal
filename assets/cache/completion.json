@@ -1,5 +1,4 @@
 {
-  "Total": 333,
   "Results": [
     {
       "GameID": 16529,
@@ -8,9 +7,9 @@
       "ConsoleID": 2,
       "ConsoleName": "Nintendo 64",
       "MaxPossible": 11,
-      "NumAwarded": 7,
-      "NumAwardedHardcore": 7,
-      "MostRecentAwardedDate": "2026-02-12T03:19:56+00:00",
+      "NumAwarded": 9,
+      "NumAwardedHardcore": 9,
+      "MostRecentAwardedDate": "2026-02-15T07:55:01+00:00",
       "HighestAwardKind": "beaten-hardcore",
       "HighestAwardDate": "2026-02-12T03:07:58+00:00"
     },
@@ -4330,5 +4329,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 333
 }
