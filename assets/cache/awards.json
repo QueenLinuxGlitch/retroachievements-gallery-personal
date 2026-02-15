@@ -1,9 +1,9 @@
 {
-  "TotalAwardsCount": 234,
+  "TotalAwardsCount": 235,
   "HiddenAwardsCount": 0,
   "MasteryAwardsCount": 104,
   "CompletionAwardsCount": 1,
-  "BeatenHardcoreAwardsCount": 128,
+  "BeatenHardcoreAwardsCount": 129,
   "BeatenSoftcoreAwardsCount": 1,
   "EventAwardsCount": 0,
   "SiteAwardsCount": 0,
@@ -2815,6 +2815,18 @@
       "AwardData": 16529,
       "AwardDataExtra": 1,
       "DisplayOrder": 233
+    },
+    {
+      "AwardedAt": "2026-02-15T17:43:24+00:00",
+      "Title": "SegaSonic Cosmo Fighter Galaxy Patrol",
+      "ConsoleID": 27,
+      "ConsoleName": "Arcade",
+      "Flags": null,
+      "ImageIcon": "/Images/108339.png",
+      "AwardType": "Game Beaten",
+      "AwardData": 12491,
+      "AwardDataExtra": 1,
+      "DisplayOrder": 234
     }
   ]
 }

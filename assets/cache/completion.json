@@ -1,6 +1,31 @@
 {
-  "Total": 333,
   "Results": [
+    {
+      "GameID": 12491,
+      "Title": "SegaSonic Cosmo Fighter Galaxy Patrol",
+      "ImageIcon": "/Images/108339.png",
+      "ConsoleID": 27,
+      "ConsoleName": "Arcade",
+      "MaxPossible": 11,
+      "NumAwarded": 5,
+      "NumAwardedHardcore": 5,
+      "MostRecentAwardedDate": "2026-02-15T17:46:03+00:00",
+      "HighestAwardKind": "beaten-hardcore",
+      "HighestAwardDate": "2026-02-15T17:43:24+00:00"
+    },
+    {
+      "GameID": 5397,
+      "Title": "Space Mountain",
+      "ImageIcon": "/Images/082293.png",
+      "ConsoleID": 33,
+      "ConsoleName": "SG-1000",
+      "MaxPossible": 11,
+      "NumAwarded": 2,
+      "NumAwardedHardcore": 2,
+      "MostRecentAwardedDate": "2026-02-15T17:37:55+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 16529,
       "Title": "~Hack~ Thamz in a Wheelchair",
@@ -4330,5 +4355,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 335
 }
