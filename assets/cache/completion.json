@@ -1,5 +1,19 @@
 {
+  "Total": 336,
   "Results": [
+    {
+      "GameID": 26482,
+      "Title": "Rhythum",
+      "ImageIcon": "/Images/093487.png",
+      "ConsoleID": 71,
+      "ConsoleName": "Arduboy",
+      "MaxPossible": 11,
+      "NumAwarded": 11,
+      "NumAwardedHardcore": 11,
+      "MostRecentAwardedDate": "2026-02-18T02:13:34+00:00",
+      "HighestAwardKind": "mastered",
+      "HighestAwardDate": "2026-02-18T02:13:34+00:00"
+    },
     {
       "GameID": 12491,
       "Title": "SegaSonic Cosmo Fighter Galaxy Patrol",
@@ -7,9 +21,9 @@
       "ConsoleID": 27,
       "ConsoleName": "Arcade",
       "MaxPossible": 11,
-      "NumAwarded": 5,
-      "NumAwardedHardcore": 5,
-      "MostRecentAwardedDate": "2026-02-15T17:46:03+00:00",
+      "NumAwarded": 10,
+      "NumAwardedHardcore": 10,
+      "MostRecentAwardedDate": "2026-02-18T02:07:30+00:00",
       "HighestAwardKind": "beaten-hardcore",
       "HighestAwardDate": "2026-02-15T17:43:24+00:00"
     },
@@ -4355,6 +4369,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 335
+  ]
 }
