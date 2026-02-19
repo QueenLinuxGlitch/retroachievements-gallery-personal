@@ -1,6 +1,18 @@
 {
-  "Total": 336,
   "Results": [
+    {
+      "GameID": 30463,
+      "Title": "Puffy: P.S. I Love You",
+      "ImageIcon": "/Images/100807.png",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "MaxPossible": 11,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-02-19T02:46:59+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 26482,
       "Title": "Rhythum",
@@ -4369,5 +4381,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 337
 }
