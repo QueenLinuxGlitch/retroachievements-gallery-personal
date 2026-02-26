@@ -260,6 +260,11 @@
     "icon": "assets/console-icons/80.png"
   },
   {
+    "id": 81,
+    "name": "Famicom Disk System",
+    "icon": "assets/console-icons/81.png"
+  },
+  {
     "id": 101,
     "name": "Events",
     "icon": "assets/console-icons/101.png"
