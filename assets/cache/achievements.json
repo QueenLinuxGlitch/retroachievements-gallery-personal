@@ -259,16 +259,6 @@
     "points": 5,
     "date": "2023-10-18 05:21:43"
   },
-  "65434": {
-    "id": 65434,
-    "title": "Back to the Origins",
-    "description": "Complete Mega Man 1-2 Course",
-    "gameTitle": "Mega Man: The Power Battle",
-    "gameId": 11794,
-    "badgeName": "102653",
-    "points": 5,
-    "date": "2023-10-18 05:21:50"
-  },
   "92665": {
     "id": 92665,
     "title": "The Fighting Robot",
@@ -276,6 +266,16 @@
     "gameTitle": "Mega Man: The Power Battle",
     "gameId": 11794,
     "badgeName": "102030",
+    "points": 5,
+    "date": "2023-10-18 05:21:50"
+  },
+  "65434": {
+    "id": 65434,
+    "title": "Back to the Origins",
+    "description": "Complete Mega Man 1-2 Course",
+    "gameTitle": "Mega Man: The Power Battle",
+    "gameId": 11794,
+    "badgeName": "102653",
     "points": 5,
     "date": "2023-10-18 05:21:50"
   },
@@ -449,16 +449,6 @@
     "points": 3,
     "date": "2023-10-24 05:20:18"
   },
-  "65420": {
-    "id": 65420,
-    "title": "More Than A Robot",
-    "description": "Complete Mega Man 7 Course",
-    "gameTitle": "Mega Man: The Power Battle",
-    "gameId": 11794,
-    "badgeName": "102655",
-    "points": 5,
-    "date": "2023-10-24 05:22:28"
-  },
   "92666": {
     "id": 92666,
     "title": "The Fighting Brother",
@@ -466,6 +456,16 @@
     "gameTitle": "Mega Man: The Power Battle",
     "gameId": 11794,
     "badgeName": "102031",
+    "points": 5,
+    "date": "2023-10-24 05:22:28"
+  },
+  "65420": {
+    "id": 65420,
+    "title": "More Than A Robot",
+    "description": "Complete Mega Man 7 Course",
+    "gameTitle": "Mega Man: The Power Battle",
+    "gameId": 11794,
+    "badgeName": "102655",
     "points": 5,
     "date": "2023-10-24 05:22:28"
   },
@@ -1299,20 +1299,20 @@
     "points": 10,
     "date": "2023-11-06 04:07:08"
   },
-  "89083": {
-    "id": 89083,
-    "title": "Millionaire",
-    "description": "Reach 1 million points",
+  "89084": {
+    "id": 89084,
+    "title": "Millionaire [Fast]",
+    "description": "Reach 1 million points in Fast Mode",
     "gameTitle": "Alien Crush",
     "gameId": 2271,
     "badgeName": "97196",
     "points": 5,
     "date": "2023-11-06 04:07:09"
   },
-  "89084": {
-    "id": 89084,
-    "title": "Millionaire [Fast]",
-    "description": "Reach 1 million points in Fast Mode",
+  "89083": {
+    "id": 89083,
+    "title": "Millionaire",
+    "description": "Reach 1 million points",
     "gameTitle": "Alien Crush",
     "gameId": 2271,
     "badgeName": "97196",
@@ -2779,16 +2779,6 @@
     "points": 3,
     "date": "2025-06-29 17:40:00"
   },
-  "77": {
-    "id": 77,
-    "title": "Nice Score",
-    "description": "Earn over 20 million points",
-    "gameTitle": "Sonic the Hedgehog Spinball",
-    "gameId": 15,
-    "badgeName": "131100",
-    "points": 4,
-    "date": "2025-06-29 17:45:01"
-  },
   "3997": {
     "id": 3997,
     "title": "Emerald Coaster Left",
@@ -2797,6 +2787,16 @@
     "gameId": 15,
     "badgeName": "155986",
     "points": 3,
+    "date": "2025-06-29 17:45:01"
+  },
+  "77": {
+    "id": 77,
+    "title": "Nice Score",
+    "description": "Earn over 20 million points",
+    "gameTitle": "Sonic the Hedgehog Spinball",
+    "gameId": 15,
+    "badgeName": "131100",
+    "points": 4,
     "date": "2025-06-29 17:45:01"
   },
   "4004": {
@@ -3099,16 +3099,6 @@
     "points": 3,
     "date": "2025-06-30 01:53:15"
   },
-  "167715": {
-    "id": 167715,
-    "title": "Ghosts Haunted Boardwalk",
-    "description": "Eat 4 ghosts under single power pellet (bonus rounds dont count)",
-    "gameTitle": "Pac-Man Pinball Advance",
-    "gameId": 7274,
-    "badgeName": "188607",
-    "points": 4,
-    "date": "2025-06-30 01:53:35"
-  },
   "167719": {
     "id": 167719,
     "title": "Haunted Boardwalk 5,000",
@@ -3119,15 +3109,15 @@
     "points": 3,
     "date": "2025-06-30 01:53:35"
   },
-  "167709": {
-    "id": 167709,
-    "title": "Chomp Chomp's Champ",
-    "description": "Complete level 1",
+  "167715": {
+    "id": 167715,
+    "title": "Ghosts Haunted Boardwalk",
+    "description": "Eat 4 ghosts under single power pellet (bonus rounds dont count)",
     "gameTitle": "Pac-Man Pinball Advance",
     "gameId": 7274,
-    "badgeName": "490257",
-    "points": 5,
-    "date": "2025-06-30 01:53:51"
+    "badgeName": "188607",
+    "points": 4,
+    "date": "2025-06-30 01:53:35"
   },
   "167720": {
     "id": 167720,
@@ -3139,14 +3129,24 @@
     "points": 5,
     "date": "2025-06-30 01:53:51"
   },
-  "31897": {
-    "id": 31897,
-    "title": "Can we keep it up?",
-    "description": "Reach 2,500 points on Pac Village table",
+  "167709": {
+    "id": 167709,
+    "title": "Chomp Chomp's Champ",
+    "description": "Complete level 1",
     "gameTitle": "Pac-Man Pinball Advance",
     "gameId": 7274,
-    "badgeName": "32682",
-    "points": 2,
+    "badgeName": "490257",
+    "points": 5,
+    "date": "2025-06-30 01:53:51"
+  },
+  "31898": {
+    "id": 31898,
+    "title": "Doing Great!",
+    "description": "Reach 5,000 points on Pac Village table",
+    "gameTitle": "Pac-Man Pinball Advance",
+    "gameId": 7274,
+    "badgeName": "32683",
+    "points": 3,
     "date": "2025-06-30 01:57:08"
   },
   "31896": {
@@ -3159,14 +3159,14 @@
     "points": 2,
     "date": "2025-06-30 01:57:08"
   },
-  "31898": {
-    "id": 31898,
-    "title": "Doing Great!",
-    "description": "Reach 5,000 points on Pac Village table",
+  "31897": {
+    "id": 31897,
+    "title": "Can we keep it up?",
+    "description": "Reach 2,500 points on Pac Village table",
     "gameTitle": "Pac-Man Pinball Advance",
     "gameId": 7274,
-    "badgeName": "32683",
-    "points": 3,
+    "badgeName": "32682",
+    "points": 2,
     "date": "2025-06-30 01:57:08"
   },
   "31899": {
@@ -3599,16 +3599,6 @@
     "points": 5,
     "date": "2025-07-03 02:00:13"
   },
-  "515212": {
-    "id": 515212,
-    "title": "Element Daughter A.I.",
-    "description": "Cleared stage 1",
-    "gameTitle": "DoDonPachi DaiFukkatsu Black Label",
-    "gameId": 22131,
-    "badgeName": "583442",
-    "points": 2,
-    "date": "2025-07-03 02:08:47"
-  },
   "579621": {
     "id": 579621,
     "title": "Element Daughter A.I.",
@@ -3617,6 +3607,16 @@
     "gameId": 37970,
     "badgeName": "583442",
     "points": 1,
+    "date": "2025-07-03 02:08:47"
+  },
+  "515212": {
+    "id": 515212,
+    "title": "Element Daughter A.I.",
+    "description": "Cleared stage 1",
+    "gameTitle": "DoDonPachi DaiFukkatsu Black Label",
+    "gameId": 22131,
+    "badgeName": "583442",
+    "points": 2,
     "date": "2025-07-03 02:08:47"
   },
   "515219": {
@@ -4389,16 +4389,6 @@
     "points": 5,
     "date": "2025-07-18 22:19:11"
   },
-  "136473": {
-    "id": 136473,
-    "title": "The Five-Headed Behemoth",
-    "description": "Enter Bonus Stage 1",
-    "gameTitle": "Devil's Crush: Naxat Pinball",
-    "gameId": 2291,
-    "badgeName": "151199",
-    "points": 5,
-    "date": "2025-07-18 22:19:59"
-  },
   "136486": {
     "id": 136486,
     "title": "Dragon's Feast",
@@ -4406,6 +4396,16 @@
     "gameTitle": "Devil's Crush: Naxat Pinball",
     "gameId": 2291,
     "badgeName": "151174",
+    "points": 5,
+    "date": "2025-07-18 22:19:59"
+  },
+  "136473": {
+    "id": 136473,
+    "title": "The Five-Headed Behemoth",
+    "description": "Enter Bonus Stage 1",
+    "gameTitle": "Devil's Crush: Naxat Pinball",
+    "gameId": 2291,
+    "badgeName": "151199",
     "points": 5,
     "date": "2025-07-18 22:19:59"
   },
@@ -4509,16 +4509,6 @@
     "points": 2,
     "date": "2025-07-25 15:55:39"
   },
-  "230237": {
-    "id": 230237,
-    "title": "Tanooki Tetris",
-    "description": "[Standard - Marathon] Reach Level 4",
-    "gameTitle": "Tetris DS",
-    "gameId": 9878,
-    "badgeName": "255829",
-    "points": 3,
-    "date": "2025-07-25 15:56:13"
-  },
   "230053": {
     "id": 230053,
     "title": "Back-To-Back Tetris",
@@ -4527,6 +4517,16 @@
     "gameId": 9878,
     "badgeName": "255777",
     "points": 2,
+    "date": "2025-07-25 15:56:13"
+  },
+  "230237": {
+    "id": 230237,
+    "title": "Tanooki Tetris",
+    "description": "[Standard - Marathon] Reach Level 4",
+    "gameTitle": "Tetris DS",
+    "gameId": 9878,
+    "badgeName": "255829",
+    "points": 3,
     "date": "2025-07-25 15:56:13"
   },
   "230054": {
@@ -4869,16 +4869,6 @@
     "points": 5,
     "date": "2025-12-10 01:09:27"
   },
-  "325835": {
-    "id": 325835,
-    "title": "Scalebound Destiny",
-    "description": "Find Dwarven Dragon Armor quest complete",
-    "gameTitle": "The Lord of the Rings: The Third Age",
-    "gameId": 19264,
-    "badgeName": "363904",
-    "points": 5,
-    "date": "2025-12-10 01:53:39"
-  },
   "325836": {
     "id": 325836,
     "title": "Dragonheart's Legacy",
@@ -4889,15 +4879,15 @@
     "points": 5,
     "date": "2025-12-10 01:53:39"
   },
-  "325837": {
-    "id": 325837,
-    "title": "The Trollpocalypse",
-    "description": "Kill Nine Trolls of Moria quest complete",
+  "325835": {
+    "id": 325835,
+    "title": "Scalebound Destiny",
+    "description": "Find Dwarven Dragon Armor quest complete",
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
-    "badgeName": "363906",
+    "badgeName": "363904",
     "points": 5,
-    "date": "2025-12-10 02:18:15"
+    "date": "2025-12-10 01:53:39"
   },
   "325838": {
     "id": 325838,
@@ -4906,6 +4896,16 @@
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
     "badgeName": "363907",
+    "points": 5,
+    "date": "2025-12-10 02:18:15"
+  },
+  "325837": {
+    "id": 325837,
+    "title": "The Trollpocalypse",
+    "description": "Kill Nine Trolls of Moria quest complete",
+    "gameTitle": "The Lord of the Rings: The Third Age",
+    "gameId": 19264,
+    "badgeName": "363906",
     "points": 5,
     "date": "2025-12-10 02:18:15"
   },
@@ -4919,16 +4919,6 @@
     "points": 5,
     "date": "2025-12-10 02:23:11"
   },
-  "325841": {
-    "id": 325841,
-    "title": "Flames of Redemption",
-    "description": "Defeat the Balrog in East Moria on Hard",
-    "gameTitle": "The Lord of the Rings: The Third Age",
-    "gameId": 19264,
-    "badgeName": "363910",
-    "points": 5,
-    "date": "2025-12-10 02:47:56"
-  },
   "325840": {
     "id": 325840,
     "title": "Shadows Engulfed",
@@ -4936,6 +4926,16 @@
     "gameTitle": "The Lord of the Rings: The Third Age",
     "gameId": 19264,
     "badgeName": "363909",
+    "points": 5,
+    "date": "2025-12-10 02:47:56"
+  },
+  "325841": {
+    "id": 325841,
+    "title": "Flames of Redemption",
+    "description": "Defeat the Balrog in East Moria on Hard",
+    "gameTitle": "The Lord of the Rings: The Third Age",
+    "gameId": 19264,
+    "badgeName": "363910",
     "points": 5,
     "date": "2025-12-10 02:47:56"
   },
@@ -4989,16 +4989,6 @@
     "points": 5,
     "date": "2025-12-15 00:11:04"
   },
-  "225696": {
-    "id": 225696,
-    "title": "Aquaman Is The Worst Superfriend",
-    "description": "Super clear As Large As Possible 2 (90cm or larger)",
-    "gameTitle": "We Love Katamari",
-    "gameId": 2672,
-    "badgeName": "249928",
-    "points": 10,
-    "date": "2025-12-15 00:22:43"
-  },
   "225694": {
     "id": 225694,
     "title": "Tridentless, I Suppose",
@@ -5007,6 +4997,16 @@
     "gameId": 2672,
     "badgeName": "249926",
     "points": 5,
+    "date": "2025-12-15 00:22:43"
+  },
+  "225696": {
+    "id": 225696,
+    "title": "Aquaman Is The Worst Superfriend",
+    "description": "Super clear As Large As Possible 2 (90cm or larger)",
+    "gameTitle": "We Love Katamari",
+    "gameId": 2672,
+    "badgeName": "249928",
+    "points": 10,
     "date": "2025-12-15 00:22:43"
   },
   "225690": {
@@ -5229,16 +5229,6 @@
     "points": 2,
     "date": "2025-12-20 05:44:04"
   },
-  "233092": {
-    "id": 233092,
-    "title": "Mommy Mearest",
-    "description": "Beat Week 4 on Hard",
-    "gameTitle": "~Homebrew~ PSXFunkin",
-    "gameId": 18282,
-    "badgeName": "258280",
-    "points": 3,
-    "date": "2025-12-20 05:50:12"
-  },
   "233058": {
     "id": 233058,
     "title": "Mommy Must Murder",
@@ -5247,6 +5237,16 @@
     "gameId": 18282,
     "badgeName": "258233",
     "points": 2,
+    "date": "2025-12-20 05:50:12"
+  },
+  "233092": {
+    "id": 233092,
+    "title": "Mommy Mearest",
+    "description": "Beat Week 4 on Hard",
+    "gameTitle": "~Homebrew~ PSXFunkin",
+    "gameId": 18282,
+    "badgeName": "258280",
+    "points": 3,
     "date": "2025-12-20 05:50:12"
   },
   "225225": {
@@ -6069,16 +6069,6 @@
     "points": 5,
     "date": "2025-12-26 02:44:05"
   },
-  "478051": {
-    "id": 478051,
-    "title": "Certified Death Trap",
-    "description": "Defeat Shota in Stage 1 in 25 Seconds or Less?! Time to put those slimes to work, my lord!",
-    "gameTitle": "What Did I Do to Deserve This, My Lord!?",
-    "gameId": 15627,
-    "badgeName": "544942",
-    "points": 5,
-    "date": "2025-12-26 17:52:41"
-  },
   "477998": {
     "id": 477998,
     "title": "Dirty Jobs and Clean Getaways",
@@ -6087,6 +6077,16 @@
     "gameId": 15627,
     "badgeName": "544828",
     "points": 2,
+    "date": "2025-12-26 17:52:41"
+  },
+  "478051": {
+    "id": 478051,
+    "title": "Certified Death Trap",
+    "description": "Defeat Shota in Stage 1 in 25 Seconds or Less?! Time to put those slimes to work, my lord!",
+    "gameTitle": "What Did I Do to Deserve This, My Lord!?",
+    "gameId": 15627,
+    "badgeName": "544942",
+    "points": 5,
     "date": "2025-12-26 17:52:41"
   },
   "478056": {
@@ -6329,16 +6329,6 @@
     "points": 4,
     "date": "2025-12-26 23:00:57"
   },
-  "487252": {
-    "id": 487252,
-    "title": "Ah! A Giant Killer Lunch Box!",
-    "description": "Defeat Balrog in the shack.",
-    "gameTitle": "~Homebrew~ Cave Story",
-    "gameId": 29730,
-    "badgeName": "552775",
-    "points": 2,
-    "date": "2025-12-26 23:00:57"
-  },
   "492807": {
     "id": 492807,
     "title": "Pea Shooter",
@@ -6347,6 +6337,16 @@
     "gameId": 29730,
     "badgeName": "561292",
     "points": 3,
+    "date": "2025-12-26 23:00:57"
+  },
+  "487252": {
+    "id": 487252,
+    "title": "Ah! A Giant Killer Lunch Box!",
+    "description": "Defeat Balrog in the shack.",
+    "gameTitle": "~Homebrew~ Cave Story",
+    "gameId": 29730,
+    "badgeName": "552775",
+    "points": 2,
     "date": "2025-12-26 23:00:57"
   },
   "492556": {
@@ -7349,16 +7349,6 @@
     "points": 1,
     "date": "2025-12-27 06:25:59"
   },
-  "216718": {
-    "id": 216718,
-    "title": "25 Points",
-    "description": "Score 25 points",
-    "gameTitle": "~Homebrew~ Sonic Arena",
-    "gameId": 15729,
-    "badgeName": "239678",
-    "points": 1,
-    "date": "2025-12-27 06:28:10"
-  },
   "216719": {
     "id": 216719,
     "title": "50 Points",
@@ -7379,15 +7369,15 @@
     "points": 1,
     "date": "2025-12-27 06:28:10"
   },
-  "216721": {
-    "id": 216721,
-    "title": "Max Score!",
-    "description": "Score 99 points",
+  "216718": {
+    "id": 216718,
+    "title": "25 Points",
+    "description": "Score 25 points",
     "gameTitle": "~Homebrew~ Sonic Arena",
     "gameId": 15729,
-    "badgeName": "239682",
+    "badgeName": "239678",
     "points": 1,
-    "date": "2025-12-27 06:28:11"
+    "date": "2025-12-27 06:28:10"
   },
   "216720": {
     "id": 216720,
@@ -7396,6 +7386,16 @@
     "gameTitle": "~Homebrew~ Sonic Arena",
     "gameId": 15729,
     "badgeName": "239681",
+    "points": 1,
+    "date": "2025-12-27 06:28:11"
+  },
+  "216721": {
+    "id": 216721,
+    "title": "Max Score!",
+    "description": "Score 99 points",
+    "gameTitle": "~Homebrew~ Sonic Arena",
+    "gameId": 15729,
+    "badgeName": "239682",
     "points": 1,
     "date": "2025-12-27 06:28:11"
   },
@@ -7709,16 +7709,6 @@
     "points": 5,
     "date": "2025-12-28 05:20:02"
   },
-  "426458": {
-    "id": 426458,
-    "title": "Receive You",
-    "description": "Defeat an enemy while in Extreme Heat",
-    "gameTitle": "~Homebrew~ Yakuza GB",
-    "gameId": 29764,
-    "badgeName": "481097",
-    "points": 2,
-    "date": "2025-12-28 05:25:47"
-  },
   "426457": {
     "id": 426457,
     "title": "Funk Goes On",
@@ -7727,6 +7717,16 @@
     "gameId": 29764,
     "badgeName": "481096",
     "points": 1,
+    "date": "2025-12-28 05:25:47"
+  },
+  "426458": {
+    "id": 426458,
+    "title": "Receive You",
+    "description": "Defeat an enemy while in Extreme Heat",
+    "gameTitle": "~Homebrew~ Yakuza GB",
+    "gameId": 29764,
+    "badgeName": "481097",
+    "points": 2,
     "date": "2025-12-28 05:25:47"
   },
   "503334": {
@@ -7859,16 +7859,6 @@
     "points": 1,
     "date": "2025-12-28 06:40:49"
   },
-  "521600": {
-    "id": 521600,
-    "title": "The Cake Is Not a Lie",
-    "description": "Beat the game",
-    "gameTitle": "RAD 2025",
-    "gameId": 33627,
-    "badgeName": "614341",
-    "points": 1,
-    "date": "2025-12-28 06:42:31"
-  },
   "539997": {
     "id": 539997,
     "title": "The Cake Is Not a Lie",
@@ -7877,6 +7867,16 @@
     "gameId": 33742,
     "badgeName": "614341",
     "points": 2,
+    "date": "2025-12-28 06:42:31"
+  },
+  "521600": {
+    "id": 521600,
+    "title": "The Cake Is Not a Lie",
+    "description": "Beat the game",
+    "gameTitle": "RAD 2025",
+    "gameId": 33627,
+    "badgeName": "614341",
+    "points": 1,
     "date": "2025-12-28 06:42:31"
   },
   "199091": {
@@ -8369,16 +8369,6 @@
     "points": 2,
     "date": "2025-12-28 17:38:35"
   },
-  "579438": {
-    "id": 579438,
-    "title": "Level 5 Mission",
-    "description": "Clear Level 5",
-    "gameTitle": "RA Roulette 2022 - Evergreen",
-    "gameId": 37969,
-    "badgeName": "176653",
-    "points": 1,
-    "date": "2025-12-28 17:39:10"
-  },
   "156790": {
     "id": 156790,
     "title": "Level 5 Mission",
@@ -8387,6 +8377,16 @@
     "gameId": 8180,
     "badgeName": "176653",
     "points": 2,
+    "date": "2025-12-28 17:39:10"
+  },
+  "579438": {
+    "id": 579438,
+    "title": "Level 5 Mission",
+    "description": "Clear Level 5",
+    "gameTitle": "RA Roulette 2022 - Evergreen",
+    "gameId": 37969,
+    "badgeName": "176653",
+    "points": 1,
     "date": "2025-12-28 17:39:10"
   },
   "490660": {
@@ -8959,6 +8959,16 @@
     "points": 10,
     "date": "2025-12-30 02:59:51"
   },
+  "347273": {
+    "id": 347273,
+    "title": "Last Woman Standing",
+    "description": "Be the last Beatrix standing when the battle ends.",
+    "gameTitle": "~Hack~ Beatrix vs Beatrix vs Beatrix",
+    "gameId": 25588,
+    "badgeName": "392668",
+    "points": 5,
+    "date": "2025-12-30 03:27:29"
+  },
   "347275": {
     "id": 347275,
     "title": "A Victory Toast",
@@ -8976,16 +8986,6 @@
     "gameTitle": "~Hack~ Beatrix vs Beatrix vs Beatrix",
     "gameId": 25588,
     "badgeName": "392692",
-    "points": 5,
-    "date": "2025-12-30 03:27:29"
-  },
-  "347273": {
-    "id": 347273,
-    "title": "Last Woman Standing",
-    "description": "Be the last Beatrix standing when the battle ends.",
-    "gameTitle": "~Hack~ Beatrix vs Beatrix vs Beatrix",
-    "gameId": 25588,
-    "badgeName": "392668",
     "points": 5,
     "date": "2025-12-30 03:27:29"
   },
