@@ -90,6 +90,11 @@
     "icon": "assets/console-icons/18.png"
   },
   {
+    "id": 19,
+    "name": "Wii",
+    "icon": "assets/console-icons/19.png"
+  },
+  {
     "id": 21,
     "name": "PlayStation 2",
     "icon": "assets/console-icons/21.png"
