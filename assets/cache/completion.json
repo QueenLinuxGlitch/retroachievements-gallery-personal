@@ -1,5 +1,4 @@
 {
-  "Total": 337,
   "Results": [
     {
       "GameID": 30463,
@@ -2499,7 +2498,7 @@
     },
     {
       "GameID": 25306,
-      "Title": "~Homebrew~ Neo Racing Genesis",
+      "Title": "~Homebrew~ ~Demo~ Neo Racing Genesis",
       "ImageIcon": "/Images/079052.png",
       "ConsoleID": 5,
       "ConsoleName": "Game Boy Advance",
@@ -4382,5 +4381,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 337
 }
