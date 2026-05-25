@@ -2952,6 +2952,19 @@
       "HighestAwardDate": null
     },
     {
+      "GameID": 11352,
+      "Title": "Chocobo Racing",
+      "ImageIcon": "/Images/097033.png",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "MaxPossible": 48,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2025-07-19T14:31:58+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 14715,
       "Title": "Pokémon Pinball mini",
       "ImageIcon": "/Images/028399.png",
@@ -3199,6 +3212,19 @@
       "HighestAwardDate": null
     },
     {
+      "GameID": 6605,
+      "Title": "WarioWare, Inc.: Mega Party Game$!",
+      "ImageIcon": "/Images/075446.png",
+      "ConsoleID": 16,
+      "ConsoleName": "GameCube",
+      "MaxPossible": 43,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2025-07-03T03:05:41+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 22131,
       "Title": "DoDonPachi DaiFukkatsu Black Label",
       "ImageIcon": "/Images/110860.png",
@@ -3249,6 +3275,19 @@
       "MostRecentAwardedDate": "2025-07-03T01:34:08+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
+    },
+    {
+      "GameID": 13566,
+      "Title": "Pachinko Sexy Reaction",
+      "ImageIcon": "/Images/034082.png",
+      "ConsoleID": 27,
+      "ConsoleName": "Arcade",
+      "MaxPossible": 15,
+      "NumAwarded": 15,
+      "NumAwardedHardcore": 7,
+      "MostRecentAwardedDate": "2025-07-02T12:58:14+00:00",
+      "HighestAwardKind": "completed",
+      "HighestAwardDate": "2023-10-23T06:55:03+00:00"
     },
     {
       "GameID": 20733,
@@ -3559,19 +3598,6 @@
       "NumAwarded": 6,
       "NumAwardedHardcore": 0,
       "MostRecentAwardedDate": "2025-06-28T15:14:27+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
-    },
-    {
-      "GameID": 6605,
-      "Title": "WarioWare, Inc.: Mega Party Game$!",
-      "ImageIcon": "/Images/075446.png",
-      "ConsoleID": 16,
-      "ConsoleName": "GameCube",
-      "MaxPossible": 43,
-      "NumAwarded": 3,
-      "NumAwardedHardcore": 1,
-      "MostRecentAwardedDate": "2025-06-27T02:08:03+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -4213,19 +4239,6 @@
       "HighestAwardDate": null
     },
     {
-      "GameID": 13566,
-      "Title": "Pachinko Sexy Reaction",
-      "ImageIcon": "/Images/034082.png",
-      "ConsoleID": 27,
-      "ConsoleName": "Arcade",
-      "MaxPossible": 15,
-      "NumAwarded": 15,
-      "NumAwardedHardcore": 7,
-      "MostRecentAwardedDate": "2023-10-23T06:55:03+00:00",
-      "HighestAwardKind": "completed",
-      "HighestAwardDate": "2023-10-23T06:55:03+00:00"
-    },
-    {
       "GameID": 4845,
       "Title": "Pretty Soldier Sailor Moon",
       "ImageIcon": "/Images/068543.png",
@@ -4235,19 +4248,6 @@
       "NumAwarded": 2,
       "NumAwardedHardcore": 0,
       "MostRecentAwardedDate": "2023-10-23T04:32:21+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
-    },
-    {
-      "GameID": 11352,
-      "Title": "Chocobo Racing",
-      "ImageIcon": "/Images/097033.png",
-      "ConsoleID": 12,
-      "ConsoleName": "PlayStation",
-      "MaxPossible": 48,
-      "NumAwarded": 1,
-      "NumAwardedHardcore": 1,
-      "MostRecentAwardedDate": "2023-10-22T20:09:17+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
