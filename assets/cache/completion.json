@@ -1,5 +1,4 @@
 {
-  "Total": 337,
   "Results": [
     {
       "GameID": 30463,
@@ -1693,7 +1692,7 @@
     },
     {
       "GameID": 13370,
-      "Title": "~Prototype~ Pit Fighter",
+      "Title": "~Prototype~ Pit-Fighter",
       "ImageIcon": "/Images/097910.png",
       "ConsoleID": 51,
       "ConsoleName": "Atari 7800",
@@ -4382,5 +4381,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 337
 }
