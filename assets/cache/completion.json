@@ -1,4 +1,5 @@
 {
+  "Total": 338,
   "Results": [
     {
       "GameID": 20953,
@@ -7,9 +8,9 @@
       "ConsoleID": 21,
       "ConsoleName": "PlayStation 2",
       "MaxPossible": 61,
-      "NumAwarded": 20,
-      "NumAwardedHardcore": 20,
-      "MostRecentAwardedDate": "2026-09-23T02:16:19+00:00",
+      "NumAwarded": 29,
+      "NumAwardedHardcore": 29,
+      "MostRecentAwardedDate": "2026-09-25T03:06:37+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -4394,6 +4395,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 338
+  ]
 }
