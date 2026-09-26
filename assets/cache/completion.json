@@ -1,5 +1,19 @@
 {
+  "Total": 338,
   "Results": [
+    {
+      "GameID": 18185,
+      "Title": "Williams Pinball Classics | Pinball Hall of Fame: The Williams Collection",
+      "ImageIcon": "/Images/050312.png",
+      "ConsoleID": 41,
+      "ConsoleName": "PlayStation Portable",
+      "MaxPossible": 116,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-09-26T04:02:05+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 20953,
       "Title": "Family Guy: Video Game!",
@@ -7,9 +21,9 @@
       "ConsoleID": 21,
       "ConsoleName": "PlayStation 2",
       "MaxPossible": 61,
-      "NumAwarded": 29,
-      "NumAwardedHardcore": 29,
-      "MostRecentAwardedDate": "2026-09-25T03:06:37+00:00",
+      "NumAwarded": 32,
+      "NumAwardedHardcore": 32,
+      "MostRecentAwardedDate": "2026-09-26T03:53:49+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -3511,19 +3525,6 @@
       "HighestAwardDate": null
     },
     {
-      "GameID": 18185,
-      "Title": "Williams Pinball Classics | Pinball Hall of Fame: The Williams Collection",
-      "ImageIcon": "/Images/050312.png",
-      "ConsoleID": 41,
-      "ConsoleName": "PlayStation Portable",
-      "MaxPossible": 116,
-      "NumAwarded": 2,
-      "NumAwardedHardcore": 2,
-      "MostRecentAwardedDate": "2025-06-29T18:14:59+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
-    },
-    {
       "GameID": 15,
       "Title": "Sonic Spinball",
       "ImageIcon": "/Images/077489.png",
@@ -4394,6 +4395,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 338
+  ]
 }
