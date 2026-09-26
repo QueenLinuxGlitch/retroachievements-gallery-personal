@@ -1,6 +1,32 @@
 {
   "Results": [
     {
+      "GameID": 2271,
+      "Title": "Alien Crush",
+      "ImageIcon": "/Images/015591.png",
+      "ConsoleID": 8,
+      "ConsoleName": "PC Engine/TurboGrafx-16",
+      "MaxPossible": 41,
+      "NumAwarded": 15,
+      "NumAwardedHardcore": 8,
+      "MostRecentAwardedDate": "2026-09-26T16:33:52+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
+      "GameID": 834,
+      "Title": "Tempest 2000",
+      "ImageIcon": "/Images/074775.png",
+      "ConsoleID": 17,
+      "ConsoleName": "Atari Jaguar",
+      "MaxPossible": 57,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-09-26T16:07:53+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 18185,
       "Title": "Williams Pinball Classics | Pinball Hall of Fame: The Williams Collection",
       "ImageIcon": "/Images/050312.png",
@@ -4044,19 +4070,6 @@
       "HighestAwardDate": null
     },
     {
-      "GameID": 2271,
-      "Title": "Alien Crush",
-      "ImageIcon": "/Images/015591.png",
-      "ConsoleID": 8,
-      "ConsoleName": "PC Engine/TurboGrafx-16",
-      "MaxPossible": 41,
-      "NumAwarded": 15,
-      "NumAwardedHardcore": 0,
-      "MostRecentAwardedDate": "2023-11-06T04:29:28+00:00",
-      "HighestAwardKind": null,
-      "HighestAwardDate": null
-    },
-    {
       "GameID": 2265,
       "Title": "Adventure Island",
       "ImageIcon": "/Images/079671.png",
@@ -4395,5 +4408,5 @@
       "HighestAwardDate": null
     }
   ],
-  "Total": 338
+  "Total": 339
 }
