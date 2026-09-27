@@ -1,6 +1,19 @@
 {
-  "Total": 339,
+  "Total": 340,
   "Results": [
+    {
+      "GameID": 10210,
+      "Title": "Banjo-Kazooie",
+      "ImageIcon": "/Images/091553.png",
+      "ConsoleID": 2,
+      "ConsoleName": "Nintendo 64",
+      "MaxPossible": 60,
+      "NumAwarded": 6,
+      "NumAwardedHardcore": 6,
+      "MostRecentAwardedDate": "2026-09-27T16:25:07+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 2271,
       "Title": "Alien Crush",
