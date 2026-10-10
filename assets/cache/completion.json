@@ -1,5 +1,4 @@
 {
-  "Total": 341,
   "Results": [
     {
       "GameID": 10075,
@@ -8,9 +7,9 @@
       "ConsoleID": 2,
       "ConsoleName": "Nintendo 64",
       "MaxPossible": 128,
-      "NumAwarded": 9,
-      "NumAwardedHardcore": 9,
-      "MostRecentAwardedDate": "2026-10-10T06:54:58+00:00",
+      "NumAwarded": 16,
+      "NumAwardedHardcore": 16,
+      "MostRecentAwardedDate": "2026-10-10T18:36:11+00:00",
       "HighestAwardKind": null,
       "HighestAwardDate": null
     },
@@ -4434,5 +4433,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 341
 }
