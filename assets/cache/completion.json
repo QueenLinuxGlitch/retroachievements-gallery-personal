@@ -1,6 +1,19 @@
 {
-  "Total": 341,
+  "Total": 342,
   "Results": [
+    {
+      "GameID": 9190,
+      "Title": "The Legend of Zelda: The Wind Waker",
+      "ImageIcon": "/Images/099022.png",
+      "ConsoleID": 16,
+      "ConsoleName": "GameCube",
+      "MaxPossible": 126,
+      "NumAwarded": 1,
+      "NumAwardedHardcore": 1,
+      "MostRecentAwardedDate": "2026-10-17T17:01:03+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
     {
       "GameID": 10075,
       "Title": "Donkey Kong 64",
