@@ -1,4 +1,5 @@
 {
+  "Total": 342,
   "Results": [
     {
       "GameID": 9190,
@@ -835,7 +836,7 @@
     {
       "GameID": 29874,
       "Title": "~Demo~ WarioWare, Inc.: Trial Version",
-      "ImageIcon": "/Images/098061.png",
+      "ImageIcon": "/Images/166921.png",
       "ConsoleID": 5,
       "ConsoleName": "Game Boy Advance",
       "MaxPossible": 8,
@@ -4446,6 +4447,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 342
+  ]
 }
