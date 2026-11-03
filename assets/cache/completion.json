@@ -1,4 +1,5 @@
 {
+  "Total": 342,
   "Results": [
     {
       "GameID": 9190,
@@ -3043,6 +3044,19 @@
       "HighestAwardDate": null
     },
     {
+      "GameID": 11352,
+      "Title": "Chocobo Racing",
+      "ImageIcon": "/Images/097033.png",
+      "ConsoleID": 12,
+      "ConsoleName": "PlayStation",
+      "MaxPossible": 71,
+      "NumAwarded": 3,
+      "NumAwardedHardcore": 3,
+      "MostRecentAwardedDate": "2025-07-19T14:31:58+00:00",
+      "HighestAwardKind": null,
+      "HighestAwardDate": null
+    },
+    {
       "GameID": 14715,
       "Title": "Pokémon Pinball mini",
       "ImageIcon": "/Images/028399.png",
@@ -4433,6 +4447,5 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ],
-  "Total": 341
+  ]
 }
