@@ -1,5 +1,4 @@
 {
-  "Total": 342,
   "Results": [
     {
       "GameID": 9190,
@@ -3189,10 +3188,10 @@
     {
       "GameID": 2731,
       "Title": "Ikaruga",
-      "ImageIcon": "/Images/088928.png",
+      "ImageIcon": "/Images/169957.png",
       "ConsoleID": 16,
       "ConsoleName": "GameCube",
-      "MaxPossible": 53,
+      "MaxPossible": 47,
       "NumAwarded": 1,
       "NumAwardedHardcore": 1,
       "MostRecentAwardedDate": "2025-07-10T23:04:05+00:00",
@@ -4447,5 +4446,6 @@
       "HighestAwardKind": null,
       "HighestAwardDate": null
     }
-  ]
+  ],
+  "Total": 342
 }
